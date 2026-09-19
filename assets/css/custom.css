@@ -62,6 +62,31 @@ header.briefing-masthead {
   font: 600 .74rem/1 "Merriweather Sans", sans-serif;
 }
 .edition-note { color: var(--briefing-muted); margin: .6rem 0 0; }
+.daily-summary {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  max-width: 54rem;
+  margin-top: 2rem;
+  padding: 1.35rem 1.5rem;
+  border-left: .28rem solid var(--briefing-accent);
+  background: white;
+  box-shadow: 0 .55rem 1.7rem rgba(38, 35, 30, .07);
+}
+.daily-summary .summary-icon {
+  display: grid;
+  width: 2.45rem;
+  height: 2.45rem;
+  place-items: center;
+  border-radius: 50%;
+  color: white;
+  background: var(--briefing-accent);
+  font-size: 1.05rem;
+}
+.daily-summary p:last-child {
+  margin: 0;
+  font: 400 clamp(.95rem, 2.4vw, 1.06rem)/1.72 "Merriweather", serif;
+}
 
 .news-section { padding: 2.9rem 0; border-top: 1px solid var(--briefing-line); }
 .news-section:nth-child(even) { background: #f4f1eb; }
@@ -176,6 +201,7 @@ header.briefing-masthead {
   .icon-link, .rating-button { width: 1.9rem; height: 1.9rem; font-size: .88rem; }
   .archive-grid { grid-template-columns: repeat(2, 1fr); }
   .demo-badge { white-space: normal; line-height: 1.3; }
+  .daily-summary { grid-template-columns: 1fr; padding: 1.15rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -3,6 +3,7 @@
     {
       "date": "2026-09-19",
       "note": "Dieci notizie dimostrative, organizzate nelle categorie concordate.",
+      "summary": "La giornata è guidata da tre filoni: le decisioni economiche in Germania e Italia, un nuovo passaggio nell’evoluzione dell’AI generativa e segnali importanti per l’industria europea. Da non perdere anche l’aggiornamento sulla robotica autonoma e il dato di mercato che può orientare le scelte dei leader d’impresa.",
       "items": [
         { "id": "demo-de-1", "category": "germany", "source": "Fonte demo", "title": "Germania: il tema nazionale da conoscere oggi, riassunto in una sola riga essenziale", "url": "#" },
         { "id": "demo-de-2", "category": "germany", "source": "Fonte demo", "title": "Düsseldorf e NRW: l’aggiornamento regionale con il maggiore impatto pratico", "url": "#" },
@@ -19,6 +20,7 @@
     {
       "date": "2026-09-18",
       "note": "Edizione dimostrativa del venerdì, con la rubrica separata dedicata al weekend.",
+      "summary": "La settimana si chiude con un aggiornamento economico tedesco e una novità rilevante nell’AI. Il quadro resta complessivamente stabile, mentre la selezione speciale propone cinque appuntamenti da considerare per il weekend a Düsseldorf e nel NRW.",
       "items": [
         { "id": "fri-de-1", "category": "germany", "source": "Fonte demo", "title": "Germania: esempio di headline compatta per l’edizione del venerdì", "url": "#" },
         { "id": "fri-ai-1", "category": "ai", "source": "Fonte primaria", "title": "AI: esempio di un aggiornamento rilevante pubblicato prima del weekend", "url": "#" },
