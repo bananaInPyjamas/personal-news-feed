@@ -1,0 +1,41 @@
+{
+  "editions": [
+    {
+      "date": "2026-09-19",
+      "note": "Dieci notizie dimostrative, organizzate nelle categorie concordate.",
+      "items": [
+        { "id": "demo-de-1", "category": "germany", "source": "Fonte demo", "title": "Germania: il tema nazionale da conoscere oggi, riassunto in una sola riga essenziale", "url": "#" },
+        { "id": "demo-de-2", "category": "germany", "source": "Fonte demo", "title": "Düsseldorf e NRW: l’aggiornamento regionale con il maggiore impatto pratico", "url": "#" },
+        { "id": "demo-it-1", "category": "italy", "source": "Fonte demo", "title": "Italia: la decisione politica o economica più rilevante della giornata", "url": "#", "paywall": true, "freeUrl": "#" },
+        { "id": "demo-world-1", "category": "world", "source": "Fonte demo", "title": "Europa e mondo: l’evento internazionale imprescindibile spiegato senza sensazionalismi", "url": "#", "status": "In evoluzione" },
+        { "id": "demo-ai-1", "category": "ai", "source": "Fonte primaria", "title": "AI generativa: un importante laboratorio presenta un nuovo sviluppo con effetti concreti", "url": "#" },
+        { "id": "demo-ai-2", "category": "ai", "source": "Fonte demo", "title": "Semiconduttori: la novità che può cambiare capacità, costi o disponibilità dei modelli AI", "url": "#" },
+        { "id": "demo-robot-1", "category": "robotics", "source": "Fonte primaria", "title": "Robotica: un nuovo sistema autonomo passa dalla dimostrazione a un impiego reale", "url": "#" },
+        { "id": "demo-auto-1", "category": "automotive", "source": "Fonte demo", "title": "Automotive: la mossa industriale più significativa per costruttori e fornitori europei", "url": "#" },
+        { "id": "demo-biz-1", "category": "business", "source": "Fonte demo", "title": "Mercati: il segnale macroeconomico che un business leader dovrebbe osservare oggi", "url": "#", "paywall": true, "freeUrl": "#" },
+        { "id": "demo-biz-2", "category": "business", "source": "Fonte demo", "title": "Imprese: un cambiamento strategico con conseguenze per investimenti, lavoro o concorrenza", "url": "#" }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "note": "Edizione dimostrativa del venerdì, con la rubrica separata dedicata al weekend.",
+      "items": [
+        { "id": "fri-de-1", "category": "germany", "source": "Fonte demo", "title": "Germania: esempio di headline compatta per l’edizione del venerdì", "url": "#" },
+        { "id": "fri-ai-1", "category": "ai", "source": "Fonte primaria", "title": "AI: esempio di un aggiornamento rilevante pubblicato prima del weekend", "url": "#" },
+        { "id": "fri-business-1", "category": "business", "source": "Fonte demo", "title": "Economia: il dato conclusivo della settimana e perché conta", "url": "#" }
+      ],
+      "weekendEvents": [
+        { "id": "event-1", "source": "Sito ufficiale", "title": "Grande fiera: appuntamento dimostrativo a Düsseldorf con informazioni pratiche", "url": "#" },
+        { "id": "event-2", "source": "Sito ufficiale", "title": "Cultura: mostra o apertura speciale da considerare nel fine settimana", "url": "#" },
+        { "id": "event-3", "source": "Sito ufficiale", "title": "Tecnologia: evento locale collegato a innovazione, AI o robotica", "url": "#" },
+        { "id": "event-4", "source": "Sito ufficiale", "title": "Spettacolo: uno degli appuntamenti di maggiore richiamo nel NRW", "url": "#" },
+        { "id": "event-5", "source": "Sito ufficiale", "title": "Tempo libero: una proposta diversa per completare la selezione del weekend", "url": "#" }
+      ]
+    },
+    { "date": "2026-09-17", "note": "Edizione dimostrativa archiviata.", "items": [] },
+    { "date": "2026-09-16", "note": "Edizione dimostrativa archiviata.", "items": [] },
+    { "date": "2026-09-15", "note": "Edizione dimostrativa archiviata.", "items": [] },
+    { "date": "2026-09-14", "note": "Edizione dimostrativa archiviata.", "items": [] },
+    { "date": "2026-09-13", "note": "Edizione dimostrativa archiviata.", "items": [] }
+  ]
+}
