@@ -2,42 +2,125 @@
   "editions": [
     {
       "date": "2026-09-19",
-      "note": "Dieci notizie dimostrative, organizzate nelle categorie concordate.",
-      "summary": "La giornata è guidata da tre filoni: le decisioni economiche in Germania e Italia, un nuovo passaggio nell’evoluzione dell’AI generativa e segnali importanti per l’industria europea. Da non perdere anche l’aggiornamento sulla robotica autonoma e il dato di mercato che può orientare le scelte dei leader d’impresa.",
+      "updatedAt": "2026-09-19T20:40:00+02:00",
+      "note": "Prima edizione · Aggiornata alle 20:40 CEST · 10 notizie. Include sviluppi selezionati degli ultimi giorni, con la data indicata.",
+      "summary": "Il caro-energia resta centrale, con nuovi attacchi in Arabia Saudita e sgravi sui carburanti previsti in Germania. Spiccano la legge USA sulle sanzioni alla Russia e l’intesa sulla Groenlandia, ancora da formalizzare. Per le imprese: rendimenti americani al 5% e nuovi interrogativi sui controlli dell’AI, mentre Figure presenta progressi nei test dei robot domestici.",
       "items": [
-        { "id": "demo-de-1", "category": "germany", "source": "Fonte demo", "title": "Germania: il tema nazionale da conoscere oggi, riassunto in una sola riga essenziale", "url": "#" },
-        { "id": "demo-de-2", "category": "germany", "source": "Fonte demo", "title": "Düsseldorf e NRW: l’aggiornamento regionale con il maggiore impatto pratico", "url": "#" },
-        { "id": "demo-it-1", "category": "italy", "source": "Fonte demo", "title": "Italia: la decisione politica o economica più rilevante della giornata", "url": "#", "paywall": true, "freeUrl": "#" },
-        { "id": "demo-world-1", "category": "world", "source": "Fonte demo", "title": "Europa e mondo: l’evento internazionale imprescindibile spiegato senza sensazionalismi", "url": "#", "status": "In evoluzione" },
-        { "id": "demo-ai-1", "category": "ai", "source": "Fonte primaria", "title": "AI generativa: un importante laboratorio presenta un nuovo sviluppo con effetti concreti", "url": "#" },
-        { "id": "demo-ai-2", "category": "ai", "source": "Fonte demo", "title": "Semiconduttori: la novità che può cambiare capacità, costi o disponibilità dei modelli AI", "url": "#" },
-        { "id": "demo-robot-1", "category": "robotics", "source": "Fonte primaria", "title": "Robotica: un nuovo sistema autonomo passa dalla dimostrazione a un impiego reale", "url": "#" },
-        { "id": "demo-auto-1", "category": "automotive", "source": "Fonte demo", "title": "Automotive: la mossa industriale più significativa per costruttori e fornitori europei", "url": "#" },
-        { "id": "demo-biz-1", "category": "business", "source": "Fonte demo", "title": "Mercati: il segnale macroeconomico che un business leader dovrebbe osservare oggi", "url": "#", "paywall": true, "freeUrl": "#" },
-        { "id": "demo-biz-2", "category": "business", "source": "Fonte demo", "title": "Imprese: un cambiamento strategico con conseguenze per investimenti, lavoro o concorrenza", "url": "#" }
+        {
+          "id": "2026-09-19-de-fuel-tax",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-19",
+          "status": "19 set · Misura prevista",
+          "title": "Germania, dal 1° ottobre previsto un taglio delle imposte su benzina e diesel di 17 cent/litro fino a fine anno",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/tankrabatt-preisdeckel-faq-100.html",
+          "verificationUrls": [
+            "https://www.bundesregierung.de/breg-de/aktuelles/pressemitteilungen/bund-und-laender-beschliessen-spritpreis-entlastungspaket-2453198"
+          ]
+        },
+        {
+          "id": "2026-09-19-it-pnrr-bollo",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-09-19",
+          "status": "19 set",
+          "title": "Bollo auto e PNRR, Dombrovskis riconosce margini nella gestione della liquidità dei fondi",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/19/bruxelles-chiarisce-su-fondi-pnrr-per-il-taglio-del-bollo-ci-sono-margini_60f8c90f-671c-4530-8048-de1e819f00e3.html",
+          "paywall": true,
+          "freeUrl": "https://www.ilfattoquotidiano.it/2026/09/19/bollo-auto-pnrr-dombrovskis-liquidita-notizie/8511757/",
+          "verificationUrls": [
+            "https://www.repubblica.it/economia/2026/09/19/news/bollo_auto_dombrovskis_pnrr_margine-425595132/"
+          ]
+        },
+        {
+          "id": "2026-09-19-world-riyadh",
+          "category": "world",
+          "source": "ANSA",
+          "sourceDate": "2026-09-19",
+          "status": "19 set · In evoluzione",
+          "title": "Riad, incendio vicino all’aeroporto; gli Houthi rivendicano attacchi dopo il raid che ha colpito un Eurofighter italiano",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/19/riad-sottattacco.-gli-houthi-non-siamo-in-guerra-con-litalia_83a5e95b-d523-4913-a557-a06ae487425b.html",
+          "paywall": true,
+          "verificationUrls": [
+            "https://uk.marketscreener.com/news/latest/Flames-smoke-seen-near-Riyadh-airport-after-Saudi-warning-of-aerial-attack-threat-12115181/"
+          ]
+        },
+        {
+          "id": "2026-09-19-world-russia-sanctions",
+          "category": "world",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-18",
+          "status": "18 set",
+          "title": "Trump firma la legge sulle sanzioni alla Russia: nel mirino energia, difesa e flotta ombra",
+          "url": "https://www.marketscreener.com/news/trump-signs-russia-sanctions-bill-into-law-ce785adadf8ff12c",
+          "verificationUrls": [
+            "https://www.ansa.it/sito/notizie/mondo/2026/09/19/ucraina-trump-firma-le-sanzioni-a-mosca.-zelensky-grazie-america_2075c441-d9d7-49f4-b72d-9135c6db0d29.html"
+          ]
+        },
+        {
+          "id": "2026-09-19-world-greenland",
+          "category": "world",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-19",
+          "status": "19 set · Intesa da formalizzare",
+          "title": "Groenlandia, annunciata un’intesa sulla presenza militare USA; Copenaghen e Nuuk ribadiscono la sovranità",
+          "url": "https://www.marketscreener.com/news/greenland-denmark-say-us-deal-will-not-cede-sovereignty-ce785adade80f422",
+          "verificationUrls": [
+            "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/18/trump-accordo-con-danimarca-e-groenlandia-per-il-controllo-usa-della-sicurezza_1cca247f-3819-4ca1-8017-ce344cbcec44.html"
+          ]
+        },
+        {
+          "id": "2026-09-19-ai-gemini-disclosure",
+          "category": "ai",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-18",
+          "status": "18 set · Resi noti test di maggio",
+          "title": "Google conferma accessi non autorizzati di Gemini a tre sistemi durante test di maggio; il modello si è poi fermato",
+          "url": "https://ca.marketscreener.com/news/gemini-hacked-three-companies-in-first-known-breakout-by-google-ai-wsj-reports-ce785adadf81f72c",
+          "verificationUrls": [
+            "https://www.benzinga.com/markets/tech/26/09/61883834/googles-gemini-goes-rogue-hacks-3-companies-during-cybersecurity-test-heres-what-happened"
+          ]
+        },
+        {
+          "id": "2026-09-19-robotics-figure-helix25",
+          "category": "robotics",
+          "source": "Figure · Fonte aziendale",
+          "sourceDate": "2026-09-17",
+          "status": "17 set · Risultati dichiarati",
+          "title": "Figure: Helix 2.5 completa il 56% dei compiti nei test in 30 case mai viste, senza adattamento sul posto",
+          "url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"
+        },
+        {
+          "id": "2026-09-19-auto-aumovio-orders",
+          "category": "automotive",
+          "source": "AUMOVIO · Fonte aziendale",
+          "sourceDate": "2026-09-16",
+          "status": "16 set · Annuncio aziendale",
+          "title": "AUMOVIO annuncia nuovi ordini per la mobilità autonoma: computer di bordo, radar e unità telematiche",
+          "url": "https://www.aumovio.com/en/company/press/press-releases/usa/20260916-advancing-north-america-growth.html"
+        },
+        {
+          "id": "2026-09-19-business-us-close",
+          "category": "business",
+          "source": "Associated Press",
+          "sourceDate": "2026-09-18",
+          "status": "Chiusura di venerdì 18 set",
+          "title": "Wall Street chiude mista: S&P 500 +0,2%, Dow −0,2%; rendimento del Treasury decennale al 5%",
+          "url": "https://apnews.com/article/da0dbe004b6f83c36e7d1626a9741a92",
+          "verificationUrls": [
+            "https://www.marketscreener.com/news/stocks-end-wild-week-in-uneasy-calm-as-treasury-yields-top-5-ce785adade89f62d"
+          ]
+        },
+        {
+          "id": "2026-09-19-events-duesseldorf-festival",
+          "category": "events",
+          "source": "Düsseldorf Festival · Programma ufficiale",
+          "status": "In corso · Fino al 4 ottobre",
+          "title": "Düsseldorf Festival fino al 4 ottobre: domenica 20 settembre Nubya Garcia al Burgplatz, ore 20",
+          "url": "https://duesseldorf-festival.de/programm/",
+          "eventDate": "2026-09-20"
+        }
       ]
-    },
-    {
-      "date": "2026-09-18",
-      "note": "Edizione dimostrativa del venerdì, con la rubrica separata dedicata al weekend.",
-      "summary": "La settimana si chiude con un aggiornamento economico tedesco e una novità rilevante nell’AI. Il quadro resta complessivamente stabile, mentre la selezione speciale propone cinque appuntamenti da considerare per il weekend a Düsseldorf e nel NRW.",
-      "items": [
-        { "id": "fri-de-1", "category": "germany", "source": "Fonte demo", "title": "Germania: esempio di headline compatta per l’edizione del venerdì", "url": "#" },
-        { "id": "fri-ai-1", "category": "ai", "source": "Fonte primaria", "title": "AI: esempio di un aggiornamento rilevante pubblicato prima del weekend", "url": "#" },
-        { "id": "fri-business-1", "category": "business", "source": "Fonte demo", "title": "Economia: il dato conclusivo della settimana e perché conta", "url": "#" }
-      ],
-      "weekendEvents": [
-        { "id": "event-1", "source": "Sito ufficiale", "title": "Grande fiera: appuntamento dimostrativo a Düsseldorf con informazioni pratiche", "url": "#" },
-        { "id": "event-2", "source": "Sito ufficiale", "title": "Cultura: mostra o apertura speciale da considerare nel fine settimana", "url": "#" },
-        { "id": "event-3", "source": "Sito ufficiale", "title": "Tecnologia: evento locale collegato a innovazione, AI o robotica", "url": "#" },
-        { "id": "event-4", "source": "Sito ufficiale", "title": "Spettacolo: uno degli appuntamenti di maggiore richiamo nel NRW", "url": "#" },
-        { "id": "event-5", "source": "Sito ufficiale", "title": "Tempo libero: una proposta diversa per completare la selezione del weekend", "url": "#" }
-      ]
-    },
-    { "date": "2026-09-17", "note": "Edizione dimostrativa archiviata.", "items": [] },
-    { "date": "2026-09-16", "note": "Edizione dimostrativa archiviata.", "items": [] },
-    { "date": "2026-09-15", "note": "Edizione dimostrativa archiviata.", "items": [] },
-    { "date": "2026-09-14", "note": "Edizione dimostrativa archiviata.", "items": [] },
-    { "date": "2026-09-13", "note": "Edizione dimostrativa archiviata.", "items": [] }
+    }
   ]
 }

@@ -45,7 +45,7 @@ function saveRating(itemId, value) {
 }
 
 function actionIcon(item) {
-  const paid = item.paywall ? `<span class="icon-link paywall" title="Fonte con paywall" aria-label="Fonte con paywall">€</span>` : "";
+  const paid = item.paywall ? `<span class="icon-link paywall" title="Fonte con accesso a pagamento o limitato" aria-label="Fonte con accesso a pagamento o limitato">€</span>` : "";
   const free = item.freeUrl ? `<a class="icon-link demo-link" href="${item.freeUrl}" title="Alternativa gratuita" aria-label="Apri alternativa gratuita"><i class="bi bi-unlock"></i></a>` : "";
   return `${paid}${free}`;
 }
@@ -100,7 +100,7 @@ function renderEdition(edition, shouldScroll = false) {
   activeEdition = edition;
   $("#editionTitle").textContent = italianDate(edition.date);
   $("#editionNote").textContent = edition.note;
-  $("#dailySummary").textContent = edition.summary || "Nessuna sintesi disponibile per questa edizione dimostrativa.";
+  $("#dailySummary").textContent = edition.summary || "Nessuna sintesi disponibile per questa edizione.";
   $("#heroDate").textContent = `Edizione di ${italianDate(edition.date)}`;
   document.title = `Briefing Quotidiano · ${italianDate(edition.date, false)}`;
   const grouped = Object.groupBy
@@ -121,9 +121,10 @@ function renderEdition(edition, shouldScroll = false) {
 }
 
 function renderArchive() {
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   $("#archiveGrid").innerHTML = editions.map((edition, index) => `
     <button class="archive-button ${index === 0 ? "is-active" : ""}" data-date="${edition.date}" role="listitem">
-      <span class="archive-day">${index === 0 ? "Oggi" : new Intl.DateTimeFormat("it-IT", { weekday: "short" }).format(new Date(`${edition.date}T12:00:00`))}</span>
+      <span class="archive-day">${edition.date === today ? "Oggi" : new Intl.DateTimeFormat("it-IT", { weekday: "short" }).format(new Date(`${edition.date}T12:00:00`))}</span>
       <span class="archive-date">${italianDate(edition.date, false)}</span>
     </button>`).join("");
   document.querySelectorAll(".archive-button").forEach(button => button.addEventListener("click", () => {
@@ -132,7 +133,7 @@ function renderArchive() {
   }));
 }
 
-fetch("data/editions.json")
+fetch("data/editions.json", { cache: "no-cache" })
   .then(response => {
     if (!response.ok) throw new Error("Dati non disponibili");
     return response.json();
