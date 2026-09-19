@@ -15,7 +15,11 @@ La prima versione dimostra:
 - indicatori per paywall e alternativa gratuita;
 - feedback a un click con persistenza locale nel browser.
 
-I contenuti attuali sono esclusivamente dimostrativi. I link diventeranno attivi quando verrà introdotto il processo editoriale con notizie reali.
+La prima rassegna reale è quella del 19 settembre 2026, pubblicata manualmente la sera. L'archivio contiene solo edizioni realmente prodotte e crescerà fino a coprire sette giorni. La pubblicazione automatica delle 06:00 non è ancora attiva; i feedback sono salvati soltanto nel browser.
+
+## Processo editoriale
+
+Le istruzioni sono in `editorial/EDITORIAL.md`, le fonti prioritarie e le osservazioni progressive in `editorial/SOURCES.md`, le note di verifica in `editorial/research/`. Il profilo concordato per la futura automazione è `gpt-6-astra` con ragionamento `high`: dovrà essere configurato nello scheduler, non può essere selezionato da questo sito statico.
 
 ## Struttura
 
