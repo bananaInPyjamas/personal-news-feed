@@ -7,6 +7,7 @@ Prototipo di una rassegna quotidiana in italiano, mobile-first, ricercata e aggi
 La prima versione dimostra:
 
 - copertina basata sul tema open source Creative di Start Bootstrap;
+- breve editoriale “Il giorno in breve” prima delle notizie;
 - otto sezioni editoriali con circa dieci headline complessive;
 - stati vuoti espliciti per le categorie senza aggiornamenti;
 - archivio navigabile degli ultimi sette giorni;

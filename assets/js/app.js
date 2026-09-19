@@ -100,6 +100,7 @@ function renderEdition(edition, shouldScroll = false) {
   activeEdition = edition;
   $("#editionTitle").textContent = italianDate(edition.date);
   $("#editionNote").textContent = edition.note;
+  $("#dailySummary").textContent = edition.summary || "Nessuna sintesi disponibile per questa edizione dimostrativa.";
   $("#heroDate").textContent = `Edizione di ${italianDate(edition.date)}`;
   document.title = `Briefing Quotidiano · ${italianDate(edition.date, false)}`;
   const grouped = Object.groupBy
