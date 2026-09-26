@@ -27,4 +27,7 @@ Base iniziale del 19 settembre 2026. L'ordine è una priorità di consultazione,
 
 ## Aggiornamento progressivo
 
-A fine edizione aggiungere solo osservazioni utili e concrete: fonte consultata, articoli utili, problemi riscontrati, eventuali correzioni. Dopo più edizioni rivedere l'ordine per ridurre tentativi inutili, mantenendo pluralità di fonti. Un blocco temporaneo o una singola notizia scartata non giustifica un'esclusione permanente.
+- **Gemeinschaftsdiagnose:** aggiunta come fonte primaria per le previsioni economiche congiunte; il rapporto d’autunno del 24 settembre era datato chiaramente, accessibile e utile a distinguere stime, revisioni e rischi occupazionali.
+- **MIMIT – Osservatorio prezzi carburanti:** aggiunto come riscontro ufficiale per prezzi medi giornalieri e confronti tra rete stradale e autostradale; utile per contestualizzare il price cap Eni senza usare valori promozionali come riferimento indipendente.
+
+A fine edizione aggiungere solo osservazioni utili e concrete: fonte consultata, articoli utili, problemi riscontrati, eventuali correzioni. Dopo più edizioni rivedere l’ordine per ridurre tentativi inutili, mantenendo pluralità di fonti. Un blocco temporaneo o una singola notizia scartata non giustifica un’esclusione permanente.

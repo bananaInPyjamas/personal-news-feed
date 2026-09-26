@@ -1,6 +1,252 @@
 {
   "editions": [
     {
+      "date": "2026-09-26",
+      "updatedAt": "2026-09-26T12:45:29+02:00",
+      "note": "Edizione di recupero dal cutoff del 19 settembre, ore 20:40 CEST · Aggiornata alle 12:45 CEST · 20 notizie. Sono privilegiati gli sviluppi sostanziali più recenti ancora attuali; le date delle fonti sono indicate.",
+      "summary": "L’edizione di recupero fotografa una settimana dominata dall’energia: Germania e Italia intervengono sui carburanti, mentre USA e Iran sondano un accordo su Hormuz. Italia e Germania aggiornano il quadro di crescita e finanza pubblica; sul piano industriale avanzano robotica, freni elettrificati e auto a batteria. Sul fronte geopolitico, l’accordo sulla Groenlandia viene firmato e Washington propone nuovi colloqui sull’Ucraina.",
+      "items": [
+        {
+          "id": "2026-09-26-de-duesseldorf-budget",
+          "category": "germany",
+          "source": "Landeshauptstadt Düsseldorf · Fonte istituzionale",
+          "sourceDate": "2026-09-24",
+          "status": "24 set · Proposta di bilancio",
+          "title": "Düsseldorf presenta il bilancio 2027-28: spese sopra le entrate e 1,1 miliardi di investimenti previsti entro il 2031",
+          "url": "https://www.duesseldorf.de/medienportal/pressedienst-einzelansicht/pld/einbringung-der-haushaltssatzung-2027-und-2028",
+          "verificationUrls": [
+            "https://www.duesseldorf.de/finanzen/haushaltsplaene/haushaltsdaten-2027-und-2028"
+          ]
+        },
+        {
+          "id": "2026-09-26-de-fuel-tax-final",
+          "category": "germany",
+          "source": "Deutscher Bundestag · Fonte istituzionale",
+          "sourceDate": "2026-09-25",
+          "status": "25 set · Approvato da Bundestag e Bundesrat",
+          "title": "Germania, via libera al taglio delle tasse sui carburanti: quasi 17 centesimi al litro dal 1° ottobre a fine anno",
+          "url": "https://www.bundestag.de/services/rss/506604-506604",
+          "verificationUrls": [
+            "https://www.tagesschau.de/inland/innenpolitik/tankrabatt-bundestag-bundesrat-beschlossen-100.html"
+          ]
+        },
+        {
+          "id": "2026-09-26-de-growth-forecast",
+          "category": "germany",
+          "source": "Gemeinschaftsdiagnose · Ricerca economica",
+          "sourceDate": "2026-09-24",
+          "status": "24 set · Previsione d’autunno",
+          "title": "Gli istituti tedeschi alzano la crescita 2026 all’1,3% dallo 0,6%, ma prevedono occupazione in calo",
+          "url": "https://gemeinschaftsdiagnose.de/category/gutachten/",
+          "verificationUrls": [
+            "https://www.tagesschau.de/wirtschaft/konjunktur/herbstprognose-konjunktur-aufschwung-100.html"
+          ]
+        },
+        {
+          "id": "2026-09-26-it-deficit-2025",
+          "category": "italy",
+          "source": "Istat · Fonte istituzionale",
+          "sourceDate": "2026-09-22",
+          "status": "22 set · Dato rivisto",
+          "title": "Istat conferma il deficit 2025 al 3,1% del PIL: sfuma l’uscita anticipata dalla procedura UE",
+          "url": "https://www.istat.it/comunicato-stampa/conti-economici-nazionali-anni-2010-2025/",
+          "verificationUrls": [
+            "https://www.ansa.it/sito/notizie/economia/2026/09/22/listat-conferma-il-deficit-2025-al-31.-rivisto-al-rialzo-pil-06_bc5746d2-787c-4dad-b9b8-6fdd14cc3876.html",
+            "https://audiovisual.ec.europa.eu/en/media/video/I-294786"
+          ]
+        },
+        {
+          "id": "2026-09-26-it-nuclear-delegation-law",
+          "category": "italy",
+          "source": "Senato della Repubblica · Fonte istituzionale",
+          "sourceDate": "2026-09-23",
+          "status": "23 set · Approvato definitivamente, non ancora pubblicato",
+          "title": "Nucleare, il Senato approva la legge delega: il Governo avrà dodici mesi per disciplinare impianti, sicurezza e scorie",
+          "url": "https://www.senato.it/export/ddl/full/60187",
+          "verificationUrls": [
+            "https://www.rainews.it/articoli/2026/09/nucleare-il-senato-da-il-via-libera-definitivo-alla-normativa-sulle-centrali-atomiche-meloni-promessa-mantenuta-725e96c3-e021-4247-a6b5-c611fa3849e6.html"
+          ]
+        },
+        {
+          "id": "2026-09-26-it-eni-fuel-cap",
+          "category": "italy",
+          "source": "Eni · Fonte aziendale",
+          "sourceDate": "2026-09-25",
+          "status": "25 set · Dal 28 settembre per 30 giorni",
+          "title": "Eni annuncia un tetto Enilive di 2,19 euro per il diesel e 1,99 per la benzina, prorogabile fino a fine anno",
+          "url": "https://www.eni.com/en-IT/media/press-release/2026/09/pr-eni-starting-september-28-price-cap-diesel-petrol.html",
+          "verificationUrls": [
+            "https://www.rainews.it/articoli/2026/09/eni-fissa-un-tetto-al-prezzo-dei-carburanti-219-euro-sul-gasolio-199-per-la-benzina-b1fe8174-dae9-45ac-90c5-1e8f35bfc38b.html",
+            "https://www.mimit.gov.it/index.php/it/prezzo-medio-carburanti/autostrade?hitcount=0"
+          ]
+        },
+        {
+          "id": "2026-09-26-world-us-iran-hormuz-talks",
+          "category": "world",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-24",
+          "status": "24 set · Colloqui esplorativi, nessun accordo",
+          "title": "USA e Iran esplorano un’intesa graduale: riapertura di Hormuz in cambio della revoca del blocco economico",
+          "url": "https://www.marketscreener.com/news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-ce785aded08ff621",
+          "verificationUrls": [
+            "https://apnews.com/article/692e1e171a791be0c9b9c1f56718a0d0",
+            "https://apnews.com/article/83dfe88eaf541fdcef3a4758010bef6e"
+          ]
+        },
+        {
+          "id": "2026-09-26-world-ukraine-uae-talks",
+          "category": "world",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-25",
+          "status": "25 set · Proposta senza data, riferita da Zelensky",
+          "title": "Ucraina, Zelensky riferisce una proposta USA per un incontro tecnico trilaterale con la Russia negli Emirati",
+          "url": "https://www.marketscreener.com/news/us-proposes-trilateral-meeting-with-ukraine-russia-in-uae-zelenskiy-says-ce785adfdc8ff125",
+          "verificationUrls": [
+            "https://www.president.gov.ua/en/news/vidnovlennya-peregovornogo-procesu-ye-vazhlivim-i-ukrayina-v-106273",
+            "https://apnews.com/article/9c3d38e7e97132884f915e157dbf9ef1"
+          ]
+        },
+        {
+          "id": "2026-09-26-world-greenland-deal-signed",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-09-22",
+          "status": "22 set · Accordo firmato",
+          "title": "USA, Danimarca e Groenlandia firmano l’accordo di sicurezza: più presenza militare americana, sovranità invariata",
+          "url": "https://apnews.com/article/084ac2a82952c2dff403c48bd3564113",
+          "verificationUrls": [
+            "https://www.marketscreener.com/news/trump-greenland-denmark-to-sign-deal-in-bid-to-end-arctic-standoff-ce785ad8db88f32c"
+          ]
+        },
+        {
+          "id": "2026-09-26-world-us-media-ban",
+          "category": "world",
+          "source": "Reuters / Investing.com",
+          "sourceDate": "2026-09-24",
+          "status": "24 set · Ordinanza temporanea di 14 giorni",
+          "title": "USA, un giudice ripristina temporaneamente l’accesso alla Casa Bianca per CNN, MS NOW e Politico",
+          "url": "https://www.investing.com/news/politics-news/judge-lifts-trumps-white-house-ban-on-cnn-ms-now-and-politico-4914437",
+          "verificationUrls": [
+            "https://www.tagesschau.de/ausland/amerika/usa-gericht-medien-weisses-haus-100.html",
+            "https://www.cbsnews.com/news/judge-blocks-trump-ban-cnn-ms-now-politico-restoring-white-house-access/"
+          ]
+        },
+        {
+          "id": "2026-09-26-ai-claude-opus-55",
+          "category": "ai",
+          "source": "Anthropic · Fonte aziendale",
+          "sourceDate": "2026-09-22",
+          "status": "22 set · Annuncio aziendale",
+          "title": "Anthropic lancia Claude Opus 5.5 e dichiara prestazioni vicine a Fable 5.1 con costi inferiori del 40% rispetto a Opus 5",
+          "url": "https://www.anthropic.com/claude-opus-5-5?trk=public_post_comment-text"
+        },
+        {
+          "id": "2026-09-26-ai-un-security-council",
+          "category": "ai",
+          "source": "Nazioni Unite · Fonte istituzionale",
+          "sourceDate": "2026-09-23",
+          "status": "23 set · Dibattito del Consiglio di Sicurezza",
+          "title": "AI e sicurezza, al Consiglio di Sicurezza ONU chiesti standard globali su perdita di controllo e abusi",
+          "url": "https://www.un.org/en/live-openai-and-anthropic-brief-security-council-amid-%E2%80%98real-and-imminent%E2%80%99-threat-posed-runaway-ai",
+          "verificationUrls": [
+            "https://webtv.un.org/en/schedule/2026-09-23?trk=article-ssr-frontend-pulse_little-text-block"
+          ]
+        },
+        {
+          "id": "2026-09-26-robotics-atlas-training-center",
+          "category": "robotics",
+          "source": "Boston Dynamics · Fonte aziendale",
+          "sourceDate": "2026-09-21",
+          "status": "21 set · Centro operativo, piani aziendali",
+          "title": "Boston Dynamics apre nello stabilimento Hyundai in Georgia un centro permanente per addestrare Atlas su compiti produttivi",
+          "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/",
+          "verificationUrls": [
+            "https://www.axios.com/local/boston/2026/09/21/boston-dynamics-humanoid-robots-hyundai-metaplant"
+          ]
+        },
+        {
+          "id": "2026-09-26-robotics-abb-edevice",
+          "category": "robotics",
+          "source": "ABB Robotics · Fonte aziendale",
+          "sourceDate": "2026-09-21",
+          "status": "21 set · Lancio di prodotto",
+          "title": "ABB lancia E-Device: tablet e PC dei clienti possono programmare e controllare robot OmniCore con comandi di sicurezza dedicati",
+          "url": "https://new.abb.com/news/it/detail/138831/prsrl-abb-robotics-e-device-simplifies-robot-interaction-on-customers-own-devices"
+        },
+        {
+          "id": "2026-09-26-auto-vw-steering-recall",
+          "category": "automotive",
+          "source": "Tagesschau / NDR",
+          "sourceDate": "2026-09-25",
+          "status": "25 set · Richiamo in Germania",
+          "title": "Volkswagen richiama circa 900.000 auto in Germania: una vite corrosa può causare la perdita dello sterzo",
+          "url": "https://www.tagesschau.de/inland/regional/niedersachsen/lenkung-koennte-ausfallen-vw-ruft-900000-autos-zurueck-rueckruf%2Cvolkswagen-372.html",
+          "verificationUrls": [
+            "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-grosser-rueckruf-vw-und-audi-muessen-fast-eine-million-autos-in-deutschland-nachbessern-100.html"
+          ]
+        },
+        {
+          "id": "2026-09-26-auto-eu-registrations",
+          "category": "automotive",
+          "source": "ACEA · Dati di settore",
+          "sourceDate": "2026-09-24",
+          "status": "Gen–ago 2026",
+          "title": "Auto UE, immatricolazioni +5,3% nei primi otto mesi; elettriche al 21,7% e ibride al 36,6%",
+          "url": "https://www.acea.auto/pc-registrations/new-car-registrations-5-3-in-august-2026-year-to-date-battery-electric-21-7-market-share/"
+        },
+        {
+          "id": "2026-09-26-auto-aumovio-semidry-brakes",
+          "category": "automotive",
+          "source": "AUMOVIO · Fonte aziendale",
+          "sourceDate": "2026-09-24",
+          "status": "24 set · Prototipo quasi di serie",
+          "title": "AUMOVIO equipaggia il prototipo Volkswagen Mission Efficiency con freni semi-dry per ridurre attriti e consumi",
+          "url": "https://www.aumovio.com/en/company/press/press-releases/20260924-mission-efficiency.html",
+          "verificationUrls": [
+            "https://www.volkswagen-newsroom.com/en/press-releases/mission-efficiency-volkswagen-presents-the-worlds-most-efficient-near-production-electric-car-20691"
+          ]
+        },
+        {
+          "id": "2026-09-26-business-basf-evonik",
+          "category": "business",
+          "source": "BASF · Comunicazione societaria",
+          "sourceDate": "2026-09-25",
+          "status": "25 set · Sondaggi preliminari, esito aperto",
+          "title": "BASF conferma contatti esplorativi per una possibile acquisizione di Evonik; non c’è ancora un accordo",
+          "url": "https://www.basf.com/global/de/media/news-releases/2026/09/p-26-172",
+          "verificationUrls": [
+            "https://uk.marketscreener.com/news/germany-s-basf-approaches-evonik-over-potential-takeover-ce785adfdf8bfe21"
+          ]
+        },
+        {
+          "id": "2026-09-26-business-dax-week-close",
+          "category": "business",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-25",
+          "status": "Chiusura di venerdì 25 set",
+          "title": "DAX +0,6% a 25.409 punti: lieve rialzo settimanale mentre il petrolio arretra sulle speranze diplomatiche",
+          "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-oel-anleihen-dax-dow-jones-100.html",
+          "verificationUrls": [
+            "https://www.marketscreener.com/news/stocks-weather-bond-volatility-oil-eases-slightly-ce785adfdf8af523"
+          ]
+        },
+        {
+          "id": "2026-09-26-events-backstreet-boys",
+          "category": "events",
+          "source": "MERKUR SPIEL-ARENA · Organizzatore",
+          "sourceDate": "2026-09-26",
+          "status": "Oggi, ore 20 · Serie fino al 7 ottobre",
+          "title": "Backstreet Boys a Düsseldorf: stasera la seconda di dieci date, uniche tappe europee 2026, alla MERKUR SPIEL-ARENA",
+          "url": "https://www.merkur-spiel-arena.de/backstreet-boys",
+          "eventDate": "2026-09-26",
+          "verificationUrls": [
+            "https://www.merkur-spiel-arena.de/events-tickets/eventkalender",
+            "https://www1.wdr.de/radio/wdr2/veranstaltungen/veranstaltungstermine/backstreet-boys-110.html"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-09-19",
       "updatedAt": "2026-09-19T20:40:00+02:00",
       "note": "Prima edizione · Aggiornata alle 20:40 CEST · 10 notizie. Include sviluppi selezionati degli ultimi giorni, con la data indicata.",
