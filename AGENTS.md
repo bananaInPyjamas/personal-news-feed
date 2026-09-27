@@ -5,3 +5,5 @@ Per preparare una rassegna, leggere prima `editorial/EDITORIAL.md` e `editorial/
 Il sito è pubblico: non pubblicare nomi, profili personali, credenziali o feedback individuali. Ricerca e scrittura avvengono nell'ambiente editoriale; GitHub Pages pubblica solo file statici.
 
 La separazione dei modelli è registrata in `editorial/EDITORIAL.md`: GPT-5.6 Sol per ricerca e lavoro editoriale; Luna e script deterministici per implementazione, controlli tecnici e pubblicazione. Astra è escluso da questo flusso per contenere il consumo. Un file di istruzioni non può cambiare il modello dell'esecuzione: occorre configurare realmente le fasi nello scheduler.
+
+Durante la fase iniziale ampliata per raccogliere feedback, il target ordinario è di 40 notizie per edizione; pubblicarne meno se mancano sviluppi verificati e rilevanti, senza riempitivi, e rivedere il numero con l'utente dopo aver raccolto feedback utile.
