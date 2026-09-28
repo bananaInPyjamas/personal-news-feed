@@ -1,6 +1,271 @@
 {
   "editions": [
     {
+      "date": "2026-09-28",
+      "updatedAt": "2026-09-28T07:22:56+02:00",
+      "note": "Edizione ordinaria dal cutoff del 27 settembre, ore 11:44 CEST · Aggiornata alle 07:22 CEST · 27 notizie. Campione prudente, senza riempitivi né duplicati; le date delle fonti sono indicate.",
+      "summary": "In Germania il confronto sulla riforma dell’assistenza si riapre mentre materie prime agricole più care alimentano nuovi timori sui prezzi. In Italia IP segue Eni con un tetto ai carburanti. Sul piano internazionale, Vučić si dimette per candidarsi a premier e la Svizzera respinge una neutralità più rigida. Per l’AI emergono nuove indagini sugli incidenti di sicurezza; petrolio e rendimenti salgono con lo stallo tra Stati Uniti e Iran.",
+      "items": [
+        {
+          "id": "2026-09-28-de-food-commodity-prices",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Analisi su dati USDA e UE",
+          "title": "Grano, mais e zucchero rincarano sui mercati mondiali; in Germania l’effetto sui prezzi al dettaglio potrebbe arrivare in ritardo",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/lebensmittelpreise-weizen-mais-zucker-inflation-100.html"
+        },
+        {
+          "id": "2026-09-28-de-care-cap-dispute",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Nuovo confronto SPD-CDU previsto oggi",
+          "title": "Riforma dell’assistenza, Linnemann respinge il tetto SPD alle quote a carico dei pazienti; i fondi stimano un deficit di 4,4 miliardi",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/pflegereform-streit-linnemann-100.html"
+        },
+        {
+          "id": "2026-09-28-de-huerth-lead-water",
+          "category": "germany",
+          "source": "WDR",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Campionamenti dell’ufficio sanitario in corso",
+          "title": "Hürth, un tubo di piombo trovato nel complesso Clementinenhof: ai residenti viene sconsigliato di bere l’acqua del rubinetto",
+          "url": "https://www1.wdr.de/nrw/trinkwasser-blei-huerth-vonovia-100.amp"
+        },
+        {
+          "id": "2026-09-28-de-bielefeld-cpr-record",
+          "category": "germany",
+          "source": "WDR",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Iniziativa di sensibilizzazione",
+          "title": "Bielefeld, oltre 6.000 partecipanti completano 168 ore consecutive di rianimazione su manichino, con più di un milione di compressioni",
+          "url": "https://www1.wdr.de/nrw/bielefeld/weltrekord-reanimation-bielefeld-100.amp"
+        },
+        {
+          "id": "2026-09-28-it-ip-fuel-price-cap",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Misura annunciata dal 28 settembre",
+          "title": "Carburanti, IP segue Eni e introduce progressivamente un prezzo massimo nella propria rete; possibile estensione ai punti Esso riforniti dal gruppo",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/27/ip-segue-eni-sui-prezzi-dei-carburanti.-meloni-assicura-un-sostegno-alle_bfbacf1c-8ee9-45a5-b566-fa815a21f0da.html"
+        },
+        {
+          "id": "2026-09-28-it-reggio-calabria-by-election",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-09-28",
+          "status": "27 set, ore 23 · Affluenza provvisoria al 14,97%",
+          "title": "Suppletive Reggio Calabria–Locri, affluenza al 14,97% alla chiusura domenicale; i seggi riaprono oggi fino alle 15",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/seggi-aperte-per-le-suppletive-a-reggio-calabria.-alle-12-laffluenza-al-343_13ef3ae0-466d-42b8-a677-ddc7bcbc2a8a.html"
+        },
+        {
+          "id": "2026-09-28-it-reggio-emilia-attack",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Tre feriti gravi, arrestato un 26enne",
+          "title": "Reggio Emilia, una donna aggredita e due soccorritori investiti in un distributore; arrestato un 26enne",
+          "url": "https://videoembed.ansa.it/sito/notizie/cronaca/2026/09/27/aggredisce-donna-e-investe-due-persone-a-reggio-emilia-arrestato_07914102-6d3d-4604-b146-b93462f821c5.html"
+        },
+        {
+          "id": "2026-09-28-world-serbia-vucic-resigns",
+          "category": "world",
+          "source": "ANSA / Tagesschau",
+          "sourceDate": "2026-09-28",
+          "status": "27 set · Dimissioni annunciate, voto anticipato il 25 ottobre",
+          "title": "Serbia, Vučić si dimette da presidente con sei mesi d’anticipo per candidarsi a premier alle elezioni anticipate",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/il-presidente-serbo-vucic-si-dimette-per-candidarsi-alle-elezioni-anticipate_5ac7dd0c-5e9e-4910-822d-295992737593.html",
+          "verificationUrls": [
+            "https://www.tagesschau.de/ausland/europa/vucic-serbien-ruecktritt-100.html"
+          ]
+        },
+        {
+          "id": "2026-09-28-world-switzerland-neutrality-vote",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Risultato definitivo, 70,2% contrari",
+          "title": "Svizzera, gli elettori respingono l’inasprimento della neutralità che avrebbe limitato cooperazione militare e sanzioni",
+          "url": "https://www.tagesschau.de/ausland/europa/schweiz-volksabstimmung-neutralitaet-106.html"
+        },
+        {
+          "id": "2026-09-28-world-northern-ireland-parade",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Marcia bloccata dai manifestanti",
+          "title": "Irlanda del Nord, migliaia di persone bloccano a Portadown la prima marcia Orange autorizzata su Garvaghy Road dal 1998",
+          "url": "https://www.tagesschau.de/ausland/europa/irland-proteste-100.html"
+        },
+        {
+          "id": "2026-09-28-world-venezuela-prisoner-releases",
+          "category": "world",
+          "source": "ANSA",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Almeno 40 rilasci secondo ONG venezuelane",
+          "title": "Venezuela, nuove scarcerazioni di prigionieri politici dopo il secondo round di negoziati tra governo e opposizione",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/il-governo-di-delcy-rodriguez-rilascia-altri-40-prigionieri-politici-in-venezuela_698b051c-7bfe-4716-8089-c80cf4028a1b.html"
+        },
+        {
+          "id": "2026-09-28-world-us-noreaster-update",
+          "category": "world",
+          "source": "ANSA / BBC",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Aggiornamento sostanziale: un morto e 1.199 voli cancellati",
+          "title": "Tempesta nel nord-est USA, un morto a Brooklyn, oltre 100.000 utenze senza corrente al picco e più di mille voli cancellati",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/emergenza-inondazioni-sulla-costa-est-usa-piu-di-mille-voli-cancellati_5eef0d39-be57-4776-ae88-042c057776de.html",
+          "verificationUrls": [
+            "https://in.marketscreener.com/news/nor-easter-brings-flooding-power-outages-across-us-northeast-over-400-flights-canceled-ce785adcd88bf122"
+          ]
+        },
+        {
+          "id": "2026-09-28-world-iran-diplomacy-response",
+          "category": "world",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Risposta iraniana dopo il rifiuto USA",
+          "title": "Iran, il ministro degli Esteri insiste su una soluzione negoziata ma lega la riapertura di Hormuz alle proprie condizioni",
+          "url": "https://au.marketscreener.com/news/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan-ce785adcd88bf22c"
+        },
+        {
+          "id": "2026-09-28-world-iran-us-underwater-drone-claim",
+          "category": "world",
+          "source": "ANSA",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Rivendicazione dei Pasdaran, non verificata indipendentemente",
+          "title": "Hormuz, i Pasdaran affermano di aver sequestrato un drone subacqueo statunitense Remus 600",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/pasdaran-sequestrato-un-drone-sottomarino-usa-nello-stretto-di-hormuz_678add1e-3020-439e-b6c7-f01edb03a553.html"
+        },
+        {
+          "id": "2026-09-28-world-yemen-taiz-market",
+          "category": "world",
+          "source": "ANSA",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Bilancio riferito dalla TV Houthi",
+          "title": "Yemen, l’emittente degli Houthi riferisce sette morti e 40 feriti in un attacco saudita contro un mercato a Taiz",
+          "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/27/yemen-7-morti-e-40-feriti-in-un-attacco-saudita-contro-un-mercato-a-taiz_e81ecc4d-b8d9-4426-989f-c39738554926.html"
+        },
+        {
+          "id": "2026-09-28-world-israel-arab-parties-court",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Esclusione impugnata, decisione della Corte attesa questa settimana",
+          "title": "Israele, la Corte suprema esamina l’esclusione di Ra’am e Lista Congiunta dalle elezioni del 27 ottobre",
+          "url": "https://www.tagesschau.de/ausland/asien/israel-wahlen-parteien-arabisch-100.html"
+        },
+        {
+          "id": "2026-09-28-ai-openai-anthropic-incidents",
+          "category": "ai",
+          "source": "ANSA / Axios",
+          "sourceDate": "2026-09-27",
+          "status": "27 set · Inchiesta basata su fonti, gravità variabile",
+          "title": "OpenAI, Anthropic e ricercatori esaminano decine di migliaia di incidenti di sicurezza dei modelli, riferisce Axios",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/axios-indagine-openai-e-anthropic-su-decine-di-migliaia-di-incidenti-di-sicurezza_7672efae-9a0f-4605-b506-c7b5220b595b.html"
+        },
+        {
+          "id": "2026-09-28-ai-gates-us-regulation",
+          "category": "ai",
+          "source": "ANSA / NBC",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Intervista, proposta non normativa",
+          "title": "Bill Gates chiede agli Stati Uniti di guidare la regolamentazione dell’AI e giudica insufficiente l’autoregolazione delle imprese",
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/bill-gates-gli-usa-prendano-la-guida-sulla-regolamentazione-dellia_56650f88-9e35-4a34-95cb-6641327d0a1f.html"
+        },
+        {
+          "id": "2026-09-28-ai-trump-runaway-ai",
+          "category": "ai",
+          "source": "ANSA / Fox News",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Dichiarazioni del presidente USA",
+          "title": "Trump minimizza il rischio di un’AI fuori controllo e indica come priorità il vantaggio tecnologico statunitense sulla Cina",
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/trump-lai-che-sfugge-al-controllo-non-me-ne-preoccupo_0524c14a-0550-4465-83a3-c7c81137375a.html"
+        },
+        {
+          "id": "2026-09-28-robotics-standard-bots-unfixtured-tending",
+          "category": "robotics",
+          "source": "Standard Bots / rassegna tecnica",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Dimostrazione aziendale, non validazione indipendente",
+          "title": "Standard Bots mostra un sistema di asservimento CNC che individua e preleva pezzi non posizionati in dime dedicate",
+          "url": "https://gyznsw.cn/2026/09/28/2026-09-28-standard-bots-unfixtured-haas-machine-tending/",
+          "verificationUrls": [
+            "https://standardbots.com/machine-tending"
+          ]
+        },
+        {
+          "id": "2026-09-28-auto-momenta-stellantis-dongfeng",
+          "category": "automotive",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Accordo annunciato dalle società",
+          "title": "Momenta e la joint venture Stellantis-Dongfeng co-svilupperanno sistemi di guida assistita per modelli Peugeot e Jeep",
+          "url": "https://uk.marketscreener.com/news/momenta-stellantis-china-jv-with-dongfeng-to-co-develop-intelligent-driving-technology-ce785adcd880f521"
+        },
+        {
+          "id": "2026-09-28-business-oil-hormuz-stalemate",
+          "category": "business",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Brent a 105,64 dollari, WTI a 93,11",
+          "title": "Petrolio in rialzo con lo stallo USA-Iran; le esportazioni mediorientali di settembre toccano il massimo dall’inizio della guerra",
+          "url": "https://uk.marketscreener.com/news/oil-heads-higher-as-us-iran-peace-talks-in-stalemate-ce785adcd880f024"
+        },
+        {
+          "id": "2026-09-28-business-global-markets-yields",
+          "category": "business",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Mercati asiatici cauti, rendimenti USA in aumento",
+          "title": "Borse asiatiche prudenti mentre petrolio e rendimenti salgono; il Treasury trentennale arriva al 5,5185%, vicino ai massimi dal 2004",
+          "url": "https://ca.marketscreener.com/news/stocks-cautious-in-asia-as-oil-gains-yields-rise-ce785adcd880f127"
+        },
+        {
+          "id": "2026-09-28-business-gold-rate-bets",
+          "category": "business",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Oro spot -1,5% nelle contrattazioni asiatiche",
+          "title": "L’oro scende oltre l’1% a 4.223,95 dollari l’oncia mentre aumentano le attese di un rialzo dei tassi USA",
+          "url": "https://in.marketscreener.com/news/gold-drops-more-than-1-on-us-rate-hike-bets-ce785adcdb89f32d"
+        },
+        {
+          "id": "2026-09-28-business-rio-tinto-shougang-ccu",
+          "category": "business",
+          "source": "Rio Tinto / comunicato aziendale",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Impianto pilota commissionato",
+          "title": "Rio Tinto e Shougang avviano in Cina un impianto sperimentale di cattura della CO₂ dai gas d’altoforno da 3.000 metri cubi l’ora",
+          "url": "https://www.riotinto.com/news/releases/",
+          "verificationUrls": [
+            "https://in.marketscreener.com/news/rio-tinto-commissions-carbon-capture-trial-at-china-s-shougang-steel-plant-ce785adcdb89f521"
+          ]
+        },
+        {
+          "id": "2026-09-28-events-delay-the-sadness",
+          "category": "events",
+          "source": "Düsseldorf Festival · Organizzatore",
+          "sourceDate": "2026-09-28",
+          "status": "Oggi, ore 20 · Theaterzelt, Burgplatz",
+          "title": "Düsseldorf Festival, stasera Sharon Eyal Dance presenta «Delay The Sadness» al tendone teatrale di Burgplatz",
+          "url": "https://duesseldorf-festival.de/en/event/sharon-eyal-dance-s-e-d-3/",
+          "eventDate": "2026-09-28"
+        },
+        {
+          "id": "2026-09-28-events-cybercrime-prevention",
+          "category": "events",
+          "source": "Stadtbüchereien Düsseldorf · Calendario ufficiale",
+          "sourceDate": "2026-09-28",
+          "status": "Oggi, ore 19:30 · Stadtbücherei Wersten",
+          "title": "Düsseldorf, incontro gratuito della polizia sulla prevenzione delle frodi online e del cybercrime alla biblioteca di Wersten",
+          "url": "https://www.duesseldorf.de/stadtbuechereien/veranstaltungen",
+          "eventDate": "2026-09-28"
+        }
+      ]
+    },
+    {
       "date": "2026-09-27",
       "updatedAt": "2026-09-27T11:44:24+02:00",
       "note": "Edizione ordinaria dal cutoff del 26 settembre, ore 12:45 CEST · Aggiornata alle 11:44 CEST · 37 notizie. Campione ampliato per il feedback, senza riempitivi; le date delle fonti sono indicate.",
