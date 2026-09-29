@@ -170,6 +170,9 @@ header.briefing-masthead {
 
 .footer-row { justify-content: space-between; gap: 1rem; font: 600 .72rem/1.4 "Merriweather Sans", sans-serif; }
 .footer-row a { color: var(--briefing-muted); }
+.feedback-export-section { background: #f4f1eb; border-top: 1px solid var(--briefing-line); }
+.feedback-export-button { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; }
+.feedback-export-note { color: var(--briefing-muted); font: 600 .72rem/1.5 "Merriweather Sans", sans-serif; }
 .feedback-toast {
   position: fixed;
   z-index: 1100;

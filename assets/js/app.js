@@ -44,6 +44,49 @@ function saveRating(itemId, value) {
   showToast(ratings[itemId] ? "Feedback salvato. Grazie." : "Feedback rimosso.");
 }
 
+function ratingItemIndex() {
+  return editions.reduce((index, edition) => {
+    [...(edition.items || []), ...(edition.weekendEvents || [])].forEach(item => {
+      if (item?.id && !index[item.id]) index[item.id] = item;
+    });
+    return index;
+  }, {});
+}
+
+function exportFeedback() {
+  const savedRatings = getRatings();
+  const itemIndex = ratingItemIndex();
+  const ratings = Object.entries(savedRatings)
+    .filter(([, value]) => value === "up" || value === "down")
+    .map(([id, value]) => {
+      const item = itemIndex[id];
+      return {
+        id,
+        value,
+        title: item?.title || null,
+        category: item?.category || null
+      };
+    });
+
+  if (!ratings.length) {
+    showToast("Non ci sono ancora feedback da scaricare.");
+    return;
+  }
+
+  const capturedAt = new Date().toISOString();
+  const payload = { capturedAt, ratings };
+  const blob = new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `briefing-feedback-${capturedAt.slice(0, 10)}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 0);
+  showToast(`${ratings.length} ${ratings.length === 1 ? "valutazione esportata" : "valutazioni esportate"}.`);
+}
+
 function actionIcon(item) {
   const paid = item.paywall ? `<span class="icon-link paywall" title="Fonte con accesso a pagamento o limitato" aria-label="Fonte con accesso a pagamento o limitato">€</span>` : "";
   const free = item.freeUrl ? `<a class="icon-link demo-link" href="${item.freeUrl}" title="Alternativa gratuita" aria-label="Apri alternativa gratuita"><i class="bi bi-unlock"></i></a>` : "";
@@ -132,6 +175,8 @@ function renderArchive() {
     renderEdition(edition, true);
   }));
 }
+
+$("#exportFeedback").addEventListener("click", exportFeedback);
 
 fetch("data/editions.json", { cache: "no-cache" })
   .then(response => {
