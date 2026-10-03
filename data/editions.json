@@ -1,6 +1,388 @@
 {
   "editions": [
     {
+      "date": "2026-10-03",
+      "updatedAt": "2026-10-03T18:25:58+02:00",
+      "note": "Edizione di recupero dal cutoff del 27 settembre, ore 11:44 CEST · Aggiornata alle 18:25 CEST · 40 notizie. Selezione verificata contro l’archivio degli ultimi sette giorni; conservati soltanto sviluppi sostanziali e ancora attuali.",
+      "summary": "La settimana porta nuove decisioni tedesche su assistenza, trasporti, difesa e università, mentre l’Italia interviene su energia, scuola e conti pubblici. Sul piano internazionale aumentano le pressioni militari attorno all’Iran e le tensioni sociali in Francia. Nell’AI si concentra una nuova ondata di modelli, agenti e impegni volontari sulla sicurezza; nella robotica avanzano sicurezza degli umanoidi e automazione industriale. Inflazione energetica e riserve G7 restano i principali segnali economici.",
+      "items": [
+        {
+          "id": "2026-10-03-de-heine-prize-haratischwili",
+          "category": "germany",
+          "source": "Landeshauptstadt Düsseldorf",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Premio assegnato, cerimonia da calendarizzare",
+          "title": "Düsseldorf assegna il Premio Heine 2026 alla scrittrice Nino Haratischwili; il riconoscimento vale 50.000 euro",
+          "url": "https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/heine-preis-2026-fuer-nino-haratischwili-1"
+        },
+        {
+          "id": "2026-10-03-de-duesseldorf-himmelgeist-dike",
+          "category": "germany",
+          "source": "Landeshauptstadt Düsseldorf",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Documenti consultabili dal 5 ottobre al 4 novembre",
+          "title": "Düsseldorf, nuovi documenti per la messa in sicurezza dell’argine di Himmelgeist: osservazioni possibili fino al 18 novembre",
+          "url": "https://www.duesseldorf.de/medienportal/pressedienst-einzelansicht/pld/deichsanierung-himmelgeister-rheinbogen-unterlagen-ab-5-oktober-einsehbar"
+        },
+        {
+          "id": "2026-10-03-de-care-reform-cabinet",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-30",
+          "status": "30 set · Disegno di legge approvato dal governo",
+          "title": "Assistenza, il governo tedesco aumenta allo 0,9% il supplemento per chi non ha figli ma rinvia la riforma strutturale del finanziamento",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/faq-pflegereform-100.html"
+        },
+        {
+          "id": "2026-10-03-de-deutschlandticket-2027-price",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-30",
+          "status": "30 set · Nuove tariffe dal 1° gennaio 2027",
+          "title": "Deutschlandticket, prezzo mensile a 66,80 euro nel 2027; salgono anche Jobticket e abbonamento semestrale studentesco",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/deutschlandticket-preis-110.html"
+        },
+        {
+          "id": "2026-10-03-de-bundeswehr-drone-regiment",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Reggimento previsto nel 2027, sede non ancora scelta",
+          "title": "La Bundeswehr prepara il primo reggimento dedicato ai droni, con un organico fino a 600 militari",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/drohnenregiment-pistorius-100.html"
+        },
+        {
+          "id": "2026-10-03-de-excellence-universities",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Esito della nuova selezione nazionale",
+          "title": "Freiburg, Jena e Colonia entrano tra le università d’eccellenza tedesche; riconosciute anche nuove alleanze Rhein-Main e della Ruhr",
+          "url": "https://www.tagesschau.de/wissen/forschung/exzellenzunis-bekanntgegeben-100.html"
+        },
+        {
+          "id": "2026-10-03-it-budget-energy-defense",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-03",
+          "status": "3 ott · Relazione sullo scostamento trasmessa al Parlamento",
+          "title": "Il governo stima 14,4 miliardi nel biennio 2027-2028 per misure energetiche e altrettanti per la difesa",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/03/da-scostamento-misure-sullenergia-per-famiglie-studenti-imprese-pa_b13d6d7c-125b-4a20-b16f-915082f5c247.html",
+          "verificationUrls": [
+            "https://www.italpress.com/via-libera-consiglio-dei-ministri-al-dpfp-e-allo-scostamento-per-energia-e-difesa/"
+          ]
+        },
+        {
+          "id": "2026-10-03-it-school-decree",
+          "category": "italy",
+          "source": "Gazzetta Ufficiale / Tagesschau",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Decreto-legge in vigore; quota linguistica dal 2027/28",
+          "title": "Scuola, entra in vigore il divieto di coprire il volto; dal 2027/28 tetto del 30% per i nuovi alunni stranieri senza sufficiente italiano",
+          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=26G00190&atto.dataPubblicazioneGazzetta=2026-09-30&tipoSerie=serie_generale&tipoVigenza=originario",
+          "verificationUrls": [
+            "https://www.tagesschau.de/ausland/europa/italien-erlaesst-burkaverbot-und-sprachquote-an-schulen-100.html"
+          ]
+        },
+        {
+          "id": "2026-10-03-it-employment-august",
+          "category": "italy",
+          "source": "Istat",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Dati provvisori di agosto",
+          "title": "Occupazione stabile ad agosto; i disoccupati aumentano di 48.000 e il tasso sale al 6,2%, con quello giovanile al 20,3%",
+          "url": "https://www.istat.it/comunicato-stampa/occupati-e-disoccupati-dati-provvisori-agosto-2026/"
+        },
+        {
+          "id": "2026-10-03-it-eu-building-renovation-plan",
+          "category": "italy",
+          "source": "Commissione europea",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Parere motivato; due mesi per rispondere",
+          "title": "Edifici, Bruxelles prosegue la procedura contro l’Italia per il mancato invio della bozza del piano nazionale di ristrutturazione",
+          "url": "https://energy.ec.europa.eu/news/october-infringements-package-key-decisions-energy-2026-10-01_en"
+        },
+        {
+          "id": "2026-10-03-world-ukraine-kyiv-bridges",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-03",
+          "status": "3 ott · Ponte Nord chiuso; nessuna vittima segnalata",
+          "title": "Ucraina, nuovo attacco russo contro un ponte di Kyiv dopo i danni inflitti a tre dei sei attraversamenti stradali del Dnipro",
+          "url": "https://www.tagesschau.de/ausland/ukraine-angriff-bruecke-100.html"
+        },
+        {
+          "id": "2026-10-03-world-france-student-protests",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-03",
+          "status": "3 ott · Oltre 5.000 arresti dall’inizio delle proteste",
+          "title": "Francia, proteste studentesche in 735 scuole: oltre 5.000 arresti in una settimana, in grande maggioranza minorenni",
+          "url": "https://www.tagesschau.de/ausland/frankreich-schuelerproteste-festnahmen-100.html"
+        },
+        {
+          "id": "2026-10-03-world-spain-tenant-decrees",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Due decreti respinti dal Parlamento",
+          "title": "Spagna, il Parlamento boccia due pacchetti di tutela degli inquilini; i movimenti per la casa annunciano nuove proteste",
+          "url": "https://www.tagesschau.de/ausland/europa/spanien-wohungsgesetze-gescheitert-100.html"
+        },
+        {
+          "id": "2026-10-03-world-israel-arab-parties-ruling",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Sentenza definitiva prima del voto del 27 ottobre",
+          "title": "Israele, la Corte suprema annulla l’esclusione di Ra’am e Lista Congiunta dalle elezioni",
+          "url": "https://www.tagesschau.de/ausland/asien/israel-wahlen-gericht-100.html"
+        },
+        {
+          "id": "2026-10-03-world-morocco-first-woman-pm",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-29",
+          "status": "29 set · Incarico conferito dal re",
+          "title": "Marocco, Fatima Ezzahra El Mansouri incaricata di formare il governo: sarebbe la prima donna premier del Paese",
+          "url": "https://www.tagesschau.de/ausland/afrika/marokko-frau-regierungschefin-100.html"
+        },
+        {
+          "id": "2026-10-03-world-myanmar-kyauktaw-airstrike",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-09-29",
+          "status": "29 set · Bilancio dell’Arakan Army, non confermato dalla giunta",
+          "title": "Myanmar, un raid sul mercato e sul ponte di Kyauktaw avrebbe ucciso almeno 50 persone e ferito circa 60",
+          "url": "https://www.tagesschau.de/ausland/asien/luftangriffe-myanmar-100.html"
+        },
+        {
+          "id": "2026-10-03-world-us-iran-carrier-deployment",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Nuovo dispiegamento dopo il rifiuto dell’offerta iraniana",
+          "title": "Stati Uniti-Iran, una terza portaerei e migliaia di militari si dirigono verso la regione dopo il nuovo fallimento diplomatico",
+          "url": "https://apnews.com/article/42c23e9af0333f4bc3b4f419cc3a603e",
+          "verificationUrls": [
+            "https://apnews.com/article/af2443646cf96ff01b8b1becff3f3e0e"
+          ]
+        },
+        {
+          "id": "2026-10-03-ai-openai-dots",
+          "category": "ai",
+          "source": "Associated Press",
+          "sourceDate": "2026-09-29",
+          "status": "29 set · Prodotto presentato al DevDay",
+          "title": "OpenAI presenta Dots, agenti persistenti progettati per eseguire attività in modo continuativo per conto degli utenti",
+          "url": "https://apnews.com/article/77b6b8888145869206996d7509d24256"
+        },
+        {
+          "id": "2026-10-03-ai-openai-gpt-6-1-sol",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-09-29",
+          "status": "29 set · Modello disponibile via API; prestazioni dichiarate dal produttore",
+          "title": "OpenAI lancia GPT-6.1 Sol con contesto da circa un milione di token e prezzi API di 2 e 10 dollari per milione di token",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+          "verificationUrls": [
+            "https://deploymentsafety.openai.com/gpt-6-1-sol/respecting-auto-review"
+          ]
+        },
+        {
+          "id": "2026-10-03-ai-google-gemini-4-argon",
+          "category": "ai",
+          "source": "Google",
+          "sourceDate": "2026-09-30",
+          "status": "30 set · Modello annunciato; benchmark aziendali",
+          "title": "Google presenta Gemini 4 Argon, modello da un milione di token rivolto a coding, finanza, diritto e cybersicurezza",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "id": "2026-10-03-ai-anthropic-sonnet-5-5",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-09-28",
+          "status": "28 set · Modello annunciato; efficienza dichiarata dal produttore",
+          "title": "Anthropic lancia Claude Sonnet 5.5 e dichiara attività fino al 30% più rapide e meno costose rispetto a Sonnet 5",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "id": "2026-10-03-ai-white-house-voluntary-accord",
+          "category": "ai",
+          "source": "Associated Press",
+          "sourceDate": "2026-09-29",
+          "status": "29 set · Accordo volontario, non vincolante",
+          "title": "Casa Bianca e grandi aziende AI concordano controlli interni, audit indipendenti e supervisione dei consigli di amministrazione",
+          "url": "https://apnews.com/article/595796511f110fc006cca0d01329733e"
+        },
+        {
+          "id": "2026-10-03-ai-barclays-claude-rollout",
+          "category": "ai",
+          "source": "Anthropic / Barclays",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Piano aziendale, metriche riferite dalle società",
+          "title": "Barclays amplia Claude: obiettivo metà degli sviluppatori entro fine 2026 e maggioranza nel 2027",
+          "url": "https://www.anthropic.com/news/barclays-scales-claude"
+        },
+        {
+          "id": "2026-10-03-ai-google-suncatcher-orbit",
+          "category": "ai",
+          "source": "Google Research",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Prototipo in orbita, primi contatti confermati dall’azienda",
+          "title": "Google mette in orbita il prototipo Project Suncatcher per provare TPU e collegamenti destinati a futuri sistemi AI spaziali",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+        },
+        {
+          "id": "2026-10-03-robotics-ifr-service-robots-2025",
+          "category": "robotics",
+          "source": "International Federation of Robotics",
+          "sourceDate": "2026-09-30",
+          "status": "30 set · Statistiche mondiali 2025",
+          "title": "Robot di servizio professionali, consegne mondiali in aumento del 24% a quasi 250.000 unità; logistica primo impiego",
+          "url": "https://ifr.org/news/global-sales-of-professional-service-robots-surge-24-percent/1st-"
+        },
+        {
+          "id": "2026-10-03-robotics-agility-fort-safety",
+          "category": "robotics",
+          "source": "Agility Robotics / FORT Robotics",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Memorandum strategico, risultati da validare",
+          "title": "Agility e FORT collaborano a un’architettura di sicurezza multilivello per l’umanoide industriale Digit 5",
+          "url": "https://www.agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety"
+        },
+        {
+          "id": "2026-10-03-robotics-singapore-h2rc",
+          "category": "robotics",
+          "source": "HTX Singapore",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Centro inaugurato; impiego operativo indicato dal 2028",
+          "title": "Singapore apre un centro di 29.000 piedi quadrati per addestrare robot umanoidi a compiti di pubblica sicurezza",
+          "url": "https://www.htx.gov.sg/whats-happening/all-news---events/all-news/2026/seizing-the-initiative-htx-launches-h2rc-to-train-humanoid-robots-for-public-safety"
+        },
+        {
+          "id": "2026-10-03-robotics-hitachi-agile-physical-ai",
+          "category": "robotics",
+          "source": "Agile Robots / Hitachi",
+          "sourceDate": "2026-09-29",
+          "status": "29 set · Accordo di co-sviluppo, senza calendario commerciale",
+          "title": "Hitachi e Agile Robots uniscono robot mobili, bracci e modelli Physical AI per sviluppare automazione manifatturiera",
+          "url": "https://www.agile-robots.com/en/news/detail/agile-robots-and-hitachi-partner-on-physical-ai-for-manufacturing/"
+        },
+        {
+          "id": "2026-10-03-robotics-hitachi-fanuc-customer-zero",
+          "category": "robotics",
+          "source": "FANUC / Hitachi",
+          "sourceDate": "2026-09-30",
+          "status": "30 set · Validazione nelle fabbriche Hitachi; offerta prevista nell’esercizio 2027",
+          "title": "Hitachi e FANUC testeranno sistemi robotici intelligenti negli stabilimenti di Ibaraki prima della vendita ai clienti",
+          "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260930.html"
+        },
+        {
+          "id": "2026-10-03-auto-vw-collective-agreements",
+          "category": "automotive",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Dieci accordi disdettati dal 31 dicembre 2026",
+          "title": "Volkswagen disdice dieci dei tredici accordi collettivi aziendali, con circa 130.000 dipendenti tedeschi interessati",
+          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-vw-arbeitskampf-tarifvertrag-100.html"
+        },
+        {
+          "id": "2026-10-03-auto-cariad-job-cuts",
+          "category": "automotive",
+          "source": "Tagesschau / Handelsblatt",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Piano riferito da Handelsblatt, nessun commento aziendale",
+          "title": "Cariad valuterebbe altri 1.000 tagli, circa un quarto dell’organico, e una riduzione degli investimenti fino al 2031",
+          "url": "https://www.tagesschau.de/inland/regional/niedersachsen/bei-vw-tochter-cariad-sollen-weitere-1000-jobs-wegfallen%2Ccariad-100.html"
+        },
+        {
+          "id": "2026-10-03-auto-italy-september-market",
+          "category": "automotive",
+          "source": "UNRAE",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Dati sulle immatricolazioni di settembre",
+          "title": "Mercato auto italiano in crescita del 9,9% a settembre; elettriche al 7,6% e ibride plug-in all’11,1%",
+          "url": "https://www.unrae.it/index.php/sala-stampa/autovetture/7817/mercato-vetture-italia-99-a-settembre"
+        },
+        {
+          "id": "2026-10-03-auto-us-china-vehicle-ban",
+          "category": "automotive",
+          "source": "Associated Press",
+          "sourceDate": "2026-09-30",
+          "status": "30 set · Disegno di legge bloccato fino a dopo le elezioni di metà mandato",
+          "title": "Stati Uniti, si arena al Senato il divieto permanente sui veicoli cinesi mentre restano le restrizioni sui modelli connessi",
+          "url": "https://apnews.com/article/220c9c816ed0f73eb867775c666b0b9e"
+        },
+        {
+          "id": "2026-10-03-business-eurozone-inflation-september",
+          "category": "business",
+          "source": "Eurostat",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Stima flash di settembre",
+          "title": "Inflazione dell’Eurozona stimata al 3,8%, dal 3,2% di agosto; l’energia accelera al 18,8%",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap"
+        },
+        {
+          "id": "2026-10-03-business-g7-energy-reserves",
+          "category": "business",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Rilascio coordinato da avviare immediatamente",
+          "title": "Il G7 concorda il rilascio fino a 100 milioni di barili di diesel e greggio nell’arco di quattro mesi",
+          "url": "https://www.tagesschau.de/ausland/g7-dieselreserven-100.html"
+        },
+        {
+          "id": "2026-10-03-business-galeria-insolvency",
+          "category": "business",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Quarta insolvenza in sei anni; negozi per ora aperti",
+          "title": "Galeria presenta una nuova domanda d’insolvenza: incertezza per 12.000 dipendenti e 83 grandi magazzini",
+          "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/wdr-zum-vierten-mal-galeria-stellt-erneut-insolvenzantrag-100.html"
+        },
+        {
+          "id": "2026-10-03-business-varta-insolvency",
+          "category": "business",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Insolvenza per quattro società del gruppo",
+          "title": "Varta avvia procedure d’insolvenza per quattro società; circa 2.300 posti coinvolti e chiusura prevista a Nördlingen",
+          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/batteriehersteller-varta-investoren-100.html"
+        },
+        {
+          "id": "2026-10-03-business-italy-retail-august",
+          "category": "business",
+          "source": "Istat",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Dati di agosto",
+          "title": "Vendite al dettaglio italiane: valore +0,3% sul mese ma volumi -1% sull’anno; commercio online +5,4%",
+          "url": "https://www.istat.it/comunicato-stampa/commercio-al-dettaglio-agosto-2026/"
+        },
+        {
+          "id": "2026-10-03-events-ten-thousand-hours",
+          "category": "events",
+          "source": "Düsseldorf Festival · Organizzatore",
+          "sourceDate": "2026-10-03",
+          "status": "Oggi, ore 20 · Theaterzelt, Burgplatz",
+          "title": "Düsseldorf Festival, stasera Gravity & Other Myths porta al Theaterzelt lo spettacolo acrobatico «Ten Thousand Hours»",
+          "url": "https://duesseldorf-festival.de/event/gravity-other-myths-4/?ten-thousand-hours%2F2026=",
+          "eventDate": "2026-10-03"
+        },
+        {
+          "id": "2026-10-03-events-duesseldorf-grand-prix",
+          "category": "events",
+          "source": "Landeshauptstadt Düsseldorf",
+          "sourceDate": "2026-10-01",
+          "status": "Domani, ingresso ore 12 · Galopprennbahn Grafenberg",
+          "title": "Düsseldorf, il 106° Gran Premio della città chiude la stagione ippica con nove corse e il premio principale da 55.000 euro",
+          "url": "https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/106-grosser-preis-der-landeshauptstadt-steigt-am-4-oktober",
+          "eventDate": "2026-10-04"
+        }
+      ]
+    },
+    {
       "date": "2026-09-28",
       "updatedAt": "2026-09-28T07:22:56+02:00",
       "note": "Edizione ordinaria dal cutoff del 27 settembre, ore 11:44 CEST · Aggiornata alle 07:22 CEST · 27 notizie. Campione prudente, senza riempitivi né duplicati; le date delle fonti sono indicate.",
