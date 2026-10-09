@@ -168,17 +168,26 @@ function formatTokenRange(value) {
   if (!value || !Number.isFinite(value.min) || !Number.isFinite(value.max)) return "non disponibile";
   return `${value.min.toLocaleString("it-IT")}–${value.max.toLocaleString("it-IT")}`;
 }
+
 function renderUsageEstimate(edition) {
   const target = $("#usageTrackingContent");
   if (!target) return;
   const estimate = edition?.usageEstimate;
-  if (!estimate || estimate.exact !== false) { target.textContent = "Non disponibile per questa edizione. Le stime vengono aggiunte solo alle nuove edizioni, senza ricostruzioni retroattive."; return; }
-  const cost = estimate.apiEquivalentCostEUR || {};
-  const costText = Number.isFinite(cost.min) && Number.isFinite(cost.max) ? `${cost.min.toFixed(2).replace(".", ",")}–${cost.max.toFixed(2).replace(".", ",")} €` : "non disponibile";
+  if (!estimate || estimate.exact !== false) {
+    target.textContent = "Non disponibile per questa edizione. Le stime vengono aggiunte solo alle nuove edizioni, senza ricostruzioni retroattive.";
+    return;
+  }
+  const input = formatTokenRange(estimate.inputTokens);
+  const output = formatTokenRange(estimate.outputTokens);
+  const cost = estimate.apiEquivalentCostEUR;
+  const costText = cost && Number.isFinite(cost.min) && Number.isFinite(cost.max)
+    ? `${cost.min.toFixed(2).replace(".", ",")}–${cost.max.toFixed(2).replace(".", ",")} €`
+    : "non disponibile";
   const models = Array.isArray(estimate.models) ? estimate.models.map(model => `${model.model} (${model.phase})`).join(", ") : "non disponibili";
   const pricing = estimate.pricing || {};
-  target.textContent = `Stima ${estimate.methodologyVersion || "senza versione"}: ${formatTokenRange(estimate.inputTokens)} token in ingresso, ${formatTokenRange(estimate.outputTokens)} in uscita; equivalente API ${costText}. Fasi/modelli: ${models}. exact=false: intervallo indicativo, non costo reale del piano Codex. Prezzi Luna ${pricing.inputPerMillion ?? "n/d"}/${pricing.outputPerMillion ?? "n/d"} $/M; Sol ${pricing.solInputPerMillion ?? "n/d"}/${pricing.solOutputPerMillion ?? "n/d"} $/M; cambio ${pricing.usdToEur ?? "n/d"} EUR/USD (${pricing.fxDate || "data n/d"}, ${pricing.fxSource || "fonte n/d"}).`;
+  target.innerHTML = `<p><strong>Stima ${estimate.methodologyVersion || "senza versione"}:</strong> ${input} token in ingresso, ${output} in uscita; equivalente API ${costText}.</p><p>Fasi/modelli: ${models}. exact=false: intervallo indicativo, non costo reale del piano Codex.</p><p>Prezzi di riferimento: Luna ${pricing.inputPerMillion ?? "n/d"}/${pricing.outputPerMillion ?? "n/d"} $/M input/output; Sol ${pricing.solInputPerMillion ?? "n/d"}/${pricing.solOutputPerMillion ?? "n/d"} $/M. Cambio documentato ${pricing.usdToEur ?? "n/d"} EUR/USD (${pricing.fxDate || "data n/d"}, ${pricing.fxSource || "fonte n/d"}).</p>`;
 }
+
 function renderArchive() {
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   $("#archiveGrid").innerHTML = editions.map((edition, index) => `
