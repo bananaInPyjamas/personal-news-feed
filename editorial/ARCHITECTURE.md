@@ -8,7 +8,7 @@ Il flusso previsto separava un coordinatore `gpt-5.6-sol` a reasoning low, un ag
 
 Per il periodo di prova di sette giorni, lunedì–venerdì, una singola esecuzione `gpt-5.6-luna` con reasoning medium gestisce il flusso end-to-end. Preflight, integrazione, validazione e pubblicazione restano vincolati a script deterministici dove possibile. Sol non è automatico: può essere richiesto solo come escalation eccezionale e mirata per un’ambiguità ad alto rischio, dopo aver documentato perché Luna non è sufficiente. Astra non viene usato.
 
-La rassegna mira a 12–15 notizie; AI 3–4 e robotica 1–2 solo quando ci sono sviluppi sostanziali. Il venerdì aggiunge tre eventi weekend verificati. Se mancano fatti rilevanti, il numero scende senza riempitivi.
+La rassegna mira a 22–26 notizie; AI 5–7 e robotica 3–4 solo quando ci sono sviluppi sostanziali. Il venerdì aggiunge tre eventi weekend verificati. Se mancano fatti rilevanti, il numero scende senza riempitivi. Questa fascia preserva una panoramica ampia: nella simulazione operativa, 24 articoli richiedono circa 28–43 mila token input e 3,1–5,2 mila output, contro circa 21–31 mila input e 2,5–4,2 mila output per 15 articoli, mantenendo invariata l’architettura Luna singola.
 
 ## Criteri di successo e fallback
 
