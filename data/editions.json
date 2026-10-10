@@ -1,6 +1,266 @@
 {
   "editions": [
     {
+      "date": "2026-10-10",
+      "updatedAt": "2026-10-10T07:55:40+02:00",
+      "note": "Edizione dalla finestra successiva al cutoff del 9 ottobre, ore 06:24 CEST · Aggiornata alle 07:55 CEST · 22 notizie. Nessun weekendEvents aggiuntivo perché oggi è sabato. Selezione senza riempitivi con 5 notizie AI e 4 di robotica.",
+      "summary": "La Germania alza la previsione di crescita ma affronta tensioni politiche a Berlino e il confronto con Washington sulle sanzioni al Tribunale penale internazionale. In Italia la nuova legge elettorale entra nel dibattito istituzionale mentre l’ex Ilva prepara uno sciopero nazionale e crescono le imprese guidate da stranieri. AI e robotica si spostano verso sicurezza, verifica dei modelli, infrastrutture scientifiche e trasporto autonomo.",
+      "items": [
+        {
+          "id": "2026-10-10-de-berlin-coalition-talks",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Sondaggio avviato, forte scetticismo sul possibile accordo",
+          "title": "Berlino, SPD, Verdi e Linke avviano colloqui esplorativi tra dubbi sulla coalizione rosso-rosso-verde",
+          "url": "https://www.tagesschau.de/thema/2026"
+        },
+        {
+          "id": "2026-10-10-de-growth-forecast",
+          "category": "germany",
+          "source": "Tagesschau / Bundesregierung",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Previsione governativa, dal precedente +0,5%",
+          "title": "La Germania alza all’1,3% la previsione di crescita 2026 dopo il precedente +0,5%",
+          "url": "https://www.tagesschau.de/wirtschaft/konjunktur/wachstumsprognose-regierung-100.html"
+        },
+        {
+          "id": "2026-10-10-de-icc-sanctions",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Berlino e Commissione UE criticano le nuove misure USA",
+          "title": "Sanzioni USA contro il Tribunale penale internazionale: Berlino parla di attacco al diritto internazionale",
+          "url": "https://www.tagesschau.de/ausland/amerika/usa-sanktionen-istgh-100.html"
+        },
+        {
+          "id": "2026-10-10-it-electoral-law",
+          "category": "italy",
+          "source": "ANSA / Reuters",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Approvazione finale alla Camera; opposizioni pronte al ricorso",
+          "title": "La Camera approva la riforma elettorale: premio alla coalizione sopra il 42% e nuove soglie",
+          "url": "https://www.ansa.it/english/newswire/english_service/2026/10/08/ansaruling-coalitions-contested-new-election-law-gets-final-ok_bdec1fb0-45ce-4685-a2b0-4d7c2ee3dfd7.html",
+          "verificationUrls": [
+            "https://www.internazionale.it/ultime-notizie-reuters/2026/10/08/factbox-key-points-in-italy-s-new-electoral-law"
+          ]
+        },
+        {
+          "id": "2026-10-10-it-ex-ilva-strike",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Sciopero nazionale di 24 ore annunciato da lunedì",
+          "title": "Ex Ilva, i sindacati proclamano uno sciopero nazionale mentre gli impianti entrano in fermata",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/08/i-sindacati-da-lunedi-sciopero-nazionale-ex-ilva-di-24-ore_df14583b-44b1-4574-a8f3-c6ab01e5526e.html"
+        },
+        {
+          "id": "2026-10-10-it-foreign-led-firms",
+          "category": "italy",
+          "source": "ANSA / InfoCamere",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · 677mila imprese; +16mila nel primo semestre",
+          "title": "In Italia le imprese guidate da stranieri salgono a 677mila, con crescita concentrata nel Nord-Ovest",
+          "url": "https://videoembed.ansa.it/sito/notizie/economia/2026/10/09/imprese-straniere-in-italia-crescono-16mila-in-6-mesi-a-quota-677mila_83a40243-9f40-4a89-aa6c-29387d559fe0.html"
+        },
+        {
+          "id": "2026-10-10-world-nobel-pillay",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Premio assegnato per il lavoro sul diritto internazionale",
+          "title": "Navi Pillay vince il Nobel per la pace in un anno segnato dalla pressione sulla giustizia internazionale",
+          "url": "https://www.tagesschau.de/thema/2026"
+        },
+        {
+          "id": "2026-10-10-world-ukraine-attacks",
+          "category": "world",
+          "source": "Tagesschau / AP",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Nuovi attacchi russi contro obiettivi civili; bilanci da verificare",
+          "title": "La Russia intensifica gli attacchi aerei contro città ucraine mentre Berlino annuncia nuovo sostegno",
+          "url": "https://www.tagesschau.de/tagesschau/ts-81420.html"
+        },
+        {
+          "id": "2026-10-10-world-france-student-protests",
+          "category": "world",
+          "source": "Tagesschau / Axios",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Proteste ancora in corso in numerose scuole",
+          "title": "Francia, le proteste studentesche restano aperte dopo una settimana di mobilitazione nazionale",
+          "url": "https://www.tagesschau.de/tagesschau/ts-81420.html",
+          "verificationUrls": [
+            "https://www.axios.com/2026/10/07/europe-student-protests-france-belgium"
+          ]
+        },
+        {
+          "id": "2026-10-10-world-russian-lng-eu",
+          "category": "world",
+          "source": "Euronews",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Stima 2026 sulle importazioni di GNL russo",
+          "title": "L’UE continua a pagare miliardi per il GNL russo mentre promette di ridurre i legami energetici",
+          "url": "https://it.euronews.com/2026/10/09"
+        },
+        {
+          "id": "2026-10-10-ai-anthropic-cyber-mission",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Programma lanciato per infrastrutture critiche e open source",
+          "title": "Anthropic lancia una missione cyber con scansioni gratuite del codice open source e supporto alle infrastrutture",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+        },
+        {
+          "id": "2026-10-10-ai-anthropic-policy",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Nuove regole efficaci dal 12 novembre",
+          "title": "Anthropic aggiorna la policy d’uso: più vincoli su campagne ingannevoli, sorveglianza e azioni fisiche autonome",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+        },
+        {
+          "id": "2026-10-10-ai-anthropic-unintended-actions",
+          "category": "ai",
+          "source": "Anthropic Research",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Quattro categorie di comportamenti osservati in test e uso interno",
+          "title": "Anthropic pubblica casi di azioni indesiderate dei modelli, dal bypass di paywall all’invio di moduli sensibili",
+          "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+        },
+        {
+          "id": "2026-10-10-ai-openai-false-front",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Analisi e misure contro reti di account e siti falsi",
+          "title": "OpenAI descrive le operazioni “false front” abilitate dall’AI e rafforza il contrasto alle campagne ingannevoli",
+          "url": "https://openai.com/news/"
+        },
+        {
+          "id": "2026-10-10-ai-ai-catastrophe-planning",
+          "category": "ai",
+          "source": "Axios",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Report su preparativi interni, senza evento catastrofico verificato",
+          "title": "Aziende AI discutono piani per una possibile crisi pubblica dopo un incidente grave",
+          "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack"
+        },
+        {
+          "id": "2026-10-10-robotics-doe-autonomous-science",
+          "category": "robotics",
+          "source": "U.S. Department of Energy",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Quattro progetti selezionati, 30 milioni di dollari complessivi",
+          "title": "Il DOE finanzia quattro testbed per robot e automazione nella scoperta scientifica autonoma",
+          "url": "https://www.newswise.com/articles/doe-announces-four-national-laboratory-led-selections-to-advance-robotics-and-automation-for-autonomous-scientific-discovery"
+        },
+        {
+          "id": "2026-10-10-robotics-storm-soft-tactile",
+          "category": "robotics",
+          "source": "SDU Soft Robotics / Independent Research Fund Denmark",
+          "sourceDate": "2026-10-07",
+          "status": "7 ott · Finanziamento di 7,2 milioni di corone danesi",
+          "title": "Il progetto STORM sviluppa una pelle tattile morbida per correggere in sicurezza i modelli robotici",
+          "url": "https://www.softrobotics.dk/2026/10/07/storm-soft-tactile-memory-for-safe-physical-ai/"
+        },
+        {
+          "id": "2026-10-10-robotics-kodiak-charger",
+          "category": "robotics",
+          "source": "Kodiak AI / Charger USA",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Prima consegna completata; corsia Dallas–Laredo da 435 miglia",
+          "title": "Kodiak e Charger avviano il trasporto autonomo di merci tra Dallas e Laredo",
+          "url": "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo"
+        },
+        {
+          "id": "2026-10-10-robotics-agility-investor-day",
+          "category": "robotics",
+          "source": "Agility Robotics",
+          "sourceDate": "2026-10-06",
+          "status": "6 ott · Investor Day su Digit 5, sicurezza e produzione",
+          "title": "Agility presenta agli investitori il piano per portare Digit 5 verso la scala industriale",
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-to-livestream-analyst-investor-day-today"
+        },
+        {
+          "id": "2026-10-10-automotive-volkswagen-production",
+          "category": "automotive",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-07",
+          "status": "7 ott · Produzione tedesca in aumento ad agosto; dati ufficiali da leggere nel contesto",
+          "title": "La produzione tedesca accelera ad agosto nonostante il basso livello del Reno",
+          "url": "https://www.tagesschau.de/wirtschaft/konjunktur/produktion-industrie-bau-august-plus-100.html"
+        },
+        {
+          "id": "2026-10-10-business-dax-oil",
+          "category": "business",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · DAX +1,13% a 25.087 punti; seduta di venerdì",
+          "title": "Il DAX recupera quota 25.000 mentre petrolio e rendimenti si stabilizzano",
+          "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-166.html"
+        },
+        {
+          "id": "2026-10-10-events-italy-saturday-agenda",
+          "category": "events",
+          "source": "ANSA",
+          "sourceDate": "2026-10-09",
+          "status": "10 ott · Appuntamenti verificati; sedi e orari nell’agenda ANSA",
+          "title": "Sabato 10 ottobre, tra gli appuntamenti italiani Festa dell’ottimismo, Manifestival e qualifiche di Formula 1",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/09/accadeoggi_dd38a7d3-309c-4e12-a6b9-d7b1590e0cf6.html",
+          "eventDate": "2026-10-10"
+        }
+      ],
+      "usageEstimate": {
+        "exact": false,
+        "methodologyVersion": "2026-10-09-v1",
+        "activity": {
+          "date": "2026-10-10",
+          "articles": 22,
+          "weekendEvents": 0,
+          "searchCalls": 12,
+          "sourcePagesOpened": 27,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
+            "inputTokens": {
+              "min": 21232,
+              "max": 31848
+            },
+            "outputTokens": {
+              "min": 2835,
+              "max": 4725
+            }
+          }
+        ],
+        "inputTokens": {
+          "min": 21232,
+          "max": 31848
+        },
+        "outputTokens": {
+          "min": 2835,
+          "max": 4725
+        },
+        "apiEquivalentCostEUR": {
+          "min": 0.0068376695999999995,
+          "max": 0.010763402400000002
+        },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
+      }
+    },
+    {
       "date": "2026-10-09",
       "updatedAt": "2026-10-09T06:24:37+02:00",
       "note": "Edizione dalla finestra successiva al cutoff dell’8 ottobre, ore 06:09 CEST · Aggiornata alle 06:24 CEST · 40 notizie e 5 eventi del weekend. Confrontato l’archivio degli ultimi sette giorni ed esclusi duplicati, aggiornamenti marginali e annunci riciclati. Focus deliberato con 8 notizie AI e 4 di robotica; le affermazioni aziendali non validate in modo indipendente sono qualificate come tali.",
@@ -1931,271 +2191,6 @@
           "title": "Düsseldorf, il 106° Gran Premio della città chiude la stagione ippica con nove corse e il premio principale da 55.000 euro",
           "url": "https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/106-grosser-preis-der-landeshauptstadt-steigt-am-4-oktober",
           "eventDate": "2026-10-04"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "updatedAt": "2026-09-28T07:22:56+02:00",
-      "note": "Edizione ordinaria dal cutoff del 27 settembre, ore 11:44 CEST · Aggiornata alle 07:22 CEST · 27 notizie. Campione prudente, senza riempitivi né duplicati; le date delle fonti sono indicate.",
-      "summary": "In Germania il confronto sulla riforma dell’assistenza si riapre mentre materie prime agricole più care alimentano nuovi timori sui prezzi. In Italia IP segue Eni con un tetto ai carburanti. Sul piano internazionale, Vučić si dimette per candidarsi a premier e la Svizzera respinge una neutralità più rigida. Per l’AI emergono nuove indagini sugli incidenti di sicurezza; petrolio e rendimenti salgono con lo stallo tra Stati Uniti e Iran.",
-      "items": [
-        {
-          "id": "2026-09-28-de-food-commodity-prices",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Analisi su dati USDA e UE",
-          "title": "Grano, mais e zucchero rincarano sui mercati mondiali; in Germania l’effetto sui prezzi al dettaglio potrebbe arrivare in ritardo",
-          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/lebensmittelpreise-weizen-mais-zucker-inflation-100.html"
-        },
-        {
-          "id": "2026-09-28-de-care-cap-dispute",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Nuovo confronto SPD-CDU previsto oggi",
-          "title": "Riforma dell’assistenza, Linnemann respinge il tetto SPD alle quote a carico dei pazienti; i fondi stimano un deficit di 4,4 miliardi",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/pflegereform-streit-linnemann-100.html"
-        },
-        {
-          "id": "2026-09-28-de-huerth-lead-water",
-          "category": "germany",
-          "source": "WDR",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Campionamenti dell’ufficio sanitario in corso",
-          "title": "Hürth, un tubo di piombo trovato nel complesso Clementinenhof: ai residenti viene sconsigliato di bere l’acqua del rubinetto",
-          "url": "https://www1.wdr.de/nrw/trinkwasser-blei-huerth-vonovia-100.amp"
-        },
-        {
-          "id": "2026-09-28-de-bielefeld-cpr-record",
-          "category": "germany",
-          "source": "WDR",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Iniziativa di sensibilizzazione",
-          "title": "Bielefeld, oltre 6.000 partecipanti completano 168 ore consecutive di rianimazione su manichino, con più di un milione di compressioni",
-          "url": "https://www1.wdr.de/nrw/bielefeld/weltrekord-reanimation-bielefeld-100.amp"
-        },
-        {
-          "id": "2026-09-28-it-ip-fuel-price-cap",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Misura annunciata dal 28 settembre",
-          "title": "Carburanti, IP segue Eni e introduce progressivamente un prezzo massimo nella propria rete; possibile estensione ai punti Esso riforniti dal gruppo",
-          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/27/ip-segue-eni-sui-prezzi-dei-carburanti.-meloni-assicura-un-sostegno-alle_bfbacf1c-8ee9-45a5-b566-fa815a21f0da.html"
-        },
-        {
-          "id": "2026-09-28-it-reggio-calabria-by-election",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-09-28",
-          "status": "27 set, ore 23 · Affluenza provvisoria al 14,97%",
-          "title": "Suppletive Reggio Calabria–Locri, affluenza al 14,97% alla chiusura domenicale; i seggi riaprono oggi fino alle 15",
-          "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/seggi-aperte-per-le-suppletive-a-reggio-calabria.-alle-12-laffluenza-al-343_13ef3ae0-466d-42b8-a677-ddc7bcbc2a8a.html"
-        },
-        {
-          "id": "2026-09-28-it-reggio-emilia-attack",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Tre feriti gravi, arrestato un 26enne",
-          "title": "Reggio Emilia, una donna aggredita e due soccorritori investiti in un distributore; arrestato un 26enne",
-          "url": "https://videoembed.ansa.it/sito/notizie/cronaca/2026/09/27/aggredisce-donna-e-investe-due-persone-a-reggio-emilia-arrestato_07914102-6d3d-4604-b146-b93462f821c5.html"
-        },
-        {
-          "id": "2026-09-28-world-serbia-vucic-resigns",
-          "category": "world",
-          "source": "ANSA / Tagesschau",
-          "sourceDate": "2026-09-28",
-          "status": "27 set · Dimissioni annunciate, voto anticipato il 25 ottobre",
-          "title": "Serbia, Vučić si dimette da presidente con sei mesi d’anticipo per candidarsi a premier alle elezioni anticipate",
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/il-presidente-serbo-vucic-si-dimette-per-candidarsi-alle-elezioni-anticipate_5ac7dd0c-5e9e-4910-822d-295992737593.html",
-          "verificationUrls": [
-            "https://www.tagesschau.de/ausland/europa/vucic-serbien-ruecktritt-100.html"
-          ]
-        },
-        {
-          "id": "2026-09-28-world-switzerland-neutrality-vote",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Risultato definitivo, 70,2% contrari",
-          "title": "Svizzera, gli elettori respingono l’inasprimento della neutralità che avrebbe limitato cooperazione militare e sanzioni",
-          "url": "https://www.tagesschau.de/ausland/europa/schweiz-volksabstimmung-neutralitaet-106.html"
-        },
-        {
-          "id": "2026-09-28-world-northern-ireland-parade",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Marcia bloccata dai manifestanti",
-          "title": "Irlanda del Nord, migliaia di persone bloccano a Portadown la prima marcia Orange autorizzata su Garvaghy Road dal 1998",
-          "url": "https://www.tagesschau.de/ausland/europa/irland-proteste-100.html"
-        },
-        {
-          "id": "2026-09-28-world-venezuela-prisoner-releases",
-          "category": "world",
-          "source": "ANSA",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Almeno 40 rilasci secondo ONG venezuelane",
-          "title": "Venezuela, nuove scarcerazioni di prigionieri politici dopo il secondo round di negoziati tra governo e opposizione",
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/il-governo-di-delcy-rodriguez-rilascia-altri-40-prigionieri-politici-in-venezuela_698b051c-7bfe-4716-8089-c80cf4028a1b.html"
-        },
-        {
-          "id": "2026-09-28-world-us-noreaster-update",
-          "category": "world",
-          "source": "ANSA / BBC",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Aggiornamento sostanziale: un morto e 1.199 voli cancellati",
-          "title": "Tempesta nel nord-est USA, un morto a Brooklyn, oltre 100.000 utenze senza corrente al picco e più di mille voli cancellati",
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/emergenza-inondazioni-sulla-costa-est-usa-piu-di-mille-voli-cancellati_5eef0d39-be57-4776-ae88-042c057776de.html",
-          "verificationUrls": [
-            "https://in.marketscreener.com/news/nor-easter-brings-flooding-power-outages-across-us-northeast-over-400-flights-canceled-ce785adcd88bf122"
-          ]
-        },
-        {
-          "id": "2026-09-28-world-iran-diplomacy-response",
-          "category": "world",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Risposta iraniana dopo il rifiuto USA",
-          "title": "Iran, il ministro degli Esteri insiste su una soluzione negoziata ma lega la riapertura di Hormuz alle proprie condizioni",
-          "url": "https://au.marketscreener.com/news/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan-ce785adcd88bf22c"
-        },
-        {
-          "id": "2026-09-28-world-iran-us-underwater-drone-claim",
-          "category": "world",
-          "source": "ANSA",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Rivendicazione dei Pasdaran, non verificata indipendentemente",
-          "title": "Hormuz, i Pasdaran affermano di aver sequestrato un drone subacqueo statunitense Remus 600",
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/pasdaran-sequestrato-un-drone-sottomarino-usa-nello-stretto-di-hormuz_678add1e-3020-439e-b6c7-f01edb03a553.html"
-        },
-        {
-          "id": "2026-09-28-world-yemen-taiz-market",
-          "category": "world",
-          "source": "ANSA",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Bilancio riferito dalla TV Houthi",
-          "title": "Yemen, l’emittente degli Houthi riferisce sette morti e 40 feriti in un attacco saudita contro un mercato a Taiz",
-          "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/27/yemen-7-morti-e-40-feriti-in-un-attacco-saudita-contro-un-mercato-a-taiz_e81ecc4d-b8d9-4426-989f-c39738554926.html"
-        },
-        {
-          "id": "2026-09-28-world-israel-arab-parties-court",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Esclusione impugnata, decisione della Corte attesa questa settimana",
-          "title": "Israele, la Corte suprema esamina l’esclusione di Ra’am e Lista Congiunta dalle elezioni del 27 ottobre",
-          "url": "https://www.tagesschau.de/ausland/asien/israel-wahlen-parteien-arabisch-100.html"
-        },
-        {
-          "id": "2026-09-28-ai-openai-anthropic-incidents",
-          "category": "ai",
-          "source": "ANSA / Axios",
-          "sourceDate": "2026-09-27",
-          "status": "27 set · Inchiesta basata su fonti, gravità variabile",
-          "title": "OpenAI, Anthropic e ricercatori esaminano decine di migliaia di incidenti di sicurezza dei modelli, riferisce Axios",
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/axios-indagine-openai-e-anthropic-su-decine-di-migliaia-di-incidenti-di-sicurezza_7672efae-9a0f-4605-b506-c7b5220b595b.html"
-        },
-        {
-          "id": "2026-09-28-ai-gates-us-regulation",
-          "category": "ai",
-          "source": "ANSA / NBC",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Intervista, proposta non normativa",
-          "title": "Bill Gates chiede agli Stati Uniti di guidare la regolamentazione dell’AI e giudica insufficiente l’autoregolazione delle imprese",
-          "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/bill-gates-gli-usa-prendano-la-guida-sulla-regolamentazione-dellia_56650f88-9e35-4a34-95cb-6641327d0a1f.html"
-        },
-        {
-          "id": "2026-09-28-ai-trump-runaway-ai",
-          "category": "ai",
-          "source": "ANSA / Fox News",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Dichiarazioni del presidente USA",
-          "title": "Trump minimizza il rischio di un’AI fuori controllo e indica come priorità il vantaggio tecnologico statunitense sulla Cina",
-          "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/trump-lai-che-sfugge-al-controllo-non-me-ne-preoccupo_0524c14a-0550-4465-83a3-c7c81137375a.html"
-        },
-        {
-          "id": "2026-09-28-robotics-standard-bots-unfixtured-tending",
-          "category": "robotics",
-          "source": "Standard Bots / rassegna tecnica",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Dimostrazione aziendale, non validazione indipendente",
-          "title": "Standard Bots mostra un sistema di asservimento CNC che individua e preleva pezzi non posizionati in dime dedicate",
-          "url": "https://gyznsw.cn/2026/09/28/2026-09-28-standard-bots-unfixtured-haas-machine-tending/",
-          "verificationUrls": [
-            "https://standardbots.com/machine-tending"
-          ]
-        },
-        {
-          "id": "2026-09-28-auto-momenta-stellantis-dongfeng",
-          "category": "automotive",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Accordo annunciato dalle società",
-          "title": "Momenta e la joint venture Stellantis-Dongfeng co-svilupperanno sistemi di guida assistita per modelli Peugeot e Jeep",
-          "url": "https://uk.marketscreener.com/news/momenta-stellantis-china-jv-with-dongfeng-to-co-develop-intelligent-driving-technology-ce785adcd880f521"
-        },
-        {
-          "id": "2026-09-28-business-oil-hormuz-stalemate",
-          "category": "business",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Brent a 105,64 dollari, WTI a 93,11",
-          "title": "Petrolio in rialzo con lo stallo USA-Iran; le esportazioni mediorientali di settembre toccano il massimo dall’inizio della guerra",
-          "url": "https://uk.marketscreener.com/news/oil-heads-higher-as-us-iran-peace-talks-in-stalemate-ce785adcd880f024"
-        },
-        {
-          "id": "2026-09-28-business-global-markets-yields",
-          "category": "business",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Mercati asiatici cauti, rendimenti USA in aumento",
-          "title": "Borse asiatiche prudenti mentre petrolio e rendimenti salgono; il Treasury trentennale arriva al 5,5185%, vicino ai massimi dal 2004",
-          "url": "https://ca.marketscreener.com/news/stocks-cautious-in-asia-as-oil-gains-yields-rise-ce785adcd880f127"
-        },
-        {
-          "id": "2026-09-28-business-gold-rate-bets",
-          "category": "business",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Oro spot -1,5% nelle contrattazioni asiatiche",
-          "title": "L’oro scende oltre l’1% a 4.223,95 dollari l’oncia mentre aumentano le attese di un rialzo dei tassi USA",
-          "url": "https://in.marketscreener.com/news/gold-drops-more-than-1-on-us-rate-hike-bets-ce785adcdb89f32d"
-        },
-        {
-          "id": "2026-09-28-business-rio-tinto-shougang-ccu",
-          "category": "business",
-          "source": "Rio Tinto / comunicato aziendale",
-          "sourceDate": "2026-09-28",
-          "status": "28 set · Impianto pilota commissionato",
-          "title": "Rio Tinto e Shougang avviano in Cina un impianto sperimentale di cattura della CO₂ dai gas d’altoforno da 3.000 metri cubi l’ora",
-          "url": "https://www.riotinto.com/news/releases/",
-          "verificationUrls": [
-            "https://in.marketscreener.com/news/rio-tinto-commissions-carbon-capture-trial-at-china-s-shougang-steel-plant-ce785adcdb89f521"
-          ]
-        },
-        {
-          "id": "2026-09-28-events-delay-the-sadness",
-          "category": "events",
-          "source": "Düsseldorf Festival · Organizzatore",
-          "sourceDate": "2026-09-28",
-          "status": "Oggi, ore 20 · Theaterzelt, Burgplatz",
-          "title": "Düsseldorf Festival, stasera Sharon Eyal Dance presenta «Delay The Sadness» al tendone teatrale di Burgplatz",
-          "url": "https://duesseldorf-festival.de/en/event/sharon-eyal-dance-s-e-d-3/",
-          "eventDate": "2026-09-28"
-        },
-        {
-          "id": "2026-09-28-events-cybercrime-prevention",
-          "category": "events",
-          "source": "Stadtbüchereien Düsseldorf · Calendario ufficiale",
-          "sourceDate": "2026-09-28",
-          "status": "Oggi, ore 19:30 · Stadtbücherei Wersten",
-          "title": "Düsseldorf, incontro gratuito della polizia sulla prevenzione delle frodi online e del cybercrime alla biblioteca di Wersten",
-          "url": "https://www.duesseldorf.de/stadtbuechereien/veranstaltungen",
-          "eventDate": "2026-09-28"
         }
       ]
     }
