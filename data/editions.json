@@ -1,6 +1,277 @@
 {
   "editions": [
     {
+      "date": "2026-10-12",
+      "updatedAt": "2026-10-12T06:32:00+02:00",
+      "note": "Edizione ordinaria dalla finestra successiva al cutoff del 11 ottobre, ore 06:35 CEST · Aggiornata alle 06:32 CEST · 24 notizie. Selezione verificata senza riempitivi; 6 notizie AI e 3 di robotica.",
+      "summary": "In Germania il confronto sulla coalizione passa dal caso della presidenza AfD in Sassonia-Anhalt alla riforma fiscale esaminata a Karlsruhe. Il nuovo attacco all’aeroporto di Riad amplia il fronte regionale e complica i negoziati USA-Iran, mentre in Italia le manifestazioni per Gaza e il maltempo al Sud segnano il fine settimana. L’AI entra nella sicurezza nazionale e nella disinformazione; robotica e auto puntano su ricerca fisica e trasformazione industriale.",
+      "items": [
+        {
+          "id": "2026-10-12-de-inheritance-tax-court",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Udienze a Karlsruhe oggi e domani; decisione attesa nei prossimi mesi",
+          "title": "Il Bundesverfassungsgericht esamina la tassa di successione: sotto esame anche i privilegi per gli eredi d’impresa",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/erbschaftssteuer-bundesverfassungsgericht-verhandlung-100.html"
+        },
+        {
+          "id": "2026-10-12-de-soeder-cdu-afd",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Dichiarazione di Markus Söder dopo il voto in Sassonia-Anhalt",
+          "title": "Söder chiede l’uscita dalla CDU agli eletti che votano con l’AfD in Sassonia-Anhalt",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/soeder-cdu-abweichler-100.html"
+        },
+        {
+          "id": "2026-10-12-de-coalition-trust",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · La maggioranza cerca un rilancio mentre crescono pressione economica e tensioni interne",
+          "title": "Coalizione tedesca sotto pressione: industria e SPD chiedono risultati mentre il caso AfD mette alla prova la fiducia",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/vertrauen-regierung-100.html"
+        },
+        {
+          "id": "2026-10-12-it-pro-pal-marches",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · Cortei in oltre 50 città; tensioni con la polizia a Torino",
+          "title": "Cortei pro-Palestina in oltre 50 città italiane: a Torino si registrano momenti di tensione",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/10/cortei-pro-pal-in-50-citta-e-ce-chi-inneggia-al-7-ottobre_10c194c9-d77a-4956-a3d1-9aa86a4d7cc2.html"
+        },
+        {
+          "id": "2026-10-12-it-weather-south",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · Piogge residue lunedì al Centro-Sud; miglioramento da martedì",
+          "title": "Ultime piogge al Centro-Sud, poi alta pressione e clima mite con punte di 25 gradi",
+          "url": "https://www.ansa.it/canale_terraegusto/notizie/mondo_agricolo/2026/10/11/ultime-piogge-al-centro-sud-poi-lanticiclone-portera-sole-e-clima-mite_9240f10f-124e-447b-83ae-ec4b7979da94.html"
+        },
+        {
+          "id": "2026-10-12-world-riyadh-airport-second-strike",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · Nuovo proiettile sul terminal; l’aeroporto resta chiuso dopo oltre 300 feriti nell’attacco precedente",
+          "title": "Un nuovo proiettile colpisce l’aeroporto di Riad dopo l’attacco più grave della settimana: i ribelli Houthi rivendicano",
+          "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+        },
+        {
+          "id": "2026-10-12-world-iran-us-proposal",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · Dichiarazione attribuita a Mohsen Rezaei; negoziati sullo Stretto di Hormuz in stallo",
+          "title": "Teheran giudica insufficiente l’ultima risposta USA mentre i colloqui per riaprire Hormuz restano bloccati",
+          "url": "https://apnews.com/article/saudi-arabia-houthis-netanyahu-october-11-2026-baa06588f3ebe6dad93695581f68d3c1"
+        },
+        {
+          "id": "2026-10-12-world-gaza-strikes-rubble",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · Residenti tornano tra le macerie dopo nuovi raid; testimonianze locali non equivalgono a verifica indipendente",
+          "title": "Gaza, famiglie tornano tra le macerie mentre proseguono i raid e i negoziati regionali restano fragili",
+          "url": "https://apnews.com/article/saudi-arabia-houthis-netanyahu-october-11-2026-baa06588f3ebe6dad93695581f68d3c1"
+        },
+        {
+          "id": "2026-10-12-world-eu-china-trade-deficit",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-07",
+          "status": "7 ott · L’inviato commerciale UE incontra Pechino; il deficit supera 1 miliardo di euro al giorno secondo AP",
+          "title": "L’UE prepara un confronto commerciale con Pechino mentre il deficit con la Cina alimenta timori industriali",
+          "url": "https://apnews.com/article/77559db8f9909cd4bbf3c812e1041c6f"
+        },
+        {
+          "id": "2026-10-12-it-agenda-economy",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-11",
+          "status": "12 ott · Audizioni sul documento programmatico di finanza pubblica in Parlamento",
+          "title": "Italia, in Parlamento arrivano audizioni e votazioni sul Documento programmatico di finanza pubblica 2026",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/11/accadeoggi_dd38a7d3-309c-4e12-a6b9-d7b1590e0cf6.html"
+        },
+        {
+          "id": "2026-10-12-ai-openai-false-fronts",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Rapporto aziendale; le attribuzioni sulle operazioni e sull’impatto richiedono cautela",
+          "title": "OpenAI descrive due operazioni di influenza con false testate che avrebbero usato l’AI per amplificare contenuti geopolitici",
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+        },
+        {
+          "id": "2026-10-12-ai-openai-gpt6-ui",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-07",
+          "status": "7 ott · Annuncio di prodotto dell’azienda, non valutazione indipendente",
+          "title": "OpenAI presenta GPT-6 e una nuova interfaccia intelligente pensata per rendere l’AI più operativa nelle attività quotidiane",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        },
+        {
+          "id": "2026-10-12-ai-openai-mathematics",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-06",
+          "status": "6 ott · Risultati e metodo descritti da OpenAI; da distinguere dalle verifiche accademiche indipendenti",
+          "title": "OpenAI pubblica progressi sull’uso dei modelli per la matematica e condivide nuove collaborazioni di ricerca",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+        },
+        {
+          "id": "2026-10-12-ai-openai-teens",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-07",
+          "status": "7 ott · Piano di prodotto e sicurezza per adolescenti, presentato dall’azienda",
+          "title": "OpenAI annuncia strumenti per aiutare gli adolescenti a imparare e pianificare con protezioni dedicate",
+          "url": "https://openai.com/index/teens-learn-and-plan/"
+        },
+        {
+          "id": "2026-10-12-ai-uk-ico-foundation-models",
+          "category": "ai",
+          "source": "On The Wire (sul rapporto ICO)",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Fonte secondaria sul regolatore: dieci sviluppatori avrebbero adottato o promesso modifiche; consultazione sugli agenti aperta fino al 20 novembre",
+          "title": "Il regolatore privacy britannico registra impegni di dieci sviluppatori AI e apre una consultazione sugli agenti",
+          "url": "https://onthewire.ai/article/ico-says-ten-ai-developers-have-made-or-committed-to-data-protection-changes-and"
+        },
+        {
+          "id": "2026-10-12-ai-anthropic-government-incident",
+          "category": "ai",
+          "source": "Axios",
+          "sourceDate": "2026-10-10",
+          "status": "10 ott · Ricostruzione giornalistica; il governo dice che nessun sistema è stato compromesso",
+          "title": "Dopo moduli inviati da un modello in prova, la Casa Bianca valuta obblighi di notifica per gli incidenti AI",
+          "url": "https://www.axios.com/newsletters/axios-am-77e3ac65-2f83-4383-9a96-089a464209ae"
+        },
+        {
+          "id": "2026-10-12-robotics-spots-tactile-world-model",
+          "category": "robotics",
+          "source": "Robotics and Autonomous Systems / ScienceDirect",
+          "sourceDate": "2026-10-11",
+          "status": "Ott 2026 · Paper peer-reviewed; accesso al testo completo limitato",
+          "title": "Un modello multimodale combina vista e tatto per prevedere meglio le interazioni fisiche di un robot",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0921889026001855"
+        },
+        {
+          "id": "2026-10-12-robotics-llm-planning-benchmark",
+          "category": "robotics",
+          "source": "Robotics and Autonomous Systems / ScienceDirect",
+          "sourceDate": "2026-10-11",
+          "status": "Ott 2026 · Studio open access; il risultato riguarda il benchmark descritto dagli autori",
+          "title": "Uno studio confronta il ragionamento dei modelli linguistici nella pianificazione robotica e individua i principali fattori di errore",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S092188902600237X"
+        },
+        {
+          "id": "2026-10-12-robotics-safeil",
+          "category": "robotics",
+          "source": "Robotics and Autonomous Systems / ScienceDirect",
+          "sourceDate": "2026-10-10",
+          "status": "Paper di ricerca; esperimenti in ambienti simulati e benchmark, non prova di deployment commerciale",
+          "title": "SafeIL propone imitazione vincolata dalla sicurezza per ridurre le violazioni nelle piattaforme autonome",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0921889026000497"
+        },
+        {
+          "id": "2026-10-12-auto-volkswagen-europe-transformation",
+          "category": "automotive",
+          "source": "Reuters / Volkswagen Group",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · Dichiarazioni del CEO in vista del Salone di Parigi; programma aziendale in corso",
+          "title": "Volkswagen chiede all’Europa condizioni migliori per la trasformazione industriale mentre accelera sull’elettrico",
+          "url": "https://www.investing.com/news/stock-market-news/volkswagen-ceo-says-transformation-is-shared-responsibility-in-appeal-to-eu-4942704"
+        },
+        {
+          "id": "2026-10-12-auto-paris-motor-show",
+          "category": "automotive",
+          "source": "Renault Group",
+          "sourceDate": "2026-04-21",
+          "status": "12 ott · Giornata stampa; Salone aperto al pubblico dal 14 al 18 ottobre",
+          "title": "Apre a Parigi il Mondial de l’Auto: Renault, Dacia e Alpine portano 22 modelli elettrificati",
+          "url": "https://media.renaultgroup.com/renault-dacia-and-alpine-to-electrify-the-mondial-de-lauto-2026?lang=eng"
+        },
+        {
+          "id": "2026-10-12-business-asia-markets-oil",
+          "category": "business",
+          "source": "Reuters / Bluewater Healthy Living",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Apertura asiatica; prezzi e indici riferiti alla seduta, non quotazioni live",
+          "title": "Borse asiatiche prudenti all’avvio della stagione degli utili; il petrolio resta volatile dopo gli attacchi nel Golfo",
+          "url": "https://bluewaterhealthyliving.com/news/business-and-economy/shares-cautious-in-asia-as-earnings-loom-oil-slips/"
+        },
+        {
+          "id": "2026-10-12-business-wall-street-week",
+          "category": "business",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Chiusura settimanale di Wall Street; dati storici della seduta",
+          "title": "Wall Street chiude una settimana record in rialzo, mentre petrolio e rendimenti restano condizionati dalla guerra",
+          "url": "https://apnews.com/article/5d0f953dbf96febb0690c1aef23fa8a9"
+        },
+        {
+          "id": "2026-10-12-business-inflation-retail-earnings",
+          "category": "business",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Calendario della settimana; non è una previsione dei dati",
+          "title": "Negli USA la settimana porta inflazione, vendite al dettaglio e trimestrali bancarie in un mercato già volatile",
+          "url": "https://apnews.com/article/75c52cd60818e6c8957ed8f8f535a9"
+        }
+      ],
+      "usageEstimate": {
+        "exact": false,
+        "methodologyVersion": "2026-10-09-v1",
+        "activity": {
+          "date": "2026-10-12",
+          "articles": 24,
+          "weekendEvents": 0,
+          "searchCalls": 6,
+          "sourcePagesOpened": 31,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
+            "inputTokens": {
+              "min": 20496,
+              "max": 30744
+            },
+            "outputTokens": {
+              "min": 2970,
+              "max": 4950
+            }
+          }
+        ],
+        "inputTokens": {
+          "min": 20496,
+          "max": 30744
+        },
+        "outputTokens": {
+          "min": 2970,
+          "max": 4950
+        },
+        "apiEquivalentCostEUR": {
+          "min": 0.0068509008,
+          "max": 0.0108073872
+        },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
+      }
+    },
+    {
       "date": "2026-10-11",
       "updatedAt": "2026-10-11T07:24:00+02:00",
       "note": "Edizione dalla finestra successiva al cutoff del 10 ottobre, ore 06:35 CEST · Aggiornata alle 07:24 CEST · 24 notizie. Nessun weekendEvents aggiuntivo perché oggi è domenica. Selezione senza riempitivi con 5 notizie AI e 4 di robotica.",
@@ -1908,178 +2179,6 @@
           "title": "Alla Zentralbibliothek apre «Armut wiegt schwer», mostra sulle esperienze di povertà ed esclusione raccontate da giovani di Düsseldorf",
           "url": "https://www.duesseldorf.de/medienportal/pressedienst-einzelansicht/pld/veranstaltungen-in-der-zentralbibliothek-in-der-kommenden-woche-38",
           "eventDate": "2026-10-05"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "updatedAt": "2026-10-04T06:05:00+02:00",
-      "note": "Edizione ordinaria dal cutoff del 3 ottobre, ore 18:25 CEST · Aggiornata alle 06:05 CEST · 14 notizie. Finestra notturna breve: pubblicati soltanto sviluppi nuovi e verificati, senza riempitivi.",
-      "summary": "La notte porta due scadenze elettorali europee: la Lettonia vede avanti la Lista Unita, mentre la Bosnia-Erzegovina introduce controlli biometrici al voto. In Germania il Familienticket ferroviario diventa permanente; in Italia il 4 ottobre torna festa nazionale. Crescono intanto le tensioni a Gaza e tra Houthi e Arabia Saudita. Negli Stati Uniti nasce una task force federale sull’AI, mentre OpenAI affronta nuove critiche interne sulla sicurezza.",
-      "items": [
-        {
-          "id": "2026-10-04-de-db-familienticket",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Vendite dal 26 ottobre, validità dal 1° novembre",
-          "title": "Deutsche Bahn rende permanente il Familienticket: dal 1° novembre andata e ritorno in ICE a 99,99 euro, prenotazione inclusa",
-          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/deutsche-bahn-familienticket-100.html",
-          "verificationUrls": [
-            "https://www.bahn.de/angebot/kinder/familienticket"
-          ]
-        },
-        {
-          "id": "2026-10-04-de-rhein-afd-committee-chairs",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Intervista, proposta politica",
-          "title": "Il premier dell’Assia Rhein chiede alla CDU di sostenere presidenti AfD nelle commissioni del Bundestag, escludendo accordi politici",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/rhein-afd-ausschussvorsitz-100.html"
-        },
-        {
-          "id": "2026-10-04-de-irene-butter-obituary",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-03",
-          "status": "3 ott · Morte confermata dal NDR",
-          "title": "È morta a 95 anni Irene Butter, sopravvissuta alla Shoah nata a Berlino e testimone premiata con la Croce al merito tedesca",
-          "url": "https://www.tagesschau.de/ausland/amerika/irene-butter-gestorben-100.html",
-          "verificationUrls": [
-            "https://nos.nl/artikel/2633572-holocaust-overlevende-irene-butter-95-overleden"
-          ]
-        },
-        {
-          "id": "2026-10-04-it-st-francis-national-holiday",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Prima ricorrenza dopo l’entrata in vigore della legge",
-          "title": "Il 4 ottobre torna festa nazionale: Mattarella ad Assisi per gli 800 anni dalla morte di San Francesco",
-          "url": "https://www.ansa.it/umbria/notizie/2026/10/03/il-4-ottobre-festa-nazionale-e-litalia-celebra-ad-assisi-san-francesco_646bfa3b-cb78-4fb9-9787-58af2ab21d66.html",
-          "verificationUrls": [
-            "https://www.gazzettaufficiale.it/eli/id/2025/10/10/25G00153/SG",
-            "https://www.quirinale.it/agenda"
-          ]
-        },
-        {
-          "id": "2026-10-04-world-bosnia-election-biometric-voting",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Elezioni in corso",
-          "title": "Bosnia-Erzegovina al voto su sei livelli istituzionali: debuttano identificazione biometrica e scansione immediata delle schede",
-          "url": "https://www.tagesschau.de/ausland/europa/bosnien-und-herzegowina-wahl-100.html",
-          "verificationUrls": [
-            "https://www.izbori.ba/?CategoryID=183&Id=6034&Lang=6"
-          ]
-        },
-        {
-          "id": "2026-10-04-world-latvia-election-preliminary",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Risultati parziali, 88% scrutinato",
-          "title": "Lettonia, con l’88% dei voti scrutinati la Lista Unita del premier Kulbergs è prima al 36,6%; coalizione ancora da negoziare",
-          "url": "https://www.tagesschau.de/ausland/lettland-wahlen-100.html",
-          "verificationUrls": [
-            "https://apnews.com/article/6026bf32a75acf1f671da1e6f34bb520"
-          ]
-        },
-        {
-          "id": "2026-10-04-world-gaza-city-strike",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Bilancio e obiettivo indicati da fonti contrapposte",
-          "title": "Gaza, soccorritori palestinesi riferiscono cinque morti; Israele dice di aver colpito il dirigente Hamas Ali al-Amoudi, esito ancora incerto",
-          "url": "https://www.tagesschau.de/ausland/asien/gaza-angriffe-israel-106.html",
-          "verificationUrls": [
-            "https://www.aol.ca/articles/israeli-strike-kills-four-people-235013000.html"
-          ]
-        },
-        {
-          "id": "2026-10-04-world-houthi-aramco-riyadh-claim",
-          "category": "world",
-          "source": "Reuters / Investing.com",
-          "sourceDate": "2026-10-03",
-          "status": "3 ott · Rivendicazione, nessuna conferma saudita",
-          "title": "Gli Houthi rivendicano un attacco con missili e droni a un impianto Aramco di Riad; nessuna conferma saudita",
-          "url": "https://www.investing.com/news/commodities-news/yemens-houthis-say-they-attacked-aramco-facility-in-riyadh-with-missiles-drones-4930877",
-          "verificationUrls": [
-            "https://apnews.com/article/a442d25ea0886133c080fbd749440cf2"
-          ]
-        },
-        {
-          "id": "2026-10-04-world-uk-jury-trial-reform",
-          "category": "world",
-          "source": "UK Ministry of Justice",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Modifica governativa al Courts Bill",
-          "title": "Regno Unito, il governo ritira il piano per ampliare i processi senza giuria ma lascia ai giudici la scelta del rito nei casi minori",
-          "url": "https://www.gov.uk/government/news/justice-reforms-to-be-rolled-out-faster-as-justice-secretary-sets-out-changes-to-courts-bill",
-          "verificationUrls": [
-            "https://www.marketscreener.com/news/britain-scraps-heavily-criticised-plans-to-curb-jury-trials-after-backlash-ce785ddbdc8af721"
-          ]
-        },
-        {
-          "id": "2026-10-04-world-brazil-election-first-round",
-          "category": "world",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Primo turno, sondaggi della vigilia",
-          "title": "Brasile al primo turno con 158,8 milioni di elettori: Lula e Flávio Bolsonaro vicini nei sondaggi, ballottaggio probabile",
-          "url": "https://www.marketscreener.com/news/lula-ahead-in-polls-for-brazil-s-first-round-vote-runoff-likely-ce785ddbdc8af627",
-          "verificationUrls": [
-            "https://www.tse.jus.br/eleicoes/cde-2026"
-          ]
-        },
-        {
-          "id": "2026-10-04-world-tennessee-failed-execution-resignation",
-          "category": "world",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-10-03",
-          "status": "3 ott · Dimissioni e stop alle esecuzioni del 2026",
-          "title": "Tennessee, il capo delle carceri si dimette dopo l’esecuzione fallita di Christa Pike; sospese le altre condanne del 2026",
-          "url": "https://www.marketscreener.com/news/tennessee-prison-chief-resigns-after-failed-execution-ce785ddbdd80f222",
-          "verificationUrls": [
-            "https://apnews.com/article/456e4c5e3e203be44744bcf839c11d4f"
-          ]
-        },
-        {
-          "id": "2026-10-04-ai-us-super-intelligence-force",
-          "category": "ai",
-          "source": "Reuters / MarketScreener",
-          "sourceDate": "2026-10-04",
-          "status": "4 ott · Nomina riferita dal Wall Street Journal via Reuters",
-          "title": "USA, Jay Clayton guiderà la «Super Intelligence Force»: rapporto entro 120 giorni su rischi, opportunità e risposta federale all’AI",
-          "url": "https://www.marketscreener.com/news/trump-names-intelligence-chief-clayton-as-ai-czar-to-head-task-force-wsj-reports-ce785ddbdc8af324",
-          "verificationUrls": [
-            "https://ca.marketscreener.com/news/jay-clayton-to-lead-trump-s-ai-task-force-deliver-report-in-120-days-wsj-reports-ce785ddbdc8af724"
-          ]
-        },
-        {
-          "id": "2026-10-04-ai-openai-safety-resignation",
-          "category": "ai",
-          "source": "Reuters / Investing.com",
-          "sourceDate": "2026-10-03",
-          "status": "3 ott · Dimissioni e contestazione pubblica",
-          "title": "OpenAI, si dimette l’autore di report di sicurezza su 12 lanci e critica la cultura aziendale; l’azienda difende i propri stop",
-          "url": "https://www.investing.com/news/economy-news/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4930874",
-          "verificationUrls": [
-            "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-            "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/"
-          ]
-        },
-        {
-          "id": "2026-10-04-robotics-northrop-talon-blue-flight",
-          "category": "robotics",
-          "source": "Northrop Grumman / comunicato aziendale",
-          "sourceDate": "2026-10-03",
-          "status": "3 ott · Primo volo dichiarato dall’azienda, senza verifica indipendente",
-          "title": "Northrop Grumman annuncia il primo volo interamente autonomo del YFQ-48A Talon Blue, dal rullaggio all’atterraggio",
-          "url": "https://www.marketscreener.com/news/northrop-grumman-advances-autonomous-airpower-with-first-talon-blue-flight-ce785ddbdd80f32d"
         }
       ]
     }
