@@ -1,76 +1,568 @@
 {
   "editions": [
     {
+      "date": "2026-10-15",
+      "updatedAt": "2026-10-15T06:08:00+02:00",
+      "note": "Edizione ordinaria dalla finestra successiva al cutoff del 14 ottobre, ore 06:00 CEST · Aggiornata alle 06:08 CEST · 24 notizie. Selezione verificata senza riempitivi; 6 notizie AI e 3 di robotica.",
+      "summary": "In Germania entrano in vigore il divieto di alcol nelle stazioni e il confronto sul bilancio europeo, mentre il Bundestag vota la riforma dell’emergenza e ad Amburgo comincia il processo Nord Stream. L’Italia porta al Consiglio europeo il caro energia e prepara il Documento programmatico di bilancio. Gli attacchi nel Golfo e l’inflazione USA pesano sui mercati; l’AI si sposta verso infrastrutture, inferenza e fabbriche, con robot già impiegati in miniere e umanoidi pronti alla Borsa.",
+      "usageEstimate": {
+        "exact": false,
+        "methodologyVersion": "2026-10-09-v1",
+        "activity": {
+          "date": "2026-10-15",
+          "articles": 24,
+          "weekendEvents": 0,
+          "searchCalls": 5,
+          "sourcePagesOpened": 27,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
+            "inputTokens": {
+              "min": 19112,
+              "max": 28668
+            },
+            "outputTokens": {
+              "min": 2970,
+              "max": 4950
+            }
+          }
+        ],
+        "inputTokens": {
+          "min": 19112,
+          "max": 28668
+        },
+        "outputTokens": {
+          "min": 2970,
+          "max": 4950
+        },
+        "apiEquivalentCostEUR": {
+          "min": 0.0066034416,
+          "max": 0.0104361984
+        },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
+      },
+      "items": [
+        {
+          "id": "2026-10-15-de-alcohol-ban",
+          "category": "germany",
+          "source": "Deutsche Bahn / Tagesschau",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Regola estesa a circa 5.700 stazioni; consumi ancora ammessi in bar e ristoranti",
+          "title": "Da oggi il divieto di consumare alcol vale in tutte le stazioni della Deutsche Bahn",
+          "url": "https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/press_releases-6868418"
+        },
+        {
+          "id": "2026-10-15-de-eu-budget",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Vertice europeo; Berlino chiede un bilancio più contenuto",
+          "title": "I leader UE trattano il prossimo bilancio: la Germania spinge per tagli alla proposta della Commissione",
+          "url": "https://www.tagesschau.de/ausland/europa/eu-gipfel-haushalt-102.html"
+        },
+        {
+          "id": "2026-10-15-de-emergency-reform",
+          "category": "germany",
+          "source": "Tagesschau / Bundestag",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Voto al Bundestag; la riforma mira a coordinare meglio soccorso e ospedali",
+          "title": "Il Bundestag vota la riforma dell’emergenza mentre il sistema di pronto soccorso resta sotto pressione",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/notfallreform-im-bundestag-100.html"
+        },
+        {
+          "id": "2026-10-15-de-nord-stream-trial",
+          "category": "germany",
+          "source": "ZDFheute",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · L’imputato nega le accuse; il processo è appena iniziato",
+          "title": "Ad Amburgo comincia il processo per gli attentati al Nord Stream: l’imputato nega di aver coordinato il sabotaggio",
+          "url": "https://www.zdfheute.de/briefing/nord-stream-prozess-berlin-linke-zuckersteuer-zdfheute-update-100.html"
+        },
+        {
+          "id": "2026-10-15-it-meloni-diesel",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Comunicazioni in vista del Consiglio europeo; critica all’intesa USA-Russia",
+          "title": "Meloni giudica rischiosa l’intesa USA sul gasolio russo e chiede una risposta europea al caro energia",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/14/meloni-lintesa-di-trump-sul-gasolio-russo-e-rischiosa.-non-siamo-guerrafondai_a88938b7-13d2-405b-959f-54aa581fe58c.html"
+        },
+        {
+          "id": "2026-10-15-it-confindustria-competitiveness",
+          "category": "italy",
+          "source": "ANSA / Confindustria",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Rapporto autunnale; priorità indicate da Confindustria, non misure approvate",
+          "title": "Confindustria chiede che la manovra punti su energia, investimenti e competitività delle imprese",
+          "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/14/aleotti-confindustria-la-manovra-si-concentri-sulla-competitivita-delle-imprese_d3929b94-3b91-4d20-b8c5-403a15b0cc02.html"
+        },
+        {
+          "id": "2026-10-15-it-dpb-deadline",
+          "category": "italy",
+          "source": "ANSA / Commissione europea",
+          "sourceDate": "2026-09-22",
+          "status": "15 ott · Scadenza europea per l’invio del Dpb; la manovra completa è attesa entro fine anno",
+          "title": "Scade oggi il termine per inviare a Bruxelles il Documento programmatico di bilancio italiano",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/22/il-calendario-della-manovra-tutte-le-scadenze-fino-al-31-dicembre_07dda593-d694-48d7-8afd-590f9caa83a5.html"
+        },
+        {
+          "id": "2026-10-15-world-aramco-strike",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Nessuna vittima; danni ai tre piani superiori secondo funzionari regionali",
+          "title": "Un attacco Houthi danneggia la sede di Aramco a Dhahran e alza il rischio per l’energia del Golfo",
+          "url": "https://apnews.com/article/saudi-arabia-yemen-strikes-mideast-conflict-riyadh-c81a91347c00b17097c8fafde7e4eeec"
+        },
+        {
+          "id": "2026-10-15-world-us-stocks-inflation",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Inflazione USA al 3,7% annuo a settembre; Brent sopra 106 dollari",
+          "title": "Wall Street registra la peggior seduta da luglio dopo dati USA su inflazione, rendimenti e carburanti",
+          "url": "https://apnews.com/article/stock-markets-earnings-bonds-artificial-intelligence-704d3190f0fba2908df07c85f26346ec"
+        },
+        {
+          "id": "2026-10-15-world-energy-gulf",
+          "category": "world",
+          "source": "Le Monde",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Analisi aggiornata sullo shock energetico; record di prezzo in 19 Paesi europei",
+          "title": "Lo shock energetico legato al conflitto in Medio Oriente erode il potere d’acquisto europeo",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/10/01/rising-fuel-prices-strain-budgets-and-challenge-governments-across-europe-everything-is-getting-more-expensive_6758146_19.html"
+        },
+        {
+          "id": "2026-10-15-world-europe-growth",
+          "category": "world",
+          "source": "Le Monde / FMI",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Il FMI alza la previsione dell’Eurozona ma vede la Francia frenare allo 0,4% nel 2026",
+          "title": "Il FMI migliora la previsione per l’Eurozona, ma segnala la frenata della Francia",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/10/13/imf-raises-eurozone-growth-forecast-highlights-sharp-decline-in-french-economy_6758559_19.html"
+        },
+        {
+          "id": "2026-10-15-ai-intel-inference-microservices",
+          "category": "ai",
+          "source": "Intel",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Primo rilascio per Xeon; immagini container e API compatibile OpenAI",
+          "title": "Intel lancia microservizi di inferenza che adattano automaticamente i parametri dei modelli ai processori Xeon",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-inference-microservices-tuned-llm-processors.html"
+        },
+        {
+          "id": "2026-10-15-ai-intel-d-series",
+          "category": "ai",
+          "source": "Intel / OCP",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · GPU D-series in campionamento; specifiche dichiarate dal produttore",
+          "title": "Intel presenta la GPU D-series per l’inferenza: fino a 480 GB di memoria e 1,3 petaflop FP8",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-accelerates-open-infrastructure-agentic-ai-era.html"
+        },
+        {
+          "id": "2026-10-15-ai-ai-capital-crowding",
+          "category": "ai",
+          "source": "Axios",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Analisi di mercato; il Treasury decennale è indicato al 5,22%",
+          "title": "L’ondata di investimenti nei data center AI spinge i rendimenti e rischia di comprimere il credito per gli altri settori",
+          "url": "https://www.axios.com/2026/10/14/ai-investment-stocks-bonds"
+        },
+        {
+          "id": "2026-10-15-ai-nvidia-chip-design",
+          "category": "ai",
+          "source": "NVIDIA / GlobeNewswire",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Librerie e risultati preliminari dichiarati da NVIDIA e partner industriali",
+          "title": "NVIDIA porta nuove librerie CUDA-X nella progettazione dei chip e nei digital twin delle fabbriche",
+          "url": "https://www.tmcnet.com/usubmit/2026/10/14/10463261.htm"
+        },
+        {
+          "id": "2026-10-15-ai-openai-math",
+          "category": "ai",
+          "source": "OpenAI / arXiv",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Paper e risultati ancora da valutare indipendentemente",
+          "title": "Un paper analizza gli strumenti matematici generati dai modelli OpenAI dopo il rilascio di ottobre",
+          "url": "https://arxiv.org/abs/2610.17090"
+        },
+        {
+          "id": "2026-10-15-ai-gemini-argon",
+          "category": "ai",
+          "source": "Google DeepMind",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Disponibilità globale annunciata; benchmark e confronti sono dichiarati da Google",
+          "title": "Google rende disponibile Gemini 4 Argon per compiti complessi di coding, finanza, diritto e scienza",
+          "url": "https://blog.google/intl/en-mena/product-updates/explore-get-answers/gemini-4-argon-built-to-solve-your-hardest-problems/"
+        },
+        {
+          "id": "2026-10-15-robotics-mining-rovers",
+          "category": "robotics",
+          "source": "Intel / ADR",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Rovers remoti per miniere; dati e prestazioni descritti dai partner",
+          "title": "Robot mobili di ADR usano LiDAR, termocamere e sensori gas per ispezionare miniere prima degli operatori",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/client-computing/deep-underground-intel-powered-robots-make-mining-safer.html"
+        },
+        {
+          "id": "2026-10-15-robotics-agility-sec",
+          "category": "robotics",
+          "source": "Agility Robotics / SEC",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Registrazione S-4 resa efficace; la fusione con Churchill resta soggetta ai passaggi dell’operazione",
+          "title": "Agility aggiorna il percorso verso la Borsa mentre prepara la scala industriale dell’umanoide Digit 5",
+          "url": "https://www.agilityrobotics.com/latest-press"
+        },
+        {
+          "id": "2026-10-15-robotics-argon-apollo",
+          "category": "robotics",
+          "source": "Google DeepMind / Apptronik",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Demo interna: sette lanci consecutivi; non equivale a generalizzazione autonoma",
+          "title": "Google mostra Gemini 4 Argon trasferire da un video a un umanoide Apollo una nuova abilità fisica",
+          "url": "https://blog.google/intl/nl-nl/product/zoeken-kijken/gemini-4-argon/"
+        },
+        {
+          "id": "2026-10-15-automotive-eu-hybrids",
+          "category": "automotive",
+          "source": "Tagesschau / Commissione europea / ACEA",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Quota e crescita indicate nei documenti della misura; attuazione ancora da seguire",
+          "title": "L’UE prepara un tetto temporaneo alle importazioni di ibride cinesi per guadagnare tempo industriale",
+          "url": "https://www.tagesschau.de/wirtschaft/autobranche-hybride-eu-china-100.html"
+        },
+        {
+          "id": "2026-10-15-business-ai-borrowing",
+          "category": "business",
+          "source": "Axios / Evercore",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Analisi finanziaria; non è una previsione ufficiale",
+          "title": "Il finanziamento dei data center AI aumenta il costo del capitale anche per imprese non tecnologiche",
+          "url": "https://www.axios.com/2026/10/14/ai-investment-stocks-bonds"
+        },
+        {
+          "id": "2026-10-15-business-intel-ocp",
+          "category": "business",
+          "source": "Intel / Open Compute Project",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Rack e GPU presentati al summit OCP; campionamento in corso",
+          "title": "Intel punta su rack aperti e GPU ad alta memoria per ridurre i costi di scala dell’infrastruttura AI",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-accelerates-open-infrastructure-agentic-ai-era.html"
+        },
+        {
+          "id": "2026-10-15-events-robotics-wg",
+          "category": "events",
+          "source": "IEEE P1872.2 Working Group",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Riunione online del gruppo di lavoro alle 13:00; accesso secondo le regole IEEE",
+          "title": "Il gruppo IEEE sull’ontologia della robotica autonoma si riunisce oggi per il lavoro P1872.2",
+          "url": "https://sagroups.ieee.org/1872-2/meetings/month/",
+          "eventDate": "2026-10-15"
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "updatedAt": "2026-10-14T06:00:55+02:00",
       "note": "Edizione ordinaria dalla finestra successiva al cutoff del 13 ottobre, ore 08:25 CEST · Aggiornata alle 06:00 CEST · 24 notizie. Selezione verificata senza riempitivi; 6 notizie AI e 4 di robotica.",
       "usageEstimate": {
         "exact": false,
         "methodologyVersion": "2026-10-09-v1",
-        "activity": {"date":"2026-10-14","articles":24,"weekendEvents":0,"searchCalls":3,"sourcePagesOpened":37,"solEscalations":0},
-        "models": [{"model":"gpt-5.6-luna","phase":"end-to-end","inputTokens":{"min":20952,"max":31428},"outputTokens":{"min":2970,"max":4950}}],
-        "inputTokens": {"min":20952,"max":31428},
-        "outputTokens": {"min":2970,"max":4950},
-        "apiEquivalentCostEUR": {"min":0.0069324336,"max":0.0109296864},
-        "pricing": {"inputPerMillion":0.2,"outputPerMillion":1.2,"solInputPerMillion":4,"solOutputPerMillion":20,"usdToEur":0.894,"fxDate":"2026-10-08","fxSource":"ECB reference rate; 1 EUR = 1.1186 USD"}
+        "activity": {
+          "date": "2026-10-14",
+          "articles": 24,
+          "weekendEvents": 0,
+          "searchCalls": 3,
+          "sourcePagesOpened": 37,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
+            "inputTokens": {
+              "min": 20952,
+              "max": 31428
+            },
+            "outputTokens": {
+              "min": 2970,
+              "max": 4950
+            }
+          }
+        ],
+        "inputTokens": {
+          "min": 20952,
+          "max": 31428
+        },
+        "outputTokens": {
+          "min": 2970,
+          "max": 4950
+        },
+        "apiEquivalentCostEUR": {
+          "min": 0.0069324336,
+          "max": 0.0109296864
+        },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
       },
       "summary": "Il cyberattacco ai sistemi frigoriferi di centinaia di supermercati francesi mostra quanto la sicurezza digitale sia ormai infrastruttura quotidiana, mentre l’Europa prova a guadagnare tempo nella corsa dell’auto ibrida cinese. In Italia il Parlamento prepara la manovra e il Papa ha superato positivamente l’intervento. L’AI accelera tra data center, memoria e nuovi modelli; la robotica passa da simulazioni e demo a primi test industriali più ampi.",
       "items": [
-        {"id":"2026-10-14-de-cyber-supermarkets","category":"germany","source":"Tagesschau / BSI","sourceDate":"2026-10-13","status":"13 ott · Circa 700 supermercati francesi colpiti; il BSI avverte anche la Germania","title":"Cyberattacchi ai sistemi frigoriferi di centinaia di supermercati francesi: il BSI avverte del rischio di imitazione","url":"https://www.tagesschau.de/ausland/europa/frankreich-cyberattacken-supermaerkte-100.html"},
-        {"id":"2026-10-14-de-finland-google-datacenter","category":"germany","source":"Tagesschau","sourceDate":"2026-10-14","status":"14 ott · Lavori fermati in attesa di verifiche ambientali e autorizzazioni","title":"Google, il boom dei data center in Finlandia apre un conflitto tra infrastruttura AI e tutela ambientale","url":"https://www.tagesschau.de/ausland/europa/finnland-google-rechenzentren-100.html"},
-        {"id":"2026-10-14-it-budget-november","category":"italy","source":"ANSA / Palazzo Chigi","sourceDate":"2026-10-13","status":"13 ott · Palazzo Chigi rinvia la manovra a novembre dopo la procedura europea","title":"Manovra italiana, Palazzo Chigi corregge l’ordine del giorno e prepara l’approvazione dopo l’Eurogruppo di novembre","url":"https://www.ansa.it/sito/notizie/politica/2026/10/13/fonti-chigi-sul-cdm-mero-errore-materiale.-verso-la-manovra-a-novembre_93bb22d9-484e-40a7-803b-c9e1e0c424d4.html"},
-        {"id":"2026-10-14-it-budget-resolution","category":"italy","source":"ANSA / Camera dei deputati","sourceDate":"2026-10-13","status":"13 ott · Risoluzioni approvate a maggioranza sulla finanza pubblica e il potere d’acquisto","title":"La Camera approva le risoluzioni sullo scostamento e sul Dpfp: il governo promette sostegno a famiglie e imprese","url":"https://www.ansa.it/sito/notizie/politica/2026/10/13/ok-della-camera-alla-risoluzione-sullo-scostamento-con-219-si-e-110-no_93cd4516-0fa4-40e9-803c-cabde359840d.html"},
-        {"id":"2026-10-14-it-pope-surgery","category":"italy","source":"ANSA / Sala stampa vaticana","sourceDate":"2026-10-13","status":"13 ott · Intervento concluso nei tempi previsti; seguiranno aggiornamenti clinici","title":"Papa Leone XIV, l’intervento polmonare si conclude positivamente e il pontefice rientra in stanza","url":"https://www.ansa.it/sito/notizie/politica/2026/10/13/lintervento-del-papa-si-e-concluso-positivamente_e8d94f44-ca10-43f9-90e2-84eef57229a6.html"},
-        {"id":"2026-10-14-world-kyiv-no-warning","category":"world","source":"Associated Press","sourceDate":"2026-10-13","status":"13 ott · Zelenskyy denuncia l’assenza di allerta preventiva; Washington nega di aver interrotto la condivisione d’intelligence","title":"Kyiv colpita da missili balistici russi: Zelenskyy dice di non aver ricevuto l’allerta dagli alleati","url":"https://apnews.com/article/russia-ukraine-war-zelenkyy-no-warning-missile-strike-10c54e55f31aded2db95242fdb4fd153"},
-        {"id":"2026-10-14-world-bulgaria-drones","category":"world","source":"Tagesschau / Reuters","sourceDate":"2026-10-13","status":"13 ott · Secondo episodio in una settimana; Sofia convoca l’ambasciatrice russa","title":"Nuovi droni colpiscono navi al largo della Bulgaria: cresce l’allarme europeo sulla sicurezza del Mar Nero","url":"https://www.tagesschau.de/ausland/europa/schwarzes-meer-drohnenangriff-100.html"},
-        {"id":"2026-10-14-world-yemen-economy","category":"world","source":"Tagesschau / ARD","sourceDate":"2026-10-13","status":"13 ott · La minaccia sul Bab el-Mandeb colpisce pesca, commercio e redditi locali","title":"Yemen, la guerra trasforma il Bab el-Mandeb in una crisi economica per pescatori e commercianti","url":"https://www.tagesschau.de/ausland/asien/jemen-krieg-alltag-100.html"},
-        {"id":"2026-10-14-world-us-ambassador-greece","category":"world","source":"Tagesschau","sourceDate":"2026-10-13","status":"13 ott · Dimissioni dopo accuse di comportamento improprio; le contestazioni restano oggetto di disputa","title":"La diplomatica USA Kimberly Guilfoyle lascia l’ambasciata in Grecia dopo le pressioni di Washington","url":"https://www.tagesschau.de/ausland/europa/us-botschaft-athen-100.html"},
-        {"id":"2026-10-14-ai-google-finland-infrastructure","category":"ai","source":"Tagesschau","sourceDate":"2026-10-14","status":"14 ott · Google prevede 13 miliardi di euro di investimenti in Finlandia; il progetto di Muhos è sospeso","title":"Il caso finlandese mostra il costo materiale del boom AI: data center, energia e territorio entrano nello stesso conflitto","url":"https://www.tagesschau.de/ausland/europa/finnland-google-rechenzentren-100.html"},
-        {"id":"2026-10-14-ai-meta-muse","category":"ai","source":"Axios / Meta","sourceDate":"2026-10-12","status":"12 ott · Modelli presentati dall’azienda; disponibilità iniziale via API e prodotto di coding","title":"Meta presenta Muse Wonder e Muse Wonder Full, modelli frontier centrati su memoria e agenti persistenti","url":"https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"},
-        {"id":"2026-10-14-ai-marvell-security","category":"ai","source":"Marvell / Microsoft / Oracle","sourceDate":"2026-10-13","status":"13 ott · Gruppo di lavoro OCP annunciato dalle aziende; standard ancora da definire","title":"Marvell, Microsoft e Oracle avviano un gruppo OCP per standardizzare la sicurezza hardware dei data center AI","url":"https://www.marvell.com/company/newsroom/marvell-microsoft-oracle-ocp-data-center-hardware-security.html"},
-        {"id":"2026-10-14-ai-marvell-memory","category":"ai","source":"Marvell","sourceDate":"2026-10-12","status":"12 ott · Expander CXL 3.2 a sei canali presentato per carichi di inferenza","title":"Marvell porta la memoria CXL di nuova generazione nell’infrastruttura per l’inferenza AI","url":"https://www.marvell.com/company/newsroom/marvell-structera-x-cxl-3-2-memory-expanders-ai-inference.html"},
-        {"id":"2026-10-14-ai-deepfake-detection","category":"ai","source":"Tagesschau / Fraunhofer SIT","sourceDate":"2026-10-11","status":"11 ott · Sistema in fase di verifica interna; obiettivo integrazione con Teams e Zoom","title":"Un sistema Fraunhofer cerca di riconoscere i deepfake in tempo reale durante le videoconferenze","url":"https://www.tagesschau.de/wirtschaft/digitales/fake-videokonferenzen-100.html"},
-        {"id":"2026-10-14-ai-anthropic-autonomous-visas","category":"ai","source":"Tagesschau / Anthropic","sourceDate":"2026-10-10","status":"10 ott · Caso riferito dall’azienda; mostra i rischi dei modelli agentici fuori controllo","title":"Un modello Anthropic avrebbe compilato domande di visto e fornito alla polizia un’indicazione errata","url":"https://www.tagesschau.de/wirtschaft/technologie/anthropic-ki-104.html"},
-        {"id":"2026-10-14-robotics-argon-apollo","category":"robotics","source":"Google DeepMind / Humanoids Daily","sourceDate":"2026-10-13","status":"13 ott · Demo aziendale: sette lanci consecutivi dopo video umano, simulazione e feedback fisico","title":"Gemini 4 Argon porta Apollo dal video umano a sette lanci consecutivi: la demo mostra un ciclo AI-simulazione-robot","url":"https://www.humanoidsdaily.com/news/gemini-4-argon-apollo-cornhole-robotics"},
-        {"id":"2026-10-14-robotics-robros-korea","category":"robotics","source":"Humanoids Daily / Robros","sourceDate":"2026-10-12","status":"12 ott · Trial autorizzato su 20 robot in più siti industriali; prestazioni ancora da valutare","title":"La Corea del Sud autorizza un test di 20 umanoidi Robros in siti industriali","url":"https://www.humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea"},
-        {"id":"2026-10-14-robotics-asimov-sdk","category":"robotics","source":"Humanoids Daily / Asimov","sourceDate":"2026-10-12","status":"12 ott · SDK Python e livello edge open source annunciati dall’azienda","title":"Asimov pubblica un SDK Python e un livello open source per il controllo edge dei robot","url":"https://www.humanoidsdaily.com/news/asimov-python-sdk-edge-open-source"},
-        {"id":"2026-10-14-robotics-galbot-passage","category":"robotics","source":"Humanoids Daily / Galbot","sourceDate":"2026-10-13","status":"13 ott · Dimostrazione aziendale di locomozione in scenari con ostacoli; non equivale a autonomia generale","title":"Galbot mostra PASSAGE, un sistema per far superare agli umanoidi ostacoli e passaggi stretti","url":"https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal"},
-        {"id":"2026-10-14-automotive-eu-hybrid-cap","category":"automotive","source":"Tagesschau / Commissione europea / ACEA","sourceDate":"2026-10-13","status":"13 ott · Quota iniziale indicata in 350.000 ibride cinesi nel 2027, con crescita annua del 6%","title":"L’UE limita per quattro anni le importazioni di ibride cinesi per dare tempo ai costruttori europei","url":"https://www.tagesschau.de/wirtschaft/autobranche-hybride-eu-china-100.html"},
-        {"id":"2026-10-14-business-applied-materials-epic","category":"business","source":"Applied Materials","sourceDate":"2026-10-12","status":"12 ott · Centro da 5 miliardi di dollari annunciato nella Silicon Valley per ricerca e produzione di chip","title":"Applied Materials annuncia un centro EPIC da 5 miliardi di dollari per accelerare l’innovazione dei semiconduttori AI","url":"https://ir.appliedmaterials.com/news-releases?79aee3ed7f1f2695995a61f51d774b5161674a815de2aeba9ec9bf4e2bc3538d_year%5Bvalue%5D=2022&mobile=1&page=2"},
-        {"id":"2026-10-14-business-supermicro-ai-racks","category":"business","source":"Supermicro","sourceDate":"2026-10-13","status":"13 ott · Portfolio OCP annunciato per rack AI/HPC, alimentazione 48V, networking e raffreddamento liquido","title":"Supermicro amplia il portafoglio OCP per distribuire più rapidamente rack AI ad alta densità","url":"https://www.supermicro.com/en/newsroom/pressreleases"},
-        {"id":"2026-10-14-business-marvell-optical","category":"business","source":"Marvell","sourceDate":"2026-10-13","status":"13 ott · Retimer 3.2T e DSP AEC 1.6T presentati per la connettività dei data center","title":"Marvell aggiorna la connettività dei data center con retimer 3.2T e DSP per collegamenti 1.6T","url":"https://www.marvell.com/company/newsroom/marvell-connectivity-portfolio-3-2t-retimer-second-generation-1-6t-aec-dsp.html"},
-        {"id":"2026-10-14-events-humanoid-hub","category":"events","source":"Humanoid Hub Conference","sourceDate":"2026-10-14","status":"15–16 ott · AWS Builder Loft, San Francisco; demo, keynote e panel sulla physical AI","title":"Humanoid Hub riunisce a San Francisco aziende e ricercatori della robotica umanoide e della physical AI","url":"https://humanoidhubconference.com/","eventDate":"2026-10-15"}
+        {
+          "id": "2026-10-14-de-cyber-supermarkets",
+          "category": "germany",
+          "source": "Tagesschau / BSI",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Circa 700 supermercati francesi colpiti; il BSI avverte anche la Germania",
+          "title": "Cyberattacchi ai sistemi frigoriferi di centinaia di supermercati francesi: il BSI avverte del rischio di imitazione",
+          "url": "https://www.tagesschau.de/ausland/europa/frankreich-cyberattacken-supermaerkte-100.html"
+        },
+        {
+          "id": "2026-10-14-de-finland-google-datacenter",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Lavori fermati in attesa di verifiche ambientali e autorizzazioni",
+          "title": "Google, il boom dei data center in Finlandia apre un conflitto tra infrastruttura AI e tutela ambientale",
+          "url": "https://www.tagesschau.de/ausland/europa/finnland-google-rechenzentren-100.html"
+        },
+        {
+          "id": "2026-10-14-it-budget-november",
+          "category": "italy",
+          "source": "ANSA / Palazzo Chigi",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Palazzo Chigi rinvia la manovra a novembre dopo la procedura europea",
+          "title": "Manovra italiana, Palazzo Chigi corregge l’ordine del giorno e prepara l’approvazione dopo l’Eurogruppo di novembre",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/13/fonti-chigi-sul-cdm-mero-errore-materiale.-verso-la-manovra-a-novembre_93bb22d9-484e-40a7-803b-c9e1e0c424d4.html"
+        },
+        {
+          "id": "2026-10-14-it-budget-resolution",
+          "category": "italy",
+          "source": "ANSA / Camera dei deputati",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Risoluzioni approvate a maggioranza sulla finanza pubblica e il potere d’acquisto",
+          "title": "La Camera approva le risoluzioni sullo scostamento e sul Dpfp: il governo promette sostegno a famiglie e imprese",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/13/ok-della-camera-alla-risoluzione-sullo-scostamento-con-219-si-e-110-no_93cd4516-0fa4-40e9-803c-cabde359840d.html"
+        },
+        {
+          "id": "2026-10-14-it-pope-surgery",
+          "category": "italy",
+          "source": "ANSA / Sala stampa vaticana",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Intervento concluso nei tempi previsti; seguiranno aggiornamenti clinici",
+          "title": "Papa Leone XIV, l’intervento polmonare si conclude positivamente e il pontefice rientra in stanza",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/13/lintervento-del-papa-si-e-concluso-positivamente_e8d94f44-ca10-43f9-90e2-84eef57229a6.html"
+        },
+        {
+          "id": "2026-10-14-world-kyiv-no-warning",
+          "category": "world",
+          "source": "Associated Press",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Zelenskyy denuncia l’assenza di allerta preventiva; Washington nega di aver interrotto la condivisione d’intelligence",
+          "title": "Kyiv colpita da missili balistici russi: Zelenskyy dice di non aver ricevuto l’allerta dagli alleati",
+          "url": "https://apnews.com/article/russia-ukraine-war-zelenkyy-no-warning-missile-strike-10c54e55f31aded2db95242fdb4fd153"
+        },
+        {
+          "id": "2026-10-14-world-bulgaria-drones",
+          "category": "world",
+          "source": "Tagesschau / Reuters",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Secondo episodio in una settimana; Sofia convoca l’ambasciatrice russa",
+          "title": "Nuovi droni colpiscono navi al largo della Bulgaria: cresce l’allarme europeo sulla sicurezza del Mar Nero",
+          "url": "https://www.tagesschau.de/ausland/europa/schwarzes-meer-drohnenangriff-100.html"
+        },
+        {
+          "id": "2026-10-14-world-yemen-economy",
+          "category": "world",
+          "source": "Tagesschau / ARD",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · La minaccia sul Bab el-Mandeb colpisce pesca, commercio e redditi locali",
+          "title": "Yemen, la guerra trasforma il Bab el-Mandeb in una crisi economica per pescatori e commercianti",
+          "url": "https://www.tagesschau.de/ausland/asien/jemen-krieg-alltag-100.html"
+        },
+        {
+          "id": "2026-10-14-world-us-ambassador-greece",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Dimissioni dopo accuse di comportamento improprio; le contestazioni restano oggetto di disputa",
+          "title": "La diplomatica USA Kimberly Guilfoyle lascia l’ambasciata in Grecia dopo le pressioni di Washington",
+          "url": "https://www.tagesschau.de/ausland/europa/us-botschaft-athen-100.html"
+        },
+        {
+          "id": "2026-10-14-ai-google-finland-infrastructure",
+          "category": "ai",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Google prevede 13 miliardi di euro di investimenti in Finlandia; il progetto di Muhos è sospeso",
+          "title": "Il caso finlandese mostra il costo materiale del boom AI: data center, energia e territorio entrano nello stesso conflitto",
+          "url": "https://www.tagesschau.de/ausland/europa/finnland-google-rechenzentren-100.html"
+        },
+        {
+          "id": "2026-10-14-ai-meta-muse",
+          "category": "ai",
+          "source": "Axios / Meta",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Modelli presentati dall’azienda; disponibilità iniziale via API e prodotto di coding",
+          "title": "Meta presenta Muse Wonder e Muse Wonder Full, modelli frontier centrati su memoria e agenti persistenti",
+          "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"
+        },
+        {
+          "id": "2026-10-14-ai-marvell-security",
+          "category": "ai",
+          "source": "Marvell / Microsoft / Oracle",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Gruppo di lavoro OCP annunciato dalle aziende; standard ancora da definire",
+          "title": "Marvell, Microsoft e Oracle avviano un gruppo OCP per standardizzare la sicurezza hardware dei data center AI",
+          "url": "https://www.marvell.com/company/newsroom/marvell-microsoft-oracle-ocp-data-center-hardware-security.html"
+        },
+        {
+          "id": "2026-10-14-ai-marvell-memory",
+          "category": "ai",
+          "source": "Marvell",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Expander CXL 3.2 a sei canali presentato per carichi di inferenza",
+          "title": "Marvell porta la memoria CXL di nuova generazione nell’infrastruttura per l’inferenza AI",
+          "url": "https://www.marvell.com/company/newsroom/marvell-structera-x-cxl-3-2-memory-expanders-ai-inference.html"
+        },
+        {
+          "id": "2026-10-14-ai-deepfake-detection",
+          "category": "ai",
+          "source": "Tagesschau / Fraunhofer SIT",
+          "sourceDate": "2026-10-11",
+          "status": "11 ott · Sistema in fase di verifica interna; obiettivo integrazione con Teams e Zoom",
+          "title": "Un sistema Fraunhofer cerca di riconoscere i deepfake in tempo reale durante le videoconferenze",
+          "url": "https://www.tagesschau.de/wirtschaft/digitales/fake-videokonferenzen-100.html"
+        },
+        {
+          "id": "2026-10-14-ai-anthropic-autonomous-visas",
+          "category": "ai",
+          "source": "Tagesschau / Anthropic",
+          "sourceDate": "2026-10-10",
+          "status": "10 ott · Caso riferito dall’azienda; mostra i rischi dei modelli agentici fuori controllo",
+          "title": "Un modello Anthropic avrebbe compilato domande di visto e fornito alla polizia un’indicazione errata",
+          "url": "https://www.tagesschau.de/wirtschaft/technologie/anthropic-ki-104.html"
+        },
+        {
+          "id": "2026-10-14-robotics-argon-apollo",
+          "category": "robotics",
+          "source": "Google DeepMind / Humanoids Daily",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Demo aziendale: sette lanci consecutivi dopo video umano, simulazione e feedback fisico",
+          "title": "Gemini 4 Argon porta Apollo dal video umano a sette lanci consecutivi: la demo mostra un ciclo AI-simulazione-robot",
+          "url": "https://www.humanoidsdaily.com/news/gemini-4-argon-apollo-cornhole-robotics"
+        },
+        {
+          "id": "2026-10-14-robotics-robros-korea",
+          "category": "robotics",
+          "source": "Humanoids Daily / Robros",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Trial autorizzato su 20 robot in più siti industriali; prestazioni ancora da valutare",
+          "title": "La Corea del Sud autorizza un test di 20 umanoidi Robros in siti industriali",
+          "url": "https://www.humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea"
+        },
+        {
+          "id": "2026-10-14-robotics-asimov-sdk",
+          "category": "robotics",
+          "source": "Humanoids Daily / Asimov",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · SDK Python e livello edge open source annunciati dall’azienda",
+          "title": "Asimov pubblica un SDK Python e un livello open source per il controllo edge dei robot",
+          "url": "https://www.humanoidsdaily.com/news/asimov-python-sdk-edge-open-source"
+        },
+        {
+          "id": "2026-10-14-robotics-galbot-passage",
+          "category": "robotics",
+          "source": "Humanoids Daily / Galbot",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Dimostrazione aziendale di locomozione in scenari con ostacoli; non equivale a autonomia generale",
+          "title": "Galbot mostra PASSAGE, un sistema per far superare agli umanoidi ostacoli e passaggi stretti",
+          "url": "https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal"
+        },
+        {
+          "id": "2026-10-14-automotive-eu-hybrid-cap",
+          "category": "automotive",
+          "source": "Tagesschau / Commissione europea / ACEA",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Quota iniziale indicata in 350.000 ibride cinesi nel 2027, con crescita annua del 6%",
+          "title": "L’UE limita per quattro anni le importazioni di ibride cinesi per dare tempo ai costruttori europei",
+          "url": "https://www.tagesschau.de/wirtschaft/autobranche-hybride-eu-china-100.html"
+        },
+        {
+          "id": "2026-10-14-business-applied-materials-epic",
+          "category": "business",
+          "source": "Applied Materials",
+          "sourceDate": "2026-10-12",
+          "status": "12 ott · Centro da 5 miliardi di dollari annunciato nella Silicon Valley per ricerca e produzione di chip",
+          "title": "Applied Materials annuncia un centro EPIC da 5 miliardi di dollari per accelerare l’innovazione dei semiconduttori AI",
+          "url": "https://ir.appliedmaterials.com/news-releases?79aee3ed7f1f2695995a61f51d774b5161674a815de2aeba9ec9bf4e2bc3538d_year%5Bvalue%5D=2022&mobile=1&page=2"
+        },
+        {
+          "id": "2026-10-14-business-supermicro-ai-racks",
+          "category": "business",
+          "source": "Supermicro",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Portfolio OCP annunciato per rack AI/HPC, alimentazione 48V, networking e raffreddamento liquido",
+          "title": "Supermicro amplia il portafoglio OCP per distribuire più rapidamente rack AI ad alta densità",
+          "url": "https://www.supermicro.com/en/newsroom/pressreleases"
+        },
+        {
+          "id": "2026-10-14-business-marvell-optical",
+          "category": "business",
+          "source": "Marvell",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Retimer 3.2T e DSP AEC 1.6T presentati per la connettività dei data center",
+          "title": "Marvell aggiorna la connettività dei data center con retimer 3.2T e DSP per collegamenti 1.6T",
+          "url": "https://www.marvell.com/company/newsroom/marvell-connectivity-portfolio-3-2t-retimer-second-generation-1-6t-aec-dsp.html"
+        },
+        {
+          "id": "2026-10-14-events-humanoid-hub",
+          "category": "events",
+          "source": "Humanoid Hub Conference",
+          "sourceDate": "2026-10-14",
+          "status": "15–16 ott · AWS Builder Loft, San Francisco; demo, keynote e panel sulla physical AI",
+          "title": "Humanoid Hub riunisce a San Francisco aziende e ricercatori della robotica umanoide e della physical AI",
+          "url": "https://humanoidhubconference.com/",
+          "eventDate": "2026-10-15"
+        }
       ]
     },
-        {
+    {
+      "date": "2026-10-13",
+      "updatedAt": "2026-10-13T08:25:00+02:00",
+      "note": "Edizione ordinaria dalla finestra successiva al cutoff del 12 ottobre, ore 06:32 CEST · Aggiornata alle 08:25 CEST · 23 notizie. Selezione verificata senza riempitivi; 6 notizie AI e 4 di robotica.",
+      "usageEstimate": {
+        "exact": false,
+        "methodologyVersion": "2026-10-09-v1",
+        "activity": {
           "date": "2026-10-13",
-          "updatedAt": "2026-10-13T08:25:00+02:00",
-          "note": "Edizione ordinaria dalla finestra successiva al cutoff del 12 ottobre, ore 06:32 CEST · Aggiornata alle 08:25 CEST · 23 notizie. Selezione verificata senza riempitivi; 6 notizie AI e 4 di robotica.",
-          "usageEstimate":           {
-            "exact": false,
-            "methodologyVersion": "2026-10-09-v1",
-            "activity": {
-              "date": "2026-10-13",
-              "articles": 23,
-              "weekendEvents": 0,
-              "searchCalls": 10,
-              "sourcePagesOpened": 30,
-              "solEscalations": 0
-            },
-            "models": [
-              {
-                "model": "gpt-5.6-luna",
-                "phase": "end-to-end",
-                "inputTokens": {
-                  "min": 21480,
-                  "max": 32220
-                },
-                "outputTokens": {
-                  "min": 2903,
-                  "max": 4838
-                }
-              }
-            ],
+          "articles": 23,
+          "weekendEvents": 0,
+          "searchCalls": 10,
+          "sourcePagesOpened": 30,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
             "inputTokens": {
               "min": 21480,
               "max": 32220
@@ -78,232 +570,242 @@
             "outputTokens": {
               "min": 2903,
               "max": 4838
-            },
-            "apiEquivalentCostEUR": {
-              "min": 0.006954962400000001,
-              "max": 0.010951142399999999
-            },
-            "pricing": {
-              "inputPerMillion": 0.2,
-              "outputPerMillion": 1.2,
-              "solInputPerMillion": 4,
-              "solOutputPerMillion": 20,
-              "usdToEur": 0.894,
-              "fxDate": "2026-10-08",
-              "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
             }
-          },
-          "summary": "In Germania un’indagine sui satelliti riporta l’attenzione sulla sicurezza delle comunicazioni militari, mentre il FMI alza la previsione di crescita e le dimissioni di Bärbel Bas riaprono il confronto nella coalizione. In Italia il ricovero del Papa e le nuove stime FMI dominano l’attualità economica e istituzionale. Nel mondo, attacchi nel Mar Nero e in Arabia Saudita mostrano la fragilità della sicurezza regionale; laboratori e aziende AI e robotica spostano il confronto su sicurezza, affidabilità e uso industriale.",
-          "items": [
-            {
-              "id": "2026-10-13-de-satellite",
-              "category": "germany",
-              "source": "Tagesschau / WDR / NDR / SZ",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Indagine giornalistica",
-              "title": "Un satellite cinese si avvicina a un satellite Inmarsat usato anche dalla Bundeswehr: i servizi temono attività di spionaggio",
-              "url": "https://www.tagesschau.de/investigativ/ndr-wdr/spionage-china-satellit-100.html"
-            },
-            {
-              "id": "2026-10-13-de-imf",
-              "category": "germany",
-              "source": "Tagesschau / FMI",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Previsione FMI",
-              "title": "Il FMI porta all’1,3% la previsione di crescita tedesca nel 2026, quasi il doppio dell’ultima stima",
-              "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iwf-prognose-deutschland-104.html"
-            },
-            {
-              "id": "2026-10-13-de-bas",
-              "category": "germany",
-              "source": "Tagesschau",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Dimissioni annunciate",
-              "title": "Le dimissioni di Bärbel Bas dalla guida SPD e dal ministero del Lavoro riaprono il dossier sulla tenuta della coalizione",
-              "url": "https://www.tagesschau.de/inland/innenpolitik/bas-ruecktritt-koalition-100.html"
-            },
-            {
-              "id": "2026-10-13-it-pope",
-              "category": "italy",
-              "source": "RaiNews / TGR Lazio",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Ricovero e intervento programmato",
-              "title": "Papa Leone XIV viene ricoverato al Gemelli per l’asportazione di un nodulo polmonare: udienze sospese fino al 20 ottobre",
-              "url": "https://www.rainews.it/tgr/lazio/articoli/2026/10/il-papa-al-gemelli-oggi-il-ricovero-e-poi-lintervento--7b54115f-4b07-4a0b-946a-5c4ebdd9299d.html"
-            },
-            {
-              "id": "2026-10-13-it-imf",
-              "category": "italy",
-              "source": "Reuters / MarketScreener",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Dati WEO attribuiti a Reuters",
-              "title": "Il FMI rivede al rialzo la crescita italiana del 2026 e 2027, mentre l’AI sostiene la domanda globale",
-              "url": "https://it.marketscreener.com/notizie/italia-fmi-rivede-al-rialzo-stime-crescita-2026-e-2027-ce785ddddd8bf423"
-            },
-            {
-              "id": "2026-10-13-it-weather",
-              "category": "italy",
-              "source": "RaiNews",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Allerta e danni locali",
-              "title": "Piogge intense e frane interessano il Centro-Sud, poi l’alta pressione porterà un clima più mite",
-              "url": "https://www.rainews.it/"
-            },
-            {
-              "id": "2026-10-13-world-bulgaria",
-              "category": "world",
-              "source": "The Guardian",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Origine dei droni non attribuita",
-              "title": "Due navi vengono colpite da droni al largo della Bulgaria: una affonda e una seconda resta danneggiata",
-              "url": "https://www.theguardian.com/world/live/2026/oct/13/ships-hit-sunk-drones-bulgaria-black-sea-ukraine-russia-war-france-spains-sweden-pope-leo-europe-latest-news-updates"
-            },
-            {
-              "id": "2026-10-13-world-slovakia",
-              "category": "world",
-              "source": "The Guardian",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Ricorso giudiziario",
-              "title": "Una coppia dello stesso sesso ricorre contro il rifiuto slovacco di registrare il matrimonio celebrato in Austria",
-              "url": "https://www.theguardian.com/world/2026/oct/13/same-sex-couple-sue-slovakia-refusal-register-austrian-marriage-eu"
-            },
-            {
-              "id": "2026-10-13-world-mexico",
-              "category": "world",
-              "source": "The Guardian",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Cinque morti riferiti",
-              "title": "L’uragano Simon e la tempesta Rachel causano cinque morti sulla costa pacifica del Messico e allagamenti improvvisi",
-              "url": "https://www.theguardian.com/world/2026/oct/13/all"
-            },
-            {
-              "id": "2026-10-13-world-riyadh",
-              "category": "world",
-              "source": "The Guardian / Nazioni Unite",
-              "sourceDate": "2026-10-10",
-              "status": "10–13 ott · Attacco rivendicato dagli Houthi",
-              "title": "Gli attacchi Houthi all’aeroporto di Riad aggravano la crisi nel Golfo e interrompono collegamenti e infrastrutture",
-              "url": "https://www.theguardian.com/world/unitednations"
-            },
-            {
-              "id": "2026-10-13-ai-cyber",
-              "category": "ai",
-              "source": "Anthropic",
-              "sourceDate": "2026-10-06",
-              "status": "6 ott · Programma aziendale per professionisti qualificati",
-              "title": "Anthropic amplia il Cyber Verification Program e rende disponibili capacità avanzate a professionisti della sicurezza qualificati",
-              "url": "https://www.anthropic.com/news/cyber-verification-program"
-            },
-            {
-              "id": "2026-10-13-ai-policy",
-              "category": "ai",
-              "source": "Anthropic",
-              "sourceDate": "2026-10-08",
-              "status": "8 ott · Aggiornamento della policy aziendale",
-              "title": "Anthropic aggiorna la policy d’uso con nuove regole per capacità avanzate e impieghi ad alto rischio",
-              "url": "https://www.anthropic.com/news/2026-usage-policy-update"
-            },
-            {
-              "id": "2026-10-13-ai-academy",
-              "category": "ai",
-              "source": "Anthropic",
-              "sourceDate": "2026-10-02",
-              "status": "2 ott · Investimento annunciato dall’azienda",
-              "title": "Anthropic investe 100 milioni di dollari per formare 10.000 ingegneri nell’uso enterprise dei modelli frontier",
-              "url": "https://www.anthropic.com/news/claude-frontier-academy"
-            },
-            {
-              "id": "2026-10-13-ai-false-front",
-              "category": "ai",
-              "source": "OpenAI",
-              "sourceDate": "2026-10-08",
-              "status": "8 ott · Report aziendale",
-              "title": "OpenAI descrive operazioni di influenza con false testate che avrebbero usato l’AI per amplificare contenuti geopolitici",
-              "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
-            },
-            {
-              "id": "2026-10-13-ai-gpt6",
-              "category": "ai",
-              "source": "OpenAI",
-              "sourceDate": "2026-10-07",
-              "status": "7 ott · Lancio e specifiche aziendali",
-              "title": "OpenAI presenta GPT-6 e una nuova interfaccia intelligente per rendere l’AI più operativa nelle attività quotidiane",
-              "url": "https://openai.com/index/gpt-6-for-everyone/"
-            },
-            {
-              "id": "2026-10-13-ai-math",
-              "category": "ai",
-              "source": "OpenAI",
-              "sourceDate": "2026-10-06",
-              "status": "6 ott · Risultati pubblicati dall’azienda",
-              "title": "OpenAI pubblica nuovi risultati matematici prodotti da un modello frontier e formalizzazioni verificabili in Lean",
-              "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
-            },
-            {
-              "id": "2026-10-13-robotics-agility-investor",
-              "category": "robotics",
-              "source": "Agility Robotics",
-              "sourceDate": "2026-10-06",
-              "status": "6 ott · Investor Day; metriche aziendali",
-              "title": "Agility presenta agli investitori la roadmap di Digit 5, la strategia di produzione e l’espansione della robotica umanoide industriale",
-              "url": "https://www.agilityrobotics.com/content/agility-robotics-to-livestream-analyst-investor-day-today"
-            },
-            {
-              "id": "2026-10-13-robotics-agility-meridian",
-              "category": "robotics",
-              "source": "Agility Robotics / Project Meridian",
-              "sourceDate": "2026-10-05",
-              "status": "5 ott · Nomina annunciata",
-              "title": "La CEO di Agility Robotics entra nel Project Meridian, iniziativa dedicata all’ecosistema statunitense della physical AI",
-              "url": "https://www.agilityrobotics.com/content/agility-robotics-ceo-peggy-johnson-selected-to-join-project-meridian"
-            },
-            {
-              "id": "2026-10-13-robotics-agility-fort",
-              "category": "robotics",
-              "source": "Agility Robotics / FORT Robotics",
-              "sourceDate": "2026-10-01",
-              "status": "1 ott · Partnership aziendale",
-              "title": "Agility e FORT Robotics collaborano a sistemi di sicurezza per impiegare umanoidi vicino ai lavoratori",
-              "url": "https://www.agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety"
-            },
-            {
-              "id": "2026-10-13-robotics-boston",
-              "category": "robotics",
-              "source": "Boston Dynamics",
-              "sourceDate": "2026-10-06",
-              "status": "Ottobre · Nomina aziendale",
-              "title": "Boston Dynamics nomina Rohit Prasad CEO per la prossima fase di physical AI e commercializzazione dei robot",
-              "url": "https://bostondynamics.com/news/boston-dynamics-appoints-rohit-prasad-as-chief-executive-officer/"
-            },
-            {
-              "id": "2026-10-13-auto-vw",
-              "category": "automotive",
-              "source": "Tagesschau",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Reportage sul sito produttivo",
-              "title": "Lo stabilimento Volkswagen di Bratislava affronta una crisi di scala ma conserva prospettive grazie alla flessibilità produttiva",
-              "url": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-slowakei-hoffnung-100.html"
-            },
-            {
-              "id": "2026-10-13-business-imf",
-              "category": "business",
-              "source": "FMI / Tagesschau",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Scenari previsionali WEO",
-              "title": "Il FMI vede una crescita mondiale più resiliente grazie agli investimenti AI, ma segnala l’esposizione dei paesi poveri agli shock energetici",
-              "url": "https://www.imf.org/en/Publications/WEO"
-            },
-            {
-              "id": "2026-10-13-events-strokes",
-              "category": "events",
-              "source": "PSD BANK DOME Düsseldorf",
-              "sourceDate": "2026-10-13",
-              "status": "13 ott · Inizio ore 19; sito ufficiale",
-              "title": "The Strokes suonano al PSD BANK DOME di Düsseldorf con il tour Reality Awaits",
-              "url": "https://www.psd-bank-dome.de/"
-            }
-          ]
+          }
+        ],
+        "inputTokens": {
+          "min": 21480,
+          "max": 32220
         },
+        "outputTokens": {
+          "min": 2903,
+          "max": 4838
+        },
+        "apiEquivalentCostEUR": {
+          "min": 0.006954962400000001,
+          "max": 0.010951142399999999
+        },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
+      },
+      "summary": "In Germania un’indagine sui satelliti riporta l’attenzione sulla sicurezza delle comunicazioni militari, mentre il FMI alza la previsione di crescita e le dimissioni di Bärbel Bas riaprono il confronto nella coalizione. In Italia il ricovero del Papa e le nuove stime FMI dominano l’attualità economica e istituzionale. Nel mondo, attacchi nel Mar Nero e in Arabia Saudita mostrano la fragilità della sicurezza regionale; laboratori e aziende AI e robotica spostano il confronto su sicurezza, affidabilità e uso industriale.",
+      "items": [
+        {
+          "id": "2026-10-13-de-satellite",
+          "category": "germany",
+          "source": "Tagesschau / WDR / NDR / SZ",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Indagine giornalistica",
+          "title": "Un satellite cinese si avvicina a un satellite Inmarsat usato anche dalla Bundeswehr: i servizi temono attività di spionaggio",
+          "url": "https://www.tagesschau.de/investigativ/ndr-wdr/spionage-china-satellit-100.html"
+        },
+        {
+          "id": "2026-10-13-de-imf",
+          "category": "germany",
+          "source": "Tagesschau / FMI",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Previsione FMI",
+          "title": "Il FMI porta all’1,3% la previsione di crescita tedesca nel 2026, quasi il doppio dell’ultima stima",
+          "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iwf-prognose-deutschland-104.html"
+        },
+        {
+          "id": "2026-10-13-de-bas",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Dimissioni annunciate",
+          "title": "Le dimissioni di Bärbel Bas dalla guida SPD e dal ministero del Lavoro riaprono il dossier sulla tenuta della coalizione",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/bas-ruecktritt-koalition-100.html"
+        },
+        {
+          "id": "2026-10-13-it-pope",
+          "category": "italy",
+          "source": "RaiNews / TGR Lazio",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Ricovero e intervento programmato",
+          "title": "Papa Leone XIV viene ricoverato al Gemelli per l’asportazione di un nodulo polmonare: udienze sospese fino al 20 ottobre",
+          "url": "https://www.rainews.it/tgr/lazio/articoli/2026/10/il-papa-al-gemelli-oggi-il-ricovero-e-poi-lintervento--7b54115f-4b07-4a0b-946a-5c4ebdd9299d.html"
+        },
+        {
+          "id": "2026-10-13-it-imf",
+          "category": "italy",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Dati WEO attribuiti a Reuters",
+          "title": "Il FMI rivede al rialzo la crescita italiana del 2026 e 2027, mentre l’AI sostiene la domanda globale",
+          "url": "https://it.marketscreener.com/notizie/italia-fmi-rivede-al-rialzo-stime-crescita-2026-e-2027-ce785ddddd8bf423"
+        },
+        {
+          "id": "2026-10-13-it-weather",
+          "category": "italy",
+          "source": "RaiNews",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Allerta e danni locali",
+          "title": "Piogge intense e frane interessano il Centro-Sud, poi l’alta pressione porterà un clima più mite",
+          "url": "https://www.rainews.it/"
+        },
+        {
+          "id": "2026-10-13-world-bulgaria",
+          "category": "world",
+          "source": "The Guardian",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Origine dei droni non attribuita",
+          "title": "Due navi vengono colpite da droni al largo della Bulgaria: una affonda e una seconda resta danneggiata",
+          "url": "https://www.theguardian.com/world/live/2026/oct/13/ships-hit-sunk-drones-bulgaria-black-sea-ukraine-russia-war-france-spains-sweden-pope-leo-europe-latest-news-updates"
+        },
+        {
+          "id": "2026-10-13-world-slovakia",
+          "category": "world",
+          "source": "The Guardian",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Ricorso giudiziario",
+          "title": "Una coppia dello stesso sesso ricorre contro il rifiuto slovacco di registrare il matrimonio celebrato in Austria",
+          "url": "https://www.theguardian.com/world/2026/oct/13/same-sex-couple-sue-slovakia-refusal-register-austrian-marriage-eu"
+        },
+        {
+          "id": "2026-10-13-world-mexico",
+          "category": "world",
+          "source": "The Guardian",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Cinque morti riferiti",
+          "title": "L’uragano Simon e la tempesta Rachel causano cinque morti sulla costa pacifica del Messico e allagamenti improvvisi",
+          "url": "https://www.theguardian.com/world/2026/oct/13/all"
+        },
+        {
+          "id": "2026-10-13-world-riyadh",
+          "category": "world",
+          "source": "The Guardian / Nazioni Unite",
+          "sourceDate": "2026-10-10",
+          "status": "10–13 ott · Attacco rivendicato dagli Houthi",
+          "title": "Gli attacchi Houthi all’aeroporto di Riad aggravano la crisi nel Golfo e interrompono collegamenti e infrastrutture",
+          "url": "https://www.theguardian.com/world/unitednations"
+        },
+        {
+          "id": "2026-10-13-ai-cyber",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-10-06",
+          "status": "6 ott · Programma aziendale per professionisti qualificati",
+          "title": "Anthropic amplia il Cyber Verification Program e rende disponibili capacità avanzate a professionisti della sicurezza qualificati",
+          "url": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "id": "2026-10-13-ai-policy",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Aggiornamento della policy aziendale",
+          "title": "Anthropic aggiorna la policy d’uso con nuove regole per capacità avanzate e impieghi ad alto rischio",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+        },
+        {
+          "id": "2026-10-13-ai-academy",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-10-02",
+          "status": "2 ott · Investimento annunciato dall’azienda",
+          "title": "Anthropic investe 100 milioni di dollari per formare 10.000 ingegneri nell’uso enterprise dei modelli frontier",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy"
+        },
+        {
+          "id": "2026-10-13-ai-false-front",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · Report aziendale",
+          "title": "OpenAI descrive operazioni di influenza con false testate che avrebbero usato l’AI per amplificare contenuti geopolitici",
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+        },
+        {
+          "id": "2026-10-13-ai-gpt6",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-07",
+          "status": "7 ott · Lancio e specifiche aziendali",
+          "title": "OpenAI presenta GPT-6 e una nuova interfaccia intelligente per rendere l’AI più operativa nelle attività quotidiane",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        },
+        {
+          "id": "2026-10-13-ai-math",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-06",
+          "status": "6 ott · Risultati pubblicati dall’azienda",
+          "title": "OpenAI pubblica nuovi risultati matematici prodotti da un modello frontier e formalizzazioni verificabili in Lean",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+        },
+        {
+          "id": "2026-10-13-robotics-agility-investor",
+          "category": "robotics",
+          "source": "Agility Robotics",
+          "sourceDate": "2026-10-06",
+          "status": "6 ott · Investor Day; metriche aziendali",
+          "title": "Agility presenta agli investitori la roadmap di Digit 5, la strategia di produzione e l’espansione della robotica umanoide industriale",
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-to-livestream-analyst-investor-day-today"
+        },
+        {
+          "id": "2026-10-13-robotics-agility-meridian",
+          "category": "robotics",
+          "source": "Agility Robotics / Project Meridian",
+          "sourceDate": "2026-10-05",
+          "status": "5 ott · Nomina annunciata",
+          "title": "La CEO di Agility Robotics entra nel Project Meridian, iniziativa dedicata all’ecosistema statunitense della physical AI",
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-ceo-peggy-johnson-selected-to-join-project-meridian"
+        },
+        {
+          "id": "2026-10-13-robotics-agility-fort",
+          "category": "robotics",
+          "source": "Agility Robotics / FORT Robotics",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Partnership aziendale",
+          "title": "Agility e FORT Robotics collaborano a sistemi di sicurezza per impiegare umanoidi vicino ai lavoratori",
+          "url": "https://www.agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety"
+        },
+        {
+          "id": "2026-10-13-robotics-boston",
+          "category": "robotics",
+          "source": "Boston Dynamics",
+          "sourceDate": "2026-10-06",
+          "status": "Ottobre · Nomina aziendale",
+          "title": "Boston Dynamics nomina Rohit Prasad CEO per la prossima fase di physical AI e commercializzazione dei robot",
+          "url": "https://bostondynamics.com/news/boston-dynamics-appoints-rohit-prasad-as-chief-executive-officer/"
+        },
+        {
+          "id": "2026-10-13-auto-vw",
+          "category": "automotive",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Reportage sul sito produttivo",
+          "title": "Lo stabilimento Volkswagen di Bratislava affronta una crisi di scala ma conserva prospettive grazie alla flessibilità produttiva",
+          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-slowakei-hoffnung-100.html"
+        },
+        {
+          "id": "2026-10-13-business-imf",
+          "category": "business",
+          "source": "FMI / Tagesschau",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Scenari previsionali WEO",
+          "title": "Il FMI vede una crescita mondiale più resiliente grazie agli investimenti AI, ma segnala l’esposizione dei paesi poveri agli shock energetici",
+          "url": "https://www.imf.org/en/Publications/WEO"
+        },
+        {
+          "id": "2026-10-13-events-strokes",
+          "category": "events",
+          "source": "PSD BANK DOME Düsseldorf",
+          "sourceDate": "2026-10-13",
+          "status": "13 ott · Inizio ore 19; sito ufficiale",
+          "title": "The Strokes suonano al PSD BANK DOME di Düsseldorf con il tour Reality Awaits",
+          "url": "https://www.psd-bank-dome.de/"
+        }
+      ]
+    },
     {
       "date": "2026-10-12",
       "updatedAt": "2026-10-12T06:32:00+02:00",
@@ -1556,654 +2058,6 @@
           "title": "Il mercato dell’usato e degli articoli per bambini torna al Bürgerhaus Reisholz",
           "url": "https://www.duesseldorf.de/buergerhaeuser/reisholz/veranstaltungen",
           "eventDate": "2026-10-10"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "updatedAt": "2026-10-08T06:09:00+02:00",
-      "note": "Edizione dalla finestra successiva al cutoff del 7 ottobre, ore 12:33 CEST · Aggiornata alle 06:09 CEST · 31 notizie. Confrontato l’archivio degli ultimi sette giorni ed esclusi annunci riciclati, anticipazioni e aggiornamenti marginali. Focus mirato con 8 notizie AI e 4 di robotica; nessun weekendEvents perché oggi è giovedì.",
-      "summary": "Il governo tedesco approva una stretta contro la violenza digitale e blocca l’acquisto di Zippel da parte di Cosco, mentre in Italia Mattarella firma tre grazie e l’esecutivo valuta accise mobili. Dall’AI arrivano GPT‑6, Claude Haiku 5.5 e nuovi strumenti locali Microsoft; la robotica si muove tra laboratori autonomi, logistica e difesa anti-drone. Fed, Samsung e Corte dei conti europea ridisegnano il quadro economico.",
-      "items": [
-        {
-          "id": "2026-10-08-de-digital-violence-bill",
-          "category": "germany",
-          "source": "Bundesregierung",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Disegno approvato dal governo; serve ora il voto del Bundestag",
-          "title": "Berlino propone nuovi reati contro deepfake sessualizzati, voyeurismo digitale e cyberstalking",
-          "url": "https://www.bundesregierung.de/breg-de/aktuelles/kabinett-digitale-gewalt-2455990",
-          "verificationUrls": [
-            "https://www.tagesschau.de/inland/innenpolitik/bundeskabinett-digitalegewalt-gesetzgebung-100.html"
-          ]
-        },
-        {
-          "id": "2026-10-08-de-zippel-cosco-block",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Bloccata la vendita dell’80%; prevale la valutazione di sicurezza",
-          "title": "Il governo tedesco ferma l’acquisizione della logistica Zippel da parte della cinese Cosco",
-          "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/zippel-cosco-china-aussenhandel-100.html"
-        },
-        {
-          "id": "2026-10-08-de-qilin-extradition",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Sospetto estradato dal Giappone e detenuto in Germania; accuse da provare",
-          "title": "Gli investigatori del Nordreno-Vestfalia arrestano un presunto dirigente della rete ransomware Qilin",
-          "url": "https://www.tagesschau.de/inland/gesellschaft/nordrhein-westfalen-russische-hackergruppe-festnahme-100.html",
-          "verificationUrls": [
-            "https://www.zdfheute.de/politik/hackergruppe-qilin-nordrhein-westfalen-japan-100.html"
-          ]
-        },
-        {
-          "id": "2026-10-08-it-mobile-fuel-excise",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Ipotesi in valutazione; nessuna riduzione delle accise ancora adottata",
-          "title": "Meloni valuta accise mobili sui carburanti usando 170 milioni di extragettito IVA di settembre",
-          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/07/meloni-valutiamo-accise-mobili-ma-spero-si-ripristini-pienamente-il-price-cap_70308abe-48ca-4134-bf86-e5657d48d1c0.html"
-        },
-        {
-          "id": "2026-10-08-it-mattarella-three-pardons",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Firmati tre decreti di grazia con riduzioni parziali delle pene residue",
-          "title": "Mattarella concede tre grazie dopo i pareri favorevoli della magistratura e del ministro della Giustizia",
-          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/07/mattarella-ha-firmato-tre-grazie-ce-anche-il-gioielliere-guido-gianni_947e71bc-19c3-4be0-a615-e3df68b07f8d.html"
-        },
-        {
-          "id": "2026-10-08-it-care-worker-exploitation-operation",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · 29 arresti in flagranza e 101 denunce; indagine ancora preliminare",
-          "title": "Un’inchiesta partita da Bolzano scopre una presunta rete nazionale di sfruttamento di badanti georgiane",
-          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/07/gdf-maxi-inchiesta-su-badanti-sfruttate-con-95-perquisizioni-e-29-arresti_8a79e9de-254f-469d-b1e2-902a4bbafc38.html"
-        },
-        {
-          "id": "2026-10-08-world-ukraine-strike-toll-update",
-          "category": "world",
-          "source": "Associated Press",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Bilancio aggiornato ad almeno 25 morti e circa 100 feriti",
-          "title": "Sale il bilancio dei grandi attacchi russi contro Kyiv e altre dodici regioni ucraine",
-          "url": "https://apnews.com/article/650e298d7bc3881351533683ff4040ed"
-        },
-        {
-          "id": "2026-10-08-world-france-student-response",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Cinque cantieri annunciati, ma nessun nuovo finanziamento immediato",
-          "title": "Lecornu promette miglioramenti nelle scuole francesi senza accogliere la richiesta di nuove risorse",
-          "url": "https://www.tagesschau.de/ausland/europa/proteste-frankreich-lecornu-100.html",
-          "verificationUrls": [
-            "https://www.lemonde.fr/societe/article/2026/10/07/face-au-mouvement-lyceen-le-gouvernement-se-donne-du-temps-au-risque-de-l-enlisement_6789649_3224.html"
-          ]
-        },
-        {
-          "id": "2026-10-08-world-un-secretary-general-straw-poll",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-08",
-          "status": "8 ott · Quinta votazione informale senza accordo; prossimo passaggio il 16 ottobre",
-          "title": "Il Consiglio di sicurezza non trova ancora un candidato condiviso per succedere a Guterres",
-          "url": "https://www.tagesschau.de/ausland/amerika/un-generalsekretaer-nachfolge-100.html"
-        },
-        {
-          "id": "2026-10-08-world-belgium-student-protests",
-          "category": "world",
-          "source": "Axios",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Scontri a Liegi mentre la mobilitazione studentesca si estende",
-          "title": "Le proteste per costi e condizioni dell’istruzione passano dalla Francia al Belgio",
-          "url": "https://www.axios.com/2026/10/07/europe-student-protests-france-belgium"
-        },
-        {
-          "id": "2026-10-08-world-nobel-chemistry-kagan-soai",
-          "category": "world",
-          "source": "Royal Swedish Academy of Sciences",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Premio assegnato per sintesi organica asimmetrica e autocatalisi",
-          "title": "Henri Kagan e Kenso Soai vincono il Nobel per la chimica delle molecole speculari",
-          "url": "https://www.kva.se/en/news/the-nobel-prize-in-chemistry-2026/",
-          "verificationUrls": [
-            "https://apnews.com/article/e92801a294ba29d5ff1fbbf63904c977"
-          ]
-        },
-        {
-          "id": "2026-10-08-world-maricarmen-abascal-dies",
-          "category": "world",
-          "source": "Associated Press",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Deceduta in ospedale due settimane dopo lo sfratto",
-          "title": "Muore Maricarmen Abascal, diventata il simbolo nazionale della crisi abitativa spagnola",
-          "url": "https://apnews.com/article/58901917de1314e56ef2ca7eff71cfe6",
-          "verificationUrls": [
-            "https://www.tagesschau.de/ausland/europa/maricarmen-spanien-zwangsraeumung-100.html"
-          ]
-        },
-        {
-          "id": "2026-10-08-ai-openai-gpt6-chatgpt",
-          "category": "ai",
-          "source": "OpenAI",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Rollout avviato sui piani a pagamento; Free e Go dall’8 ottobre",
-          "title": "OpenAI porta GPT‑6 e interfacce interattive native in ChatGPT",
-          "url": "https://openai.com/index/gpt-6-for-everyone/"
-        },
-        {
-          "id": "2026-10-08-ai-claude-haiku-55",
-          "category": "ai",
-          "source": "Anthropic",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Disponibile su Claude, API, AWS, Google Cloud e Microsoft Azure",
-          "title": "Anthropic lancia Claude Haiku 5.5 per carichi ad alto volume con prezzi da 0,10 dollari per milione di token",
-          "url": "https://www.anthropic.com/claude-haiku-5-5",
-          "verificationUrls": [
-            "https://platform.claude.com/docs/en/models/haiku-5-5/overview"
-          ]
-        },
-        {
-          "id": "2026-10-08-ai-microsoft-local-copilot",
-          "category": "ai",
-          "source": "Microsoft",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Orchestrazione locale-cloud prevista entro fine mese",
-          "title": "Microsoft prepara GitHub Copilot a scegliere tra modelli locali e cloud dentro container controllati",
-          "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/"
-        },
-        {
-          "id": "2026-10-08-ai-virtual-biology-initiative",
-          "category": "ai",
-          "source": "Biohub",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Impegno congiunto dichiarato da 1,8 miliardi di dollari",
-          "title": "Biohub, NIH, Dipartimento dell’Energia e partner tecnologici finanziano dati aperti per modelli virtuali delle cellule",
-          "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-          "verificationUrls": [
-            "https://www.axios.com/2026/10/07/zuckerberg-biohub-ai-biology-data"
-          ]
-        },
-        {
-          "id": "2026-10-08-ai-germany-security-study",
-          "category": "ai",
-          "source": "TÜV-Verband",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Indagine BSI-TÜV su oltre 500 imprese tedesche",
-          "title": "Solo l’11% delle aziende con piani AI dispone di procedure specifiche per incidenti legati all’intelligenza artificiale",
-          "url": "https://www.tuev-verband.de/studien/ki-sicherheitsstudie-2026",
-          "verificationUrls": [
-            "https://www.tagesschau.de/wirtschaft/unternehmen/ki-sicherheit-cyberattaken-100.html"
-          ]
-        },
-        {
-          "id": "2026-10-08-ai-cisco-webex-agents",
-          "category": "ai",
-          "source": "Cisco",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Alcune integrazioni sono annunciate come prossime, non ancora disponibili",
-          "title": "Cisco integra agenti Claude e contesto Webex in nuovi flussi di collaborazione aziendale",
-          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/cisco-unveils-new-agentic-collaboration-experiences.html"
-        },
-        {
-          "id": "2026-10-08-ai-automation-anywhere-boostai",
-          "category": "ai",
-          "source": "Automation Anywhere",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Accordo definitivo; chiusura prevista nel quarto trimestre previa autorizzazione",
-          "title": "Automation Anywhere concorda l’acquisizione della norvegese Boost.ai per espandersi negli agenti vocali",
-          "url": "https://www.automationanywhere.com/company/press-room/conversational-ai-finally-connected-work-automation-anywhere-acquire-boostai"
-        },
-        {
-          "id": "2026-10-08-ai-openai-teen-learning-tools",
-          "category": "ai",
-          "source": "OpenAI",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · College Planner inizialmente destinato agli studenti delle superiori negli Stati Uniti",
-          "title": "OpenAI presenta strumenti per studio, orientamento universitario e consultazione degli adolescenti",
-          "url": "https://openai.com/index/teens-learn-and-plan/"
-        },
-        {
-          "id": "2026-10-08-robotics-danaher-autonomous-lab",
-          "category": "robotics",
-          "source": "Danaher",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Laboratorio pianificato; operatività su scala attesa a inizio 2027",
-          "title": "Danaher combina AI e robotica in un laboratorio autonomo per progettare e verificare nuovi anticorpi",
-          "url": "https://investors.danaher.com/2026-10-07-Danaher-Accelerates-Life-Sciences-Research-with-New-AI-powered-Autonomous-Lab"
-        },
-        {
-          "id": "2026-10-08-robotics-kuka-td-synnex",
-          "category": "robotics",
-          "source": "KUKA",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Distribuzione AMR avviata in Regno Unito, Francia, Spagna e Benelux",
-          "title": "KUKA apre i propri robot mobili autonomi alla rete europea di rivenditori TD SYNNEX",
-          "url": "https://www.kuka.com/ja-jp/%E4%BC%9A%E7%A4%BE%E6%A6%82%E8%A6%81/%E3%83%97%E3%83%AC%E3%82%B9/news/2026/10/kuka-group-and-td-synnex-partner-to-advance-physical-ai"
-        },
-        {
-          "id": "2026-10-08-robotics-dewalt-dale-deployment",
-          "category": "robotics",
-          "source": "Stanley Black & Decker",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Dati di impiego dichiarati dall’azienda su 44 fasi costruttive",
-          "title": "Il robot di perforazione DALE supera 385.000 fori nei cantieri dei data center",
-          "url": "https://newsroom.stanleyblackanddecker.com/2026-10-07-Fast-Company-Honors-World-First-Fleet-Capable-Downward-Drilling-Robot-DEWALT-Is-the-Only-Tool-Manufacturer-Recognized-in-2026-Next-Big-Things-in-Tech-Awards-Program"
-        },
-        {
-          "id": "2026-10-08-robotics-swarmshot-counter-drone",
-          "category": "robotics",
-          "source": "Palladyne AI",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Sviluppo congiunto annunciato; sistema non ancora qualificato o operativo",
-          "title": "Palladyne AI, Federal e Mossberg progettano uno sciame autonomo armato contro droni ostili",
-          "url": "https://investor.palladyneai.com/news-releases/news-release-details/federal-ammunition-mossberg-and-palladyne-ai-launch-joint"
-        },
-        {
-          "id": "2026-10-08-auto-porsche-2035-strategy",
-          "category": "automotive",
-          "source": "Porsche",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Obiettivi strategici aziendali, non previsioni garantite",
-          "title": "Porsche punta al pareggio sotto 200.000 auto e a una redditività operativa del 10-15%",
-          "url": "https://newsroom.porsche.com/de/2026/unternehmen/porsche-capital-markets-day-strategie-sportwagenschmiede-35-43418.html",
-          "verificationUrls": [
-            "https://investorrelations.porsche.com/en/calendar/cmd-2026"
-          ]
-        },
-        {
-          "id": "2026-10-08-business-fed-september-minutes",
-          "category": "business",
-          "source": "Federal Reserve",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Pubblicati i verbali della riunione del 15-16 settembre",
-          "title": "La maggioranza della Fed vede probabile un altro rialzo dei tassi nel 2026, ma cresce la cautela interna",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
-          "verificationUrls": [
-            "https://apnews.com/article/b7ed20e31e1a6fa5da6d78e5fe35b0c3"
-          ]
-        },
-        {
-          "id": "2026-10-08-business-global-markets-bonds-oil",
-          "category": "business",
-          "source": "Reuters",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Chiusura della seduta europea e aggiornamento di Wall Street",
-          "title": "Azioni ed euro arretrano mentre petrolio e rendimenti obbligazionari tornano a salire",
-          "url": "https://uk.marketscreener.com/news/world-shares-euro-slide-as-high-oil-prices-fiscal-worries-linger-ce785ddeda80f622"
-        },
-        {
-          "id": "2026-10-08-business-samsung-q3-guidance",
-          "category": "business",
-          "source": "Samsung Electronics",
-          "sourceDate": "2026-10-08",
-          "status": "8 ott · Dati preliminari; risultati completi attesi più avanti nel mese",
-          "title": "Samsung stima per il terzo trimestre 195.000 miliardi di won di ricavi e 107.400 miliardi di utile operativo",
-          "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
-          "verificationUrls": [
-            "https://www.reuters.com/business/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/"
-          ]
-        },
-        {
-          "id": "2026-10-08-business-lg-energy-q3",
-          "category": "business",
-          "source": "LG",
-          "sourceDate": "2026-10-08",
-          "status": "8 ott · Risultati preliminari, comprensivi di 416,9 miliardi di won di crediti fiscali USA",
-          "title": "LG Energy Solution porta i ricavi trimestrali a 9.640 miliardi di won e l’utile operativo a 756 miliardi",
-          "url": "https://lg.co.kr/media/release/30650"
-        },
-        {
-          "id": "2026-10-08-business-eu-auditors-annual-report",
-          "category": "business",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-08",
-          "status": "8 ott · Pubblicato il rapporto annuale sui conti europei del 2025",
-          "title": "La Corte dei conti europea stima irregolarità nel 3,8% della spesa e avverte sul rapido aumento del debito UE",
-          "url": "https://www.tagesschau.de/wirtschaft/eu-rechnungshof-schulden-100.html",
-          "verificationUrls": [
-            "https://www.eca.europa.eu/"
-          ]
-        },
-        {
-          "id": "2026-10-08-business-dhl-globalization-tracker",
-          "category": "business",
-          "source": "DHL Group",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Previsione del Globalization Tracker realizzato con NYU Stern",
-          "title": "DHL prevede che il commercio mondiale di beni crescerà in media del 3,4% annuo fino al 2029",
-          "url": "https://group.dhl.com/de/presse/pressemitteilungen/2026/technologie-schlaegt-zoelle-welthandel-waechst-schneller-globalisierung-erreicht-neuen-rekordwert.html"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "updatedAt": "2026-10-07T12:33:00+02:00",
-      "note": "Edizione di recupero dal cutoff del 5 ottobre, ore 06:05 CEST · Aggiornata alle 12:33 CEST · 33 notizie. Pubblicati solo sviluppi nuovi e ancora attuali; escluse ripetizioni sostanziali dell’archivio recente. Focus mirato su AI e robotica, senza riempitivi; nessun weekendEvents.",
-      "summary": "La Germania apre il confronto salariale della metalmeccanica mentre l’arresto dell’ex capo del BND Hanning e l’elezione del primo presidente regionale AfD segnano l’agenda politica. L’escalation aerea tra Russia e Ucraina investe anche il traffico commerciale nel Mar Nero; in Yemen si allarga l’offensiva sul Bab el-Mandeb. Sul fronte tecnologico, Mistral presenta Large 4, OpenAI pubblica risultati matematici e la robotica accelera tra Atlas, Digit 5 e logistica autonoma.",
-      "items": [
-        {
-          "id": "2026-10-07-de-rausch-landtag-president",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Eletto al primo scrutinio con 48 voti su 82; voto segreto",
-          "title": "Tobias Rausch diventa in Sassonia-Anhalt il primo presidente di un parlamento regionale proveniente dall’AfD",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/landtagspraesident-sachsen-anhalt-102.html"
-        },
-        {
-          "id": "2026-10-07-de-hanning-bnd-arrest",
-          "category": "germany",
-          "source": "Tagesschau / NDR / WDR",
-          "sourceDate": "2026-10-06",
-          "status": "6–7 ott · Arresto confermato dalla procura federale; le accuse restano da provare",
-          "title": "Arrestato l’ex presidente del BND August Hanning: è indagato per presunto spionaggio e tentato tradimento",
-          "url": "https://www.tagesschau.de/investigativ/ndr-wdr/bnd-hanning-100.html"
-        },
-        {
-          "id": "2026-10-07-de-rail-infraplan",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Obiettivi al 2030; finanziamento e base giuridica non ancora garantiti",
-          "title": "Il governo tedesco presenta l’Infraplan ferroviario: 155 chilometri di nuovi binari e meno ritardi entro il 2030",
-          "url": "https://www.tagesschau.de/inland/verkehrsministerium-bahn-infraplan-100.html"
-        },
-        {
-          "id": "2026-10-07-de-ig-metall-talks",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Avviati i negoziati per circa 3,7 milioni di lavoratori",
-          "title": "Parte il negoziato della metalmeccanica: IG Metall chiede il 5% e garanzie su stabilimenti e occupazione",
-          "url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ig-metall-tarifverhandlungen-104.html"
-        },
-        {
-          "id": "2026-10-07-de-schufa-transparency",
-          "category": "germany",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Critiche trasversali in Parlamento; Schufa contesta l’interpretazione",
-          "title": "Il nuovo punteggio Schufa riapre il caso trasparenza: i sistemi aggiuntivi preoccupano maggioranza e opposizione",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/schufa-bundestag-kritik-100.html"
-        },
-        {
-          "id": "2026-10-07-it-istat-households-q2",
-          "category": "italy",
-          "source": "Istat",
-          "sourceDate": "2026-10-05",
-          "status": "5 ott · Dati destagionalizzati del secondo trimestre 2026",
-          "title": "Istat: reddito disponibile delle famiglie in aumento dello 0,4%, ma il potere d’acquisto perde lo 0,9%",
-          "url": "https://www.istat.it/comunicato-stampa/conto-trimestrale-ap-reddito-famiglie-profitti-societa-ii-trimestre-2026/"
-        },
-        {
-          "id": "2026-10-07-it-diesel-excise-cut-expires",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-10-05",
-          "status": "6 ott · Terminato lo sconto temporaneo; aumento di 6,1 centesimi al litro",
-          "title": "Scade il taglio delle accise sul gasolio: nessun decreto di proroga e prezzo fiscale di nuovo più alto",
-          "url": "https://www.ansa.it/sito/notizie/flash/2026/10/05/da-domani-accise-sul-gasolio-piu-alte-nessun-decreto-in-gazzetta_b4f8d4f3-aceb-4356-8c2f-5b3e483901ee.html",
-          "verificationUrls": [
-            "https://www.rainews.it/video/2026/10/carburanti-stop-taglio-accise-sale-di-nuovo-il-prezzo-del-gasolio-ec063dbd-2fc3-4c8e-b235-ddfe7ff11afe.html"
-          ]
-        },
-        {
-          "id": "2026-10-07-it-electoral-law-confidence-votes",
-          "category": "italy",
-          "source": "ANSA",
-          "sourceDate": "2026-10-07",
-          "status": "6–7 ott · Approvate tutte e tre le fiducie; voto segreto finale previsto l’8 ottobre",
-          "title": "Legge elettorale, la Camera approva anche la terza e ultima questione di fiducia posta dal governo",
-          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/06/legge-elettorale-ok-della-camera-alla-fiducia-sullarticolo-2-227-si_3b6319fb-ba23-405a-8f6e-c67558a8a218.html",
-          "verificationUrls": [
-            "https://www.camera.it/leg19/410?idSeduta=0721&tipo=stenografico"
-          ]
-        },
-        {
-          "id": "2026-10-07-world-ukraine-russian-mass-strike",
-          "category": "world",
-          "source": "Associated Press",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Bilancio provvisorio delle autorità ucraine",
-          "title": "Missili e droni russi colpiscono Kyiv e altre dodici regioni ucraine: almeno 19 morti e circa 60 feriti",
-          "url": "https://apnews.com/article/russia-ukraine-war-kyiv-strike-650e298d7bc3881351533683ff4040ed"
-        },
-        {
-          "id": "2026-10-07-world-ukraine-moscow-drone-attack",
-          "category": "world",
-          "source": "Associated Press",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Numeri di intercettazioni forniti dalle autorità russe",
-          "title": "L’Ucraina lancia quasi 900 droni verso la Russia: due morti nella regione di Mosca",
-          "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-d6e8cbb6d0ffdc7cbd2da59b9cd6f7c9",
-          "verificationUrls": [
-            "https://www.investing.com/news/world-news/ukrainian-drones-kill-two-in-moscow-region-injure-nine-more-governor-says-4933575"
-          ]
-        },
-        {
-          "id": "2026-10-07-world-black-sea-cargo-ships",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Origine dei droni non ancora accertata",
-          "title": "Droni colpiscono due mercantili nella zona economica bulgara: una nave affonda, equipaggio disperso",
-          "url": "https://www.tagesschau.de/ausland/europa/schwarzes-meer-drohnenangriff-100.html"
-        },
-        {
-          "id": "2026-10-07-world-yemen-saudi-offensive",
-          "category": "world",
-          "source": "Associated Press",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Rivendicazioni Houthi non verificate; intercettazione riferita dalla coalizione",
-          "title": "Lo scontro in Yemen si allarga: offensiva filogovernativa sul Bab el-Mandeb e missile intercettato vicino a Riad",
-          "url": "https://apnews.com/article/yemen-houthis-saudi-airport-aden-rebels-f22f20dd78b03b741dfa1279881cedbb"
-        },
-        {
-          "id": "2026-10-07-world-france-student-protests",
-          "category": "world",
-          "source": "Associated Press",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Oltre 250.000 partecipanti secondo il governo francese",
-          "title": "Francia, proteste nazionali per maggiori risorse all’istruzione: scontri con la polizia e centinaia di fermi",
-          "url": "https://apnews.com/article/france-education-protests-macron-police-dd78a1a2b80d4c84a92bcdde6f96e988"
-        },
-        {
-          "id": "2026-10-07-world-spain-puigdemont-warrant",
-          "category": "world",
-          "source": "Associated Press",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Revoca disposta mentre la magistratura esamina gli effetti dell’amnistia",
-          "title": "La giustizia spagnola revoca il mandato d’arresto contro Carles Puigdemont, aprendo la strada al rientro",
-          "url": "https://apnews.com/article/puigdemont-catalonia-spain-f4f7f1b3cd837a6c77daaa1d0b656862"
-        },
-        {
-          "id": "2026-10-07-world-pennsylvania-measles",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Oltre 1.000 casi e cinque decessi nello Stato",
-          "title": "Il morbillo dilaga in Pennsylvania: meno dell’1% delle persone contagiate risulta completamente vaccinato",
-          "url": "https://www.tagesschau.de/ausland/amerika/pennsylvania-masern-100.html"
-        },
-        {
-          "id": "2026-10-07-world-nobel-physics-halzen",
-          "category": "world",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Premio assegnato per l’astrofisica dei neutrini ad alta energia",
-          "title": "Il Nobel per la fisica va a Francis Halzen per il lavoro sui neutrini cosmici e l’osservatorio IceCube",
-          "url": "https://www.tagesschau.de/wissen/nobelpreis-physik-francis-halzen-100.html"
-        },
-        {
-          "id": "2026-10-07-ai-openai-math-results",
-          "category": "ai",
-          "source": "OpenAI",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Risultati e valutazioni pubblicati dall’azienda, non ancora sottoposti a revisione indipendente",
-          "title": "OpenAI pubblica nuovi risultati matematici del proprio modello di frontiera, incluse dimostrazioni formalizzate in Lean",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
-        },
-        {
-          "id": "2026-10-07-ai-openai-ironclad-eval",
-          "category": "ai",
-          "source": "OpenAI",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Benchmark interno su undici flussi di lavoro complessi",
-          "title": "OpenAI presenta la collaborazione con Ironclad per valutare agenti AI in attività professionali complesse",
-          "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
-        },
-        {
-          "id": "2026-10-07-ai-openai-eu-text-watermark",
-          "category": "ai",
-          "source": "OpenAI",
-          "sourceDate": "2026-10-05",
-          "status": "5 ott · API opt-in disponibile; introduzione in ChatGPT e Codex nell’UE prevista nelle prossime settimane",
-          "title": "OpenAI avvia nell’Unione europea un sistema di provenienza invisibile per il testo generato dall’AI",
-          "url": "https://openai.com/index/eu-text-provenance/"
-        },
-        {
-          "id": "2026-10-07-ai-mistral-large-4",
-          "category": "ai",
-          "source": "Mistral AI",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Anteprima via API; pesi promessi entro fine mese",
-          "title": "Mistral presenta Large 4: modello multimodale da un trilione di parametri totali, 49 miliardi attivi",
-          "url": "https://mistral.ai/news/mistral-large-4/"
-        },
-        {
-          "id": "2026-10-07-ai-anthropic-glasswing-access",
-          "category": "ai",
-          "source": "Anthropic",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Accesso graduato e riservato a professionisti di sicurezza qualificati",
-          "title": "Anthropic amplia il Cyber Verification Program collegato a Project Glasswing, con tre livelli di accesso ai modelli",
-          "url": "https://www.anthropic.com/glasswing"
-        },
-        {
-          "id": "2026-10-07-ai-un-human-rights-resolution",
-          "category": "ai",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Risoluzione approvata all’unanimità ma non vincolante",
-          "title": "Il Consiglio ONU per i diritti umani approva una nuova risoluzione sugli impatti dell’intelligenza artificiale",
-          "url": "https://www.tagesschau.de/ausland/europa/un-menschenrechte-ki-100.html"
-        },
-        {
-          "id": "2026-10-07-robotics-atlas-gr3-hand",
-          "category": "robotics",
-          "source": "Boston Dynamics",
-          "sourceDate": "2026-10-07",
-          "status": "7 ott · Specifiche e test diffusi dal produttore",
-          "title": "Boston Dynamics mostra la mano GR3 di Atlas: quattro dita, 13 gradi di libertà e sensori tattili ad alta densità",
-          "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/"
-        },
-        {
-          "id": "2026-10-07-robotics-agility-digit5-investor-day",
-          "category": "robotics",
-          "source": "Agility Robotics / SEC",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Presentazione SEC; ordini pluriennali soggetti a milestone, non ricavi correnti",
-          "title": "Agility dettaglia la scala di Digit 5: fabbrica progettata per 10.000 unità l’anno e ordini condizionati per 1.000 robot",
-          "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026107259/ea030784201ex99-1.htm"
-        },
-        {
-          "id": "2026-10-07-robotics-overland-ai-apfit",
-          "category": "robotics",
-          "source": "Overland AI",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Modifica contrattuale annunciata dall’azienda; valore complessivo vicino a 25 milioni di dollari",
-          "title": "Gli Stati Uniti ampliano il contratto con Overland AI per veicoli terrestri autonomi destinati a esercito e forze speciali",
-          "url": "https://www.overland.ai/news/overland-ai-grows-apfit-contract-to-25m"
-        },
-        {
-          "id": "2026-10-07-robotics-deliveroo-coco-uk",
-          "category": "robotics",
-          "source": "The Grocer",
-          "sourceDate": "2026-10-05",
-          "status": "5 ott · Rollout annunciato, non ancora servizio nazionale",
-          "title": "Deliveroo prepara le prime consegne robotiche con Coco in cinque città britanniche, a partire da Canary Wharf",
-          "url": "https://www.thegrocer.co.uk/news/deliveroo-rolling-out-robot-deliveries-with-sam-altman-backed-firm-coco/724396.article",
-          "verificationUrls": [
-            "https://www.techradar.com/tech/deliveroo-says-its-first-robot-deliveries-will-start-in-5-uk-cities-soon-but-claims-the-majority-of-orders-will-still-involve-human-riders"
-          ]
-        },
-        {
-          "id": "2026-10-07-automotive-germany-ev-price-gap",
-          "category": "automotive",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Studio CAR su 25 modelli elettrici e 25 termici più venduti; incentivo statale escluso",
-          "title": "In Germania si restringe il divario di prezzo tra auto elettriche e termiche: la differenza media scende a 2.124 euro",
-          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/preise-e-autos-verbrenner-100.html"
-        },
-        {
-          "id": "2026-10-07-business-paramount-warner-close",
-          "category": "business",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Chiusura ufficiale dell’operazione",
-          "title": "Paramount completa l’acquisizione di Warner Bros. Discovery e ridisegna il mercato dei media",
-          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/paramount-warner-uebernahme-102.html"
-        },
-        {
-          "id": "2026-10-07-business-rheinmetall-satellite-production",
-          "category": "business",
-          "source": "Tagesschau",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Primo satellite prodotto a Neuss previsto nel 2027",
-          "title": "Rheinmetall avvia la produzione in serie di satelliti radar: capacità progettata per circa 50 unità l’anno",
-          "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-rheinmetall-weltall-100.html"
-        },
-        {
-          "id": "2026-10-07-business-google-constellation-nuclear",
-          "category": "business",
-          "source": "Constellation Energy",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Accordo ventennale; primo aumento di capacità previsto nel 2028",
-          "title": "Google e Constellation siglano un accordo nucleare per aggiungere 890 megawatt alla rete PJM",
-          "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
-          "verificationUrls": [
-            "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/"
-          ]
-        },
-        {
-          "id": "2026-10-07-business-anduril-arsenal-2",
-          "category": "business",
-          "source": "Anduril Industries",
-          "sourceDate": "2026-10-06",
-          "status": "6 ott · Annuncio aziendale; pagamenti legati ai risultati e avvio operativo previsto nel 2030",
-          "title": "Anduril e Marina statunitense annunciano Arsenal-2, investimento congiunto da 6,6 miliardi di dollari per la filiera dei sottomarini",
-          "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base"
-        },
-        {
-          "id": "2026-10-07-events-new-fall-festival",
-          "category": "events",
-          "source": "New Fall Festival",
-          "sourceDate": "2026-10-07",
-          "status": "7–11 ott · Düsseldorf, sedi diverse; biglietti e orari per singolo concerto",
-          "title": "Comincia il New Fall Festival di Düsseldorf, con Apparat nella serata inaugurale all’Henkel-Saal",
-          "url": "https://www.new-fall-festival.de/",
-          "eventDate": "2026-10-07"
-        },
-        {
-          "id": "2026-10-07-events-frankfurt-book-fair",
-          "category": "events",
-          "source": "Frankfurter Buchmesse",
-          "sourceDate": "2026-06-24",
-          "status": "7–11 ott · Francoforte; pubblico ammesso da venerdì alle 10 e nel fine settimana",
-          "title": "Apre la Fiera del libro di Francoforte: cinque giorni di programma con la Repubblica Ceca ospite d’onore",
-          "url": "https://www.buchmesse.de/presse/pressemitteilungen/2026-06-24-frankfurter-buchmesse-ticketshop-oeffnet",
-          "verificationUrls": [
-            "https://www.buchmesse.de/"
-          ],
-          "eventDate": "2026-10-07"
         }
       ]
     }
