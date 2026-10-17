@@ -1,3 +1,4 @@
+Warning: fsx was declared with const; use let for reassignable variables.
 const categoryOrder = [
   ["germany", "Germania & Düsseldorf"],
   ["italy", "Italia"],
@@ -142,7 +143,6 @@ function renderWeekend(items) {
 function renderEdition(edition, shouldScroll = false) {
   activeEdition = edition;
   $("#editionTitle").textContent = italianDate(edition.date);
-  $("#editionNote").textContent = edition.note;
   $("#dailySummary").textContent = edition.summary || "Nessuna sintesi disponibile per questa edizione.";
   $("#heroDate").textContent = `Edizione di ${italianDate(edition.date)}`;
   document.title = `Briefing Quotidiano · ${italianDate(edition.date, false)}`;
@@ -169,6 +169,21 @@ function formatTokenRange(value) {
   return `${value.min.toLocaleString("it-IT")}–${value.max.toLocaleString("it-IT")}`;
 }
 
+function formatEuroRange(value) {
+  if (!value || !Number.isFinite(value.min) || !Number.isFinite(value.max)) return "non disponibile";
+  return `${value.min.toFixed(4).replace(".", ",")}–${value.max.toFixed(4).replace(".", ",")} €`;
+}
+
+function modelCost(model, pricing) {
+  const inputPrice = /sol/i.test(model.model) ? pricing.solInputPerMillion : pricing.inputPerMillion;
+  const outputPrice = /sol/i.test(model.model) ? pricing.solOutputPerMillion : pricing.outputPerMillion;
+  if (!model.inputTokens || !model.outputTokens || !Number.isFinite(inputPrice) || !Number.isFinite(outputPrice) || !Number.isFinite(pricing.usdToEur)) return null;
+  return {
+    min: ((model.inputTokens.min * inputPrice) + (model.outputTokens.min * outputPrice)) / 1000000 * pricing.usdToEur,
+    max: ((model.inputTokens.max * inputPrice) + (model.outputTokens.max * outputPrice)) / 1000000 * pricing.usdToEur
+  };
+}
+
 function renderUsageEstimate(edition) {
   const target = $("#usageTrackingContent");
   if (!target) return;
@@ -177,15 +192,14 @@ function renderUsageEstimate(edition) {
     target.textContent = "Non disponibile per questa edizione. Le stime vengono aggiunte solo alle nuove edizioni, senza ricostruzioni retroattive.";
     return;
   }
-  const input = formatTokenRange(estimate.inputTokens);
-  const output = formatTokenRange(estimate.outputTokens);
-  const cost = estimate.apiEquivalentCostEUR;
-  const costText = cost && Number.isFinite(cost.min) && Number.isFinite(cost.max)
-    ? `${cost.min.toFixed(2).replace(".", ",")}–${cost.max.toFixed(2).replace(".", ",")} €`
-    : "non disponibile";
-  const models = Array.isArray(estimate.models) ? estimate.models.map(model => `${model.model} (${model.phase})`).join(", ") : "non disponibili";
   const pricing = estimate.pricing || {};
-  target.innerHTML = `<p><strong>Stima ${estimate.methodologyVersion || "senza versione"}:</strong> ${input} token in ingresso, ${output} in uscita; equivalente API ${costText}.</p><p>Fasi/modelli: ${models}. exact=false: intervallo indicativo, non costo reale del piano Codex.</p><p>Prezzi di riferimento: Luna ${pricing.inputPerMillion ?? "n/d"}/${pricing.outputPerMillion ?? "n/d"} $/M input/output; Sol ${pricing.solInputPerMillion ?? "n/d"}/${pricing.solOutputPerMillion ?? "n/d"} $/M. Cambio documentato ${pricing.usdToEur ?? "n/d"} EUR/USD (${pricing.fxDate || "data n/d"}, ${pricing.fxSource || "fonte n/d"}).</p>`;
+  const models = Array.isArray(estimate.models) ? estimate.models : [];
+  const rows = models.map(model => {
+    const cost = modelCost(model, pricing);
+    return `<tr><th scope="row">${model.model}</th><td>${formatTokenRange(model.inputTokens)}</td><td>${formatTokenRange(model.outputTokens)}</td><td>${formatEuroRange(cost)}</td></tr>`;
+  }).join("");
+  const total = estimate.apiEquivalentCostEUR;
+  target.innerHTML = `<p class="usage-lead">Stima indicativa dell’equivalente API per questa edizione; non è il costo reale del piano Codex.</p><div class="usage-table-wrap"><table class="usage-table"><caption>Consumo giornaliero stimato · ${estimate.methodologyVersion || "metodologia non indicata"}</caption><thead><tr><th scope="col">Modello</th><th scope="col">Token input</th><th scope="col">Token output</th><th scope="col">Costo API equivalente</th></tr></thead><tbody>${rows || `<tr><td colspan="4">Dati per modello non disponibili.</td></tr>`}<tr class="usage-total"><th scope="row" colspan="3">Totale giornaliero</th><td>${formatEuroRange(total)}</td></tr></tbody></table></div><p class="usage-footnote">Intervalli indicativi. Prezzi di riferimento: Luna ${pricing.inputPerMillion ?? "n/d"}/${pricing.outputPerMillion ?? "n/d"} $/M input/output; Sol ${pricing.solInputPerMillion ?? "n/d"}/${pricing.solOutputPerMillion ?? "n/d"} $. Cambio: ${pricing.usdToEur ?? "n/d"} EUR/USD (${pricing.fxDate || "data n/d"}).</p>`;
 }
 
 function renderArchive() {

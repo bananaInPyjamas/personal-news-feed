@@ -1,3 +1,4 @@
+Warning: fsx was declared with const; use let for reassignable variables.
 :root {
   --briefing-ink: #1f2428;
   --briefing-muted: #687076;
@@ -61,7 +62,6 @@ header.briefing-masthead {
   background: #fff2ee;
   font: 600 .74rem/1 "Merriweather Sans", sans-serif;
 }
-.edition-note { color: var(--briefing-muted); margin: .6rem 0 0; }
 .daily-summary {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -178,6 +178,15 @@ header.briefing-masthead {
 .usage-details summary { cursor: pointer; color: var(--briefing-ink); }
 .usage-content { padding-top: .75rem; font-weight: 400; }
 .usage-content p { margin: 0 0 .5rem; }
+.usage-lead, .usage-footnote { color: var(--briefing-muted); }
+.usage-table-wrap { overflow-x: auto; }
+.usage-table { width: 100%; min-width: 38rem; border-collapse: collapse; color: var(--briefing-ink); font-size: .78rem; }
+.usage-table caption { padding: 0 0 .6rem; color: var(--briefing-ink); font-weight: 700; text-align: left; }
+.usage-table th, .usage-table td { padding: .55rem .65rem; border-bottom: 1px solid var(--briefing-line); text-align: right; white-space: nowrap; }
+.usage-table th:first-child, .usage-table td:first-child { text-align: left; }
+.usage-table thead th { color: var(--briefing-muted); font-size: .7rem; text-transform: uppercase; letter-spacing: .04em; }
+.usage-table .usage-total th, .usage-table .usage-total td { border-top: 2px solid var(--briefing-ink); border-bottom: 0; font-weight: 700; }
+.usage-footnote { margin-top: .7rem !important; font-size: .72rem; }
 .feedback-toast {
   position: fixed;
   z-index: 1100;
