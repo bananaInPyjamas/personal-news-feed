@@ -1,4 +1,3 @@
-Warning: fsx was declared with const; use let for reassignable variables.
 const categoryOrder = [
   ["germany", "Germania & Düsseldorf"],
   ["italy", "Italia"],
