@@ -1,0 +1,663 @@
+{
+  "editions": [
+    {
+      "date": "2026-10-23",
+      "updatedAt": "2026-10-23T06:20:00+02:00",
+      "note": "Edizione ordinaria dalla finestra successiva al cutoff del 22 ottobre, ore 06:18 CEST · Aggiornata alle 06:20 CEST · 23 notizie. Selezione verificata senza riempitivi; 5 notizie AI e 4 di robotica. Tre eventi weekend verificati.",
+      "summary": "L’Europa affronta insieme pressione energetica, proteste sociali e sicurezza: in Italia gli aiuti ai camionisti attenuano i blocchi, mentre Roma e Madrid chiudono la parentesi dei controlli Schengen. La guerra in Ucraina continua tra attacchi e tentativi di riaprire i colloqui. AI e robotica passano dalle promesse all’infrastruttura: NVIDIA prepara fabbriche modulari e piattaforme fisiche, OpenAI aggiorna gli standard di distribuzione e nuovi robot sperimentano materiali viventi, droni sanitari e volo biomimetico.",
+      "usageEstimate": {
+        "exact": false,
+        "methodologyVersion": "2026-10-09-v1",
+        "activity": {
+          "date": "2026-10-23",
+          "articles": 23,
+          "weekendEvents": 3,
+          "searchCalls": 6,
+          "sourcePagesOpened": 16,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
+            "inputTokens": { "min": 16888, "max": 25332 },
+            "outputTokens": { "min": 3060, "max": 5100 }
+          }
+        ],
+        "inputTokens": { "min": 16888, "max": 25332 },
+        "outputTokens": { "min": 3060, "max": 5100 },
+        "apiEquivalentCostEUR": { "min": 0.0063023424, "max": 0.0100006416 },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
+      },
+      "items": [
+        { "id": "2026-10-23-de-weidel-european-parliament", "category": "germany", "source": "Le Monde", "sourceDate": "2026-10-22", "status": "22 ott · La leader AfD cerca spazio al Parlamento europeo, ma il suo intervento incontra forti resistenze; analisi giornalistica", "title": "Weidel cerca una sponda europea per l’AfD, ma la sua offensiva incontra resistenze", "url": "https://www.lemonde.fr/en/international/article/2026/10/22/alice-weidel-s-failed-charm-offensive-at-the-european-parliament_6761549_4.html" },
+        { "id": "2026-10-23-de-europe-ai-factories", "category": "germany", "source": "NVIDIA", "sourceDate": "2026-10-21", "status": "21 ott · Annuncio a GTC Berlin; ecosistema europeo e aziendale, tempi e risparmi sono dichiarazioni del produttore", "title": "Da Berlino NVIDIA spinge fabbriche AI europee più modulari e meno dipendenti dall’acqua", "url": "https://nvidianews.nvidia.com/news/european-ecosystem-builds-worlds-most-efficient-ai-factories" },
+        { "id": "2026-10-23-it-trucker-aid", "category": "italy", "source": "ANSA / Governo italiano", "sourceDate": "2026-10-22", "status": "22 ott · Il governo annuncia crediti d’imposta aggiuntivi e una linea dura contro i blocchi; misura governativa", "title": "Roma approva nuovi aiuti per camionisti, agricoltori e pesca mentre il Sud allenta i blocchi", "url": "https://www.ansa.it/english/newswire/english_service/2026/10/22/meloni-announces-aid-for-truckers-says-intimidation-wont-be-tolerated_da7ff174-d68b-4a62-b60d-f51a18d949a1.html" },
+        { "id": "2026-10-23-it-schengen-spain", "category": "italy", "source": "Reuters / MarketScreener", "sourceDate": "2026-10-22", "status": "22 ott · Italia e Spagna concordano di non prolungare le sospensioni Schengen e rafforzano lo scambio informativo", "title": "Italia e Spagna chiudono la parentesi dei controlli Schengen e puntano sullo scambio dati", "url": "https://it.marketscreener.com/notizie/italia-e-spagna-concordano-stop-a-sospensione-schengen-ce785cd9d08af622" },
+        { "id": "2026-10-23-it-mozzarella-protest", "category": "italy", "source": "AP", "sourceDate": "2026-10-22", "status": "22 ott · AP stima perdite di circa tre milioni di euro in un giorno per la mozzarella di bufala a causa dei blocchi", "title": "I blocchi dei camionisti colpiscono anche la filiera della mozzarella di bufala", "url": "https://apnews.com/article/66595b818513d79995d52f14dfa09645" },
+        { "id": "2026-10-23-world-ukraine-strikes-talks", "category": "world", "source": "Reuters / ThePrint", "sourceDate": "2026-10-22", "status": "22 ott · Scambi di missili e droni mentre l’inviato USA lascia la regione; nessuna tregua", "title": "Russia e Ucraina si scambiano nuovi attacchi mentre Washington prova a riaprire i colloqui", "url": "https://theprint.in/world/russia-ukraine-exchange-strikes-as-us-envoy-leaves-after-talks/3078348/" },
+        { "id": "2026-10-23-world-putin-security-talks", "category": "world", "source": "Reuters / MarketScreener", "sourceDate": "2026-10-22", "status": "22 ott · Putin dice che i futuri negoziati dovrebbero includere garanzie di sicurezza per Russia, Ucraina ed Europa", "title": "Putin lega la ripresa dei negoziati a un quadro di sicurezza per tutta l’Europa", "url": "https://www.marketscreener.com/news/putin-says-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-ce785cdedf8ef524" },
+        { "id": "2026-10-23-world-ukraine-data-centers", "category": "world", "source": "AP", "sourceDate": "2026-10-22", "status": "22 ott · AP riferisce danni a data center russi e possibili ricadute sui servizi e sulla ricerca AI; effetti ancora da valutare", "title": "Gli attacchi ai data center russi mettono sotto pressione servizi e ricerca sull’AI", "url": "https://apnews.com/article/2886cb306264b9429bd317bde4bf01fa" },
+        { "id": "2026-10-23-world-europe-unrest", "category": "world", "source": "Le Monde", "sourceDate": "2026-10-20", "status": "20 ott · Analisi sulle proteste in Italia, Spagna, Belgio e Portogallo tra caro energia e crisi abitativa", "title": "Caro energia e abitazioni alimentano una nuova ondata di proteste in Europa", "url": "https://www.lemonde.fr/en/international/article/2026/10/20/italy-spain-belgium-portugal-social-unrest-spreads-across-europe-amid-soaring-energy-prices-and-a-housing-crisis_6759435_4.html" },
+        { "id": "2026-10-23-ai-nvidia-dsx-pod", "category": "ai", "source": "NVIDIA", "sourceDate": "2026-10-21", "status": "21 ott · Design modulare per fabbriche AI Vera Rubin; NVIDIA dichiara un passaggio da circa sei mesi a quattordici giorni in siti preparati", "title": "NVIDIA propone DSX POD: fabbriche AI preintegrate da installare in settimane", "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment" },
+        { "id": "2026-10-23-ai-nvidia-dsx-efficiency", "category": "ai", "source": "NVIDIA", "sourceDate": "2026-10-21", "status": "21 ott · NVIDIA dichiara fino al 30% in meno di energia per lo stesso output e raffreddamento quasi senza acqua nel design DSX", "title": "Le nuove fabbriche AI puntano a tagliare energia e acqua, ma i numeri restano promesse del fornitore", "url": "https://nvidianews.nvidia.com/news/european-ecosystem-builds-worlds-most-efficient-ai-factories" },
+        { "id": "2026-10-23-ai-openai-distribution-standards", "category": "ai", "source": "OpenAI", "sourceDate": "2026-10-21", "status": "21 ott · OpenAI descrive standard comuni e salvaguardie per la distribuzione tramite partner; documento aziendale", "title": "OpenAI pubblica standard comuni per distribuire modelli tramite partner", "url": "https://openai.com/index/broad-access-through-consistent-standards/" },
+        { "id": "2026-10-23-ai-anthropic-roadmap-retirement", "category": "ai", "source": "Anthropic", "sourceDate": "2026-10-19", "status": "19 ott · Anthropic ritira un obiettivo della roadmap di sicurezza e aggiorna il metodo di valutazione; dichiarazione aziendale", "title": "Anthropic ritira un obiettivo della roadmap di sicurezza e aggiorna le valutazioni", "url": "https://www.anthropic.com/responsible-scaling-policy/updates" },
+        { "id": "2026-10-23-ai-openai-math-community", "category": "ai", "source": "OpenAI / Simons Foundation", "sourceDate": "2026-10-15", "status": "15 ott · OpenAI annuncia cinque milioni di dollari per una nuova iniziativa Simons sui risultati matematici prodotti dall’AI", "title": "OpenAI finanzia con la Simons Foundation lo studio dei risultati matematici prodotti dall’AI", "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/" },
+        { "id": "2026-10-23-robotics-agile-one-sn", "category": "robotics", "source": "NVIDIA / Agile Robots", "sourceDate": "2026-10-21", "status": "21 ott · Umanoide di riferimento annunciato a GTC Berlin; specifiche e disponibilità sono dichiarazioni dei partner", "title": "Agile Robots presenta ONE SN, un umanoide di riferimento costruito attorno a Isaac e Jetson Thor", "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data" },
+        { "id": "2026-10-23-robotics-matternet-gosh", "category": "robotics", "source": "Matternet / Great Ormond Street Hospital", "sourceDate": "2026-10-20", "status": "20 ott · Servizio operativo per campioni pediatrici tra ospedale e laboratori, con autorizzazione CAA; tempi fino al 90% più rapidi dichiarati dall’azienda", "title": "Droni autonomi portano campioni pediatrici al Great Ormond Street Hospital", "url": "https://www.matternet.com/newsroom/matternet-expands-nhs-network" },
+        { "id": "2026-10-23-robotics-algae-soft-arm", "category": "robotics", "source": "Nature Communications / Robo Daily", "sourceDate": "2026-10-22", "status": "22 ott · Prototipo di circa due centimetri mosso da microalghe; dimostrate flessione e due semplici prese, non un prodotto", "title": "Microalghe fanno piegare un braccio robotico morbido quando cambia la luce", "url": "https://www.robodaily.com/reports/Living_algae_make_a_soft_robot_arm_bend_when_the_light_changes_999.html" },
+        { "id": "2026-10-23-robotics-flapping-takeoff", "category": "robotics", "source": "PubMed / Cyborg and Bionic Systems", "sourceDate": "2026-10-16", "status": "16 ott · Studio su un robot ad ali battenti: nei test la partenza a 15° aumentava la distanza totale del 49% rispetto a 65°", "title": "Un robot ad ali battenti vola più lontano con una partenza bassa", "url": "https://pubmed.ncbi.nlm.nih.gov/42891010/" },
+        { "id": "2026-10-23-auto-tesla-ai-robotics", "category": "automotive", "source": "Axios", "sourceDate": "2026-10-17", "status": "17 ott · Analisi sul riposizionamento di Tesla verso AI e robotica; non è un annuncio di prodotto verificato", "title": "Tesla viene sempre più valutata come azienda di AI e robotica oltre che automobilistica", "url": "https://www.axios.com/newsletters/axios-am-045ff9f8-09fb-496d-9127-4068091fbea5" },
+        { "id": "2026-10-23-business-milan-stocks-ai", "category": "business", "source": "Reuters / MarketScreener", "sourceDate": "2026-10-22", "status": "22 ott · Piazza Affari in calo con banche e tecnologia sotto pressione per petrolio, obbligazioni e timori sui costi AI", "title": "Borse e tecnologia italiane cedono mentre energia e costo dell’AI alimentano la cautela", "url": "https://www.marketscreener.com/news/milan-stock-market-falls-banks-and-technology-stocks-weigh-amid-bond-tensions-and-rising-oil-prices-ce785cd9d181ff21" },
+        { "id": "2026-10-23-business-italy-food-logistics", "category": "business", "source": "AP", "sourceDate": "2026-10-22", "status": "22 ott · La protesta interrompe consegne e produzione nella filiera alimentare; stima AP su una perdita giornaliera", "title": "La logistica alimentare italiana mostra quanto il caro carburante si trasferisca ai prezzi", "url": "https://apnews.com/article/66595b818513d79995d52f14dfa09645" },
+        { "id": "2026-10-23-business-ai-market-fears", "category": "business", "source": "Reuters / MarketScreener", "sourceDate": "2026-10-22", "status": "22 ott · Le azioni tech e chip europee scendono tra timori su spesa AI e tassi; dato di mercato della giornata", "title": "I timori sulla spesa AI tornano a pesare sui titoli tech europei", "url": "https://www.marketscreener.com/news/global-stocks-flat-as-ai-and-rate-fears-hit-tech-ce785dd3d18afe24" },
+        { "id": "2026-10-23-events-duesseldog-days", "category": "events", "source": "DüsselDog Days", "sourceDate": "2026-10-23", "status": "24–25 ott · Fiera canina al Blumengroßmarkt: sabato 14–20, domenica 10–18, ingresso indicato a 8 euro", "title": "DüsselDog Days porta al Blumengroßmarkt una nuova fiera per chi vive con un cane", "url": "https://duesseldog-days.de/", "eventDate": "2026-10-24" }
+      ],
+      "weekendEvents": [
+        { "id": "2026-10-23-weekend-tonhalle-helge-schneider", "category": "events", "source": "Tonhalle Düsseldorf", "sourceDate": "2026-10-23", "status": "24–25 ott · Helge Schneider alla Tonhalle; calendario ufficiale", "title": "Helge Schneider porta il suo nuovo spettacolo alla Tonhalle nel fine settimana", "url": "https://webshop.tonhalle.de/list/events", "eventDate": "2026-10-24" },
+        { "id": "2026-10-23-weekend-dimash-psd-dome", "category": "events", "source": "PSD BANK DOME", "sourceDate": "2026-10-23", "status": "Sabato 24 ottobre, ore 20:00; apertura porte 18:30, calendario ufficiale", "title": "Dimash Qudaibergen si esibisce sabato al PSD BANK DOME", "url": "https://www.psd-bank-dome.de/en/events-tickets/event-calendar", "eventDate": "2026-10-24" },
+        { "id": "2026-10-23-weekend-zauberfloete", "category": "events", "source": "Deutsche Oper am Rhein", "sourceDate": "2026-10-23", "status": "Domenica 25 ottobre, ore 15:00; Die Zauberflöte all’Opernhaus Düsseldorf", "title": "Die Zauberflöte torna domenica all’Opernhaus Düsseldorf", "url": "https://www.operamrhein.de/en/schedule/calendar/2026-10/", "eventDate": "2026-10-25" }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "updatedAt": "2026-10-22T06:18:00+02:00",
+      "note": "Edizione di recupero dalla chiusura del 16 ottobre alle 06:00 CEST · Aggiornata alle 06:18 CEST · 25 notizie. Selezione verificata sugli sviluppi ancora attuali del 17–22 ottobre, senza riempitivi; 6 notizie AI e 4 di robotica.",
+      "summary": "La Germania prova a riaprire il ciclo degli investimenti con il vertice di Berlino e una nuova iniziativa per l’AI industriale, mentre le previsioni pubbliche vedono una crescita ancora fragile. In Italia la manovra resta il punto di attrito fra maggioranza, banche, autotrasportatori e costo dell’energia. La guerra in Ucraina torna al tavolo dei negoziati senza una tregua, mentre OpenAI, Anthropic e NVIDIA spostano la competizione dall’annuncio di modelli a infrastrutture, ricerca applicata e robotica industriale.",
+      "usageEstimate": {
+        "exact": false,
+        "methodologyVersion": "2026-10-09-v1",
+        "activity": {
+          "date": "2026-10-22",
+          "articles": 25,
+          "weekendEvents": 0,
+          "searchCalls": 8,
+          "sourcePagesOpened": 19,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
+            "inputTokens": {
+              "min": 18344,
+              "max": 27516
+            },
+            "outputTokens": {
+              "min": 3038,
+              "max": 5063
+            }
+          }
+        ],
+        "inputTokens": {
+          "min": 18344,
+          "max": 27516
+        },
+        "outputTokens": {
+          "min": 3038,
+          "max": 5063
+        },
+        "apiEquivalentCostEUR": {
+          "min": 0.0065390736,
+          "max": 0.0103514472
+        },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
+      },
+      "items": [
+        {
+          "id": "2026-10-22-de-invest-summit",
+          "category": "germany",
+          "source": "Bundesregierung",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · Primo vertice Invest in Germany con circa 200 dirigenti e investitori; il governo lo presenta come punto di partenza per attrarre capitale",
+          "title": "Berlino lancia il primo Invest in Germany Summit e annuncia un nuovo ciclo di attrazione degli investimenti",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/invest-in-germany-summit-2457594"
+        },
+        {
+          "id": "2026-10-22-de-invest-promises",
+          "category": "germany",
+          "source": "Bundesregierung / Tagesschau",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · Il governo riferisce prime promesse miliardarie e chiede condizioni migliori per investire; non sono ancora investimenti contabilizzati",
+          "title": "Il vertice tedesco raccoglie prime promesse d’investimento, ma imprese e governo chiedono riforme rapide",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/statement-investitionsgipfel-2457742"
+        },
+        {
+          "id": "2026-10-22-de-autumn-forecast",
+          "category": "germany",
+          "source": "Bundesregierung",
+          "sourceDate": "2026-10-08",
+          "status": "8 ott · La proiezione autunnale indica +1,1% nel 2027 e +0,6% nel 2028, trainati anche da export e investimenti pubblici",
+          "title": "La proiezione autunnale tedesca vede una ripresa lenta: +1,1% nel 2027 e +0,6% nel 2028",
+          "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/wirksam-regieren/herbstprojektion-2026-bundesregierung-2456338"
+        },
+        {
+          "id": "2026-10-22-it-budget-majority",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · La maggioranza cerca l’intesa sulla manovra e sul contributo di banche e assicurazioni; il via libera slitta nel confronto con Bruxelles",
+          "title": "Manovra, la maggioranza stringe sulle priorità mentre resta aperto il contributo chiesto alle banche",
+          "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/19/meloni-e-giorgetti-blindano-la-manovra-si-cerca-unintesa-politica-sulle-banche_c3e86596-c36b-431a-8d41-4a3e6b968439.html"
+        },
+        {
+          "id": "2026-10-22-it-truckers",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · Proteste e blocchi nel Mezzogiorno hanno creato code e carenze locali; il governo chiede dialogo e alcuni comitati revocano il fermo",
+          "title": "Il caro gasolio porta i camionisti sulle strade: il governo tratta mentre il Sud affronta blocchi e rifornimenti difficili",
+          "url": "https://www.ansa.it/sito/videogallery/italia/italia.shtml"
+        },
+        {
+          "id": "2026-10-22-it-energy-stocks",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · Le scorte italiane di gas arrivano al 90% con dieci giorni di anticipo secondo il governo; il dato è una comunicazione istituzionale",
+          "title": "Le scorte di gas italiane raggiungono il 90% in anticipo, mentre il prezzo resta sotto pressione",
+          "url": "https://www.ansa.it/sito/notizie/economia/index_10.shtml"
+        },
+        {
+          "id": "2026-10-22-world-ukraine-talks",
+          "category": "world",
+          "source": "AP",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · Il Cremlino dice che riprenderanno colloqui trilaterali dopo il 10 novembre; non è un accordo di cessate il fuoco",
+          "title": "Mosca accetta di riprendere colloqui trilaterali su Ucraina, Russia e Stati Uniti, senza una tregua",
+          "url": "https://apnews.com/article/russia-ukraine-witkoff-putin-trump-zelenskyy-talks-3f00c0c6fd10bab948c2c3f8502e0a91"
+        },
+        {
+          "id": "2026-10-22-world-ukraine-strikes",
+          "category": "world",
+          "source": "AP",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · Kiev riferisce che gli avvisi preventivi sono ripresi dopo un confronto con Rubio; gli attacchi russi alle infrastrutture continuano",
+          "title": "Kiev dice che gli avvisi sui missili sono ripresi mentre gli attacchi russi colpiscono la rete energetica",
+          "url": "https://apnews.com/article/140895c6c0a1682c46f4fe197e056996"
+        },
+        {
+          "id": "2026-10-22-world-uk-gas",
+          "category": "world",
+          "source": "AP",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · Londra approva il progetto Jackdaw nel Mare del Nord nonostante le obiezioni ambientali; il giacimento dovrebbe entrare in rete entro fine anno",
+          "title": "Il Regno Unito approva il progetto gas Jackdaw nel Mare del Nord per rafforzare la sicurezza energetica",
+          "url": "https://apnews.com/article/uk-natural-gas-project-scotland-environment-b646f449474d0b00620b47f3794a4c2c"
+        },
+        {
+          "id": "2026-10-22-world-japan-trade",
+          "category": "world",
+          "source": "AP",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · Il deficit commerciale del primo semestre fiscale sale a 2,81 trilioni di yen mentre il costo delle importazioni di petrolio aumenta",
+          "title": "Il petrolio spinge il Giappone verso un deficit commerciale record nel primo semestre fiscale",
+          "url": "https://apnews.com/article/soaring-oil-imports-send-japan-into-the-red-for-fifth-straight-month-c2265fa62a4511229dd83693d94d32e2"
+        },
+        {
+          "id": "2026-10-22-ai-openai-google-cloud",
+          "category": "ai",
+          "source": "Axios",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · OpenAI porta modelli e Codex su Google Cloud Marketplace; la disponibilità segue l’apertura verso più cloud",
+          "title": "OpenAI porta modelli e Codex su Google Cloud: la distribuzione enterprise diventa il nuovo campo di gara",
+          "url": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models"
+        },
+        {
+          "id": "2026-10-22-ai-openai-orchestra",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · Acquisizione annunciata; l’obiettivo è integrare il coordinamento dei programmi biopharma con Rosalind",
+          "title": "OpenAI acquisisce Orchestra Bio per collegare agenti AI e gestione dello sviluppo farmaceutico",
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+        },
+        {
+          "id": "2026-10-22-ai-openai-coding",
+          "category": "ai",
+          "source": "OpenAI",
+          "sourceDate": "2026-10-19",
+          "status": "19 ott · OpenAI pubblica benchmark su 20 linguaggi e migrazione COBOL; risultati dichiarati dall’azienda e da verificare in produzione",
+          "title": "OpenAI pubblica benchmark per il codice legacy: il salto più difficile resta la migrazione COBOL",
+          "url": "https://openai.com/index/low-resource-programming-languages/"
+        },
+        {
+          "id": "2026-10-22-ai-openai-biological-data",
+          "category": "ai",
+          "source": "OpenAI / Scripps Research",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · Ricerca pubblicata sull’uso di migliaia di agenti per individuare piste in dati biologici; è un risultato di ricerca, non una terapia",
+          "title": "Migliaia di agenti AI cercano nuove piste nei dati biologici in una collaborazione OpenAI–Scripps",
+          "url": "https://openai.com/research/index/"
+        },
+        {
+          "id": "2026-10-22-ai-anthropic-fund",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-10-18",
+          "status": "18 ott · Anthropic propone di destinare inizialmente il 5% delle azioni a un fondo benefit, subordinatamente all’approvazione degli azionisti",
+          "title": "Anthropic propone un fondo di beneficio pubblico finanziato con il 5% delle proprie azioni",
+          "url": "https://www.anthropic.com/news/public-benefit-fund"
+        },
+        {
+          "id": "2026-10-22-ai-eu-cloud-act",
+          "category": "ai",
+          "source": "Commissione europea",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · La Commissione raccoglie contributi per il Cloud and AI Development Act, una proposta ancora in consultazione",
+          "title": "L’UE apre la consultazione sull’atto per cloud e AI: infrastrutture e sovranità entrano nella stessa legge",
+          "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14628-AI-Continent-new-cloud-and-AI-development-act_en"
+        },
+        {
+          "id": "2026-10-22-robotics-nvidia-isaac",
+          "category": "robotics",
+          "source": "NVIDIA",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · A GTC Berlin NVIDIA aggiunge umanoide di riferimento, runtime, dataset e pipeline Isaac; roadmap aziendale, non prova di autonomia generale",
+          "title": "NVIDIA amplia Isaac con un umanoide di riferimento e nuove pipeline per addestrare robot generalisti",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data/"
+        },
+        {
+          "id": "2026-10-22-robotics-mitsubishi-cnc",
+          "category": "robotics",
+          "source": "Mitsubishi Electric",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · Sistema dimostrativo per setup, pulizia, movimentazione, ispezione e troubleshooting; sarà mostrato a JIMTOF dal 26 ottobre",
+          "title": "Mitsubishi Electric collega un umanoide alle macchine CNC per automatizzare il ciclo di lavorazione",
+          "url": "https://www.mitsubishielectric.com/en/pr/2026/1021_rd/"
+        },
+        {
+          "id": "2026-10-22-robotics-agility-agco",
+          "category": "robotics",
+          "source": "Agility Robotics / AGCO",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · Progetto pilota di Digit in uno stabilimento AGCO a Hesston; risultati e tempi di produzione non sono ancora indipendenti",
+          "title": "Agility e AGCO avviano un pilota di Digit nella produzione di macchine agricole",
+          "url": "https://www.agilityrobotics.com/press-releases"
+        },
+        {
+          "id": "2026-10-22-robotics-schaeffler",
+          "category": "robotics",
+          "source": "Schaeffler",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · Fabbrica-laboratorio a Taicang per componenti, addestramento e digital twin; l’azienda parla di test in condizioni produttive",
+          "title": "Schaeffler apre in Cina una fabbrica-laboratorio per addestrare e produrre componenti di umanoidi",
+          "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222851"
+        },
+        {
+          "id": "2026-10-22-auto-stellantis-registrations",
+          "category": "automotive",
+          "source": "Stellantis",
+          "sourceDate": "2026-10-21",
+          "status": "21 ott · Stellantis comunica oltre due milioni di immatricolazioni UE30 nei primi nove mesi, con quota in crescita; dato aziendale",
+          "title": "Stellantis rivendica la leadership nei segmenti A e B UE e una quota del 16,9% con Leapmotor",
+          "url": "https://www.media.stellantis.com/em-en/corporate/press"
+        },
+        {
+          "id": "2026-10-22-auto-leapmotor-zaragoza",
+          "category": "automotive",
+          "source": "Stellantis / Leapmotor",
+          "sourceDate": "2026-10-19",
+          "status": "19 ott · Il modello B05 entra in produzione a Saragozza, secondo sito europeo dell’alleanza dopo l’avvio del B10",
+          "title": "Leapmotor avvia a Saragozza la produzione europea della B05, rafforzando l’alleanza con Stellantis",
+          "url": "https://www.media.stellantis.com/em-en/press"
+        },
+        {
+          "id": "2026-10-22-business-energy-markets",
+          "category": "business",
+          "source": "ANSA",
+          "sourceDate": "2026-10-20",
+          "status": "20 ott · ANSA rileva Brent sopra 110 dollari, gas in aumento e spread BTP-Bund a 111 punti in apertura",
+          "title": "Petrolio e gas restano il rischio immediato per industria e famiglie mentre lo spread italiano tiene",
+          "url": "https://www.ansa.it/sito/notizie/economia/index.shtml"
+        },
+        {
+          "id": "2026-10-22-business-italy-industry",
+          "category": "business",
+          "source": "ANSA / Confindustria",
+          "sourceDate": "2026-10-17",
+          "status": "17 ott · Confindustria chiede una politica industriale di lungo periodo e misure contro costo energia e concorrenza cinese",
+          "title": "Confindustria chiede una politica industriale stabile per produttività, energia e competizione con la Cina",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/17/orsini-no-a-mancette-elettorali-fare-cose-che-servano-al-paese_2d2caa97-b20d-4a58-83a2-20881481b87c.html"
+        },
+        {
+          "id": "2026-10-22-events-duesseldorf-weekend",
+          "category": "events",
+          "source": "Visit Düsseldorf",
+          "sourceDate": "2026-10-20",
+          "status": "23–31 ott · Herbstkirmes al Tonhallenufer; nel weekend apertura 13:00–23:00, secondo il calendario cittadino",
+          "title": "A Düsseldorf torna la Herbstkirmes: giostre e programma autunnale dal 23 ottobre",
+          "url": "https://www.visitduesseldorf.de/event/herbstkirmes-6e3d91087b"
+        }
+      ],
+      "weekendEvents": []
+    },
+    {
+      "date": "2026-10-16",
+      "updatedAt": "2026-10-16T06:12:00+02:00",
+      "note": "Edizione ordinaria dalla finestra successiva al cutoff del 15 ottobre, ore 06:00 CEST · Aggiornata alle 06:12 CEST · 24 notizie. Selezione verificata senza riempitivi; 6 notizie AI e 4 di robotica. Tre eventi weekend verificati.",
+      "summary": "In Germania il Bundestag approva la riforma dell’emergenza e l’aumento della tassa sul tabacco, mentre Berlino e Parigi cercano più flessibilità per i motori a combustione. L’Italia arriva al Consiglio europeo con una manovra da 23,5 miliardi e un contributo richiesto a banche e assicurazioni. Ucraina, alluvioni a Istanbul e pressioni sull’AI mostrano il legame fra infrastrutture, sicurezza e tecnologia; Agility prepara Digit 5 a ricariche molto più rapide.",
+      "usageEstimate": {
+        "exact": false,
+        "methodologyVersion": "2026-10-09-v1",
+        "activity": {
+          "date": "2026-10-16",
+          "articles": 24,
+          "weekendEvents": 3,
+          "searchCalls": 9,
+          "sourcePagesOpened": 36,
+          "solEscalations": 0
+        },
+        "models": [
+          {
+            "model": "gpt-5.6-luna",
+            "phase": "end-to-end",
+            "inputTokens": {
+              "min": 23288,
+              "max": 34932
+            },
+            "outputTokens": {
+              "min": 3128,
+              "max": 5213
+            }
+          }
+        ],
+        "inputTokens": {
+          "min": 23288,
+          "max": 34932
+        },
+        "outputTokens": {
+          "min": 3128,
+          "max": 5213
+        },
+        "apiEquivalentCostEUR": {
+          "min": 0.0075196128000000004,
+          "max": 0.011838348
+        },
+        "pricing": {
+          "inputPerMillion": 0.2,
+          "outputPerMillion": 1.2,
+          "solInputPerMillion": 4,
+          "solOutputPerMillion": 20,
+          "usdToEur": 0.894,
+          "fxDate": "2026-10-08",
+          "fxSource": "ECB reference rate; 1 EUR = 1.1186 USD"
+        }
+      },
+      "items": [
+        {
+          "id": "2026-10-16-de-emergency-reform",
+          "category": "germany",
+          "source": "Tagesschau / Bundestag",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Riforma approvata; applicazione prevista dal 2027, con triage telefonico e digitale tramite 116 117",
+          "title": "Il Bundestag approva la riforma dell’emergenza: la prima valutazione passerà anche da 116 117",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/notfallversorgung-krankenhaus-reform-100.html",
+          "verificationUrls": [
+            "https://www.tagesschau.de/inland/regional/niedersachsen/bundestag-beschliesst-notfallreform-aendert-sich-fuer-patienten%2Cnotfallreform-100.html"
+          ]
+        },
+        {
+          "id": "2026-10-16-de-tobacco-tax",
+          "category": "germany",
+          "source": "Tagesschau / Bundestag",
+          "sourceDate": "2026-10-16",
+          "status": "16 ott · Aumento approvato dal Bundestag; prezzi delle sigarette destinati a salire",
+          "title": "Il Bundestag alza la tassa sul tabacco: le sigarette potrebbero arrivare a dodici euro",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/rauchen-bundestag-tabaksteuer-100.html"
+        },
+        {
+          "id": "2026-10-16-de-digital-id",
+          "category": "germany",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Nuove regole avviate dal Bundestag; attuazione ancora da completare",
+          "title": "Il Bundestag prepara il documento d’identità sullo smartphone con nuove regole per la carta digitale",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/digitaler-personalausweis-100.html"
+        },
+        {
+          "id": "2026-10-16-de-bank-fraud",
+          "category": "germany",
+          "source": "Tagesschau / Corte di giustizia UE",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · La banca deve rimborsare subito il pagamento non autorizzato; eventuale colpa grave va provata dopo",
+          "title": "La Corte UE rafforza i clienti truffati: la banca deve rimborsare subito il pagamento non autorizzato",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/eugh-konto-betrug-phishing-100.html"
+        },
+        {
+          "id": "2026-10-16-it-budget-banks",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Documento programmatico da 23,5 miliardi; contributo richiesto al settore finanziario, misura non ancora legge",
+          "title": "La manovra italiana parte da 23,5 miliardi e chiede cinque miliardi a banche e assicurazioni nel 2027",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/15/manovra-5-miliardi-da-banche-e-assicurazioni.-istituti-sorpresi_c3055dc9-ff3a-429b-ace4-53b8b73047e2.html"
+        },
+        {
+          "id": "2026-10-16-it-eu-energy-standoff",
+          "category": "italy",
+          "source": "ANSA",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Negoziato ancora aperto sul capitolo energia e sul sistema ETS",
+          "title": "Al Consiglio europeo resta aperto lo scontro sull’energia: Roma chiede flessibilità, i Nordici frenano",
+          "url": "https://www.ansa.it/europa/notizie/rubriche/altrenews/2026/10/15/ansa-loffensiva-di-meloni-sulla-flessibilita-sullenergia-e-scontro-aperto-in-ue_bd796b29-3a71-48e2-a01e-6bb233486457.html"
+        },
+        {
+          "id": "2026-10-16-it-europe-energy-response",
+          "category": "italy",
+          "source": "ANSA / Consiglio europeo",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Il vertice propone misure mirate e temporanee; la risposta strutturale resta da definire",
+          "title": "Il vertice UE cerca una risposta coordinata al caro energia senza arretrare dalla transizione dai fossili",
+          "url": "https://www.ansa.it/amp/europa/notizie/rubriche/altrenews/2026/10/15/al-via-il-vertice-ue-con-il-tema-energia.-costa-misure-mirate-e-temporanee_6887c077-34b2-408a-a4ac-2ad93e108e9d.html"
+        },
+        {
+          "id": "2026-10-16-world-starlink-ukraine",
+          "category": "world",
+          "source": "Tagesschau / Reuters",
+          "sourceDate": "2026-10-16",
+          "status": "16 ott · Starlink sarebbe stato temporaneamente limitato; il ministero ucraino riferisce che il servizio è tornato operativo",
+          "title": "I problemi di Starlink aggravano la dipendenza ucraina dai dati USA mentre Kiev cerca alternative europee",
+          "url": "https://www.tagesschau.de/ausland/europa/ukraine-starlink-104.html"
+        },
+        {
+          "id": "2026-10-16-world-istanbul-floods",
+          "category": "world",
+          "source": "Tagesschau / AP",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Piogge torrenziali e vittime; le autorità restano in allerta per nuovi nubifragi",
+          "title": "Le piogge torrenziali causano vittime e allagamenti a Istanbul, mentre continua l’emergenza",
+          "url": "https://www.tagesschau.de/ausland/asien/tuerkei-ueberschwemmungen-istanbul-100.html"
+        },
+        {
+          "id": "2026-10-16-world-houthi-riyadh",
+          "category": "world",
+          "source": "BBC / RaiNews",
+          "sourceDate": "2026-10-16",
+          "status": "16 ott · Nuovi attacchi rivendicati dagli Houthi; conseguenze e responsabilità restano oggetto di verifica",
+          "title": "Nuovi attacchi Houthi su Riad riaccendono la crisi del Golfo e le tensioni sui carburanti",
+          "url": "https://www.rainews.it/"
+        },
+        {
+          "id": "2026-10-16-world-albania-protests",
+          "category": "world",
+          "source": "Tagesschau",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Proteste giovanili contro le condizioni dell’istruzione; sviluppi politici ancora aperti",
+          "title": "Studenti albanesi protestano contro le condizioni della scuola mentre il governo cerca una risposta",
+          "url": "https://www.tagesschau.de/tagesschau/ts-81442.html"
+        },
+        {
+          "id": "2026-10-16-ai-states-openai-lawsuits",
+          "category": "ai",
+          "source": "AP / Reuters",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Otto Stati hanno intentato cause separate; sono accuse da valutare nei tribunali",
+          "title": "Otto Stati USA citano OpenAI: accusano ChatGPT di aver danneggiato minori e ingannato gli adulti",
+          "url": "https://apnews.com/article/f29fa6c206cfe41d46ba38ee7be78218",
+          "verificationUrls": [
+            "https://www.investing.com/news/stock-market-news/eight-us-states-sue-openai-claiming-chatgpt-harms-children-4949879"
+          ]
+        },
+        {
+          "id": "2026-10-16-ai-ftc-openai-anthropic",
+          "category": "ai",
+          "source": "Axios",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Subpoena civili per documenti sugli incidenti; indagine preliminare, non accertamento di responsabilità",
+          "title": "La FTC chiede documenti a OpenAI e Anthropic sugli incidenti di sicurezza dei modelli",
+          "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
+        },
+        {
+          "id": "2026-10-16-ai-nvidia-cupotential",
+          "category": "ai",
+          "source": "NVIDIA",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Libreria CUDA-X in early access; l’azienda dichiara accelerazioni 2–3× nei test iniziali",
+          "title": "NVIDIA porta gli agenti AI nella simulazione dei materiali con la libreria CUDA-X cuPotential",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs"
+        },
+        {
+          "id": "2026-10-16-ai-google-scam-protection",
+          "category": "ai",
+          "source": "Google",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Google dichiara oltre cinque milioni di chiamate e messaggi sospetti segnalati ogni mese",
+          "title": "Google estende le difese AI di Android contro chiamate, messaggi e chat truffaldine",
+          "url": "https://blog.google/security/new-android-scam-protections/"
+        },
+        {
+          "id": "2026-10-16-ai-anthropic-independent-evaluators",
+          "category": "ai",
+          "source": "Anthropic",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Annuncio aziendale sull’uso di valutatori indipendenti; metodologia e risultati sono ancora da esaminare",
+          "title": "Anthropic annuncia un aggiornamento sui valutatori indipendenti per testare i modelli",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+        },
+        {
+          "id": "2026-10-16-ai-anthropic-singapore",
+          "category": "ai",
+          "source": "Anthropic / Governo di Singapore",
+          "sourceDate": "2026-10-14",
+          "status": "14 ott · Apertura di un ufficio e memorandum d’intesa; non equivale a un accordo operativo già attivo",
+          "title": "Anthropic apre a Singapore e firma un memorandum con il governo sull’AI",
+          "url": "https://www.anthropic.com/news/singapore-office-opening"
+        },
+        {
+          "id": "2026-10-16-robotics-agility-nyobolt",
+          "category": "robotics",
+          "source": "Agility Robotics / Nyobolt",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Accordo tecnologico; primi accessi attesi nel 2027, prestazioni dichiarate dall’azienda",
+          "title": "Agility sceglie Nyobolt per la batteria di Digit 5: nove minuti di ricarica per 90 di autonomia",
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5"
+        },
+        {
+          "id": "2026-10-16-robotics-tactile-dataset",
+          "category": "robotics",
+          "source": "arXiv",
+          "sourceDate": "2026-10-15",
+          "status": "15 ott · Dataset di ricerca; risultati e generalizzazione devono essere valutati indipendentemente",
+          "title": "TacClaw-Infinity raccoglie oltre 10.000 ore di dati tattili per addestrare la manipolazione robotica",
+          "url": "https://arxiv.org/abs/2610.20320"
+        },
+        {
+          "id": "2026-10-16-robotics-uk-adoption-hubs",
+          "category": "robotics",
+          "source": "UK Department for Business and Trade",
+          "sourceDate": "2026-10-09",
+          "status": "9 ott · Finanziamento pubblico per hub di adozione; stime economiche dichiarate dal governo",
+          "title": "Il Regno Unito finanzia hub per portare robotica e sistemi autonomi in sanità, agricoltura e trasporti",
+          "url": "https://www.gov.uk/government/news/brits-to-benefit-from-faster-recovery-from-surgeries-and-better-harvests-through-new-backing-for-robotics"
+        },
+        {
+          "id": "2026-10-16-robotics-agility-safety",
+          "category": "robotics",
+          "source": "Agility Robotics / FORT Robotics",
+          "sourceDate": "2026-10-01",
+          "status": "1 ott · Memorandum e architettura di sicurezza annunciati; non è una certificazione indipendente",
+          "title": "Agility e FORT estendono la sicurezza di Digit 5 anche ai sistemi esterni al robot",
+          "url": "https://www.agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety"
+        },
+        {
+          "id": "2026-10-16-auto-combustion-deal",
+          "category": "automotive",
+          "source": "Tagesschau / Handelsblatt",
+          "sourceDate": "2026-10-16",
+          "status": "16 ott · Proposta franco-tedesca riferita da Handelsblatt; non è ancora una decisione UE",
+          "title": "Francia e Germania cercano un compromesso per allentare il divieto UE sui motori a combustione",
+          "url": "https://www.tagesschau.de/ausland/europa/verbrenner-aus-lockerung-100.html"
+        },
+        {
+          "id": "2026-10-16-business-global-stocks",
+          "category": "business",
+          "source": "Reuters / MarketScreener",
+          "sourceDate": "2026-10-16",
+          "status": "16 ott · Chiusura del 15 ottobre; azioni tech e chip sotto pressione per timori su AI e tassi",
+          "title": "I mercati globali chiudono piatti mentre i timori su spesa AI e tassi frenano tech e semiconduttori",
+          "url": "https://in.marketscreener.com/news/global-stocks-flat-as-ai-and-rate-fears-hit-tech-ce785dd3d18afe24"
+        },
+        {
+          "id": "2026-10-16-events-weekend-musical",
+          "category": "events",
+          "source": "Capitol Theater Düsseldorf · Organizzatore",
+          "sourceDate": "2026-10-16",
+          "status": "Sabato 17 ottobre, ore 14:30 e 19:30 · Capitol Theater Düsseldorf",
+          "title": "«Romeo & Julia – Liebe ist alles» torna al Capitol Theater con due spettacoli sabato",
+          "url": "https://www.capitol-theater.de/index.php/veranstaltung/romeo-julia-liebe-ist-alles.html",
+          "eventDate": "2026-10-17"
+        }
+      ],
+      "weekendEvents": [
+        {
+          "id": "2026-10-16-weekend-romeo-julia-evening",
+          "category": "events",
+          "source": "Capitol Theater Düsseldorf · Organizzatore",
+          "sourceDate": "2026-10-16",
+          "status": "Sabato 17 ottobre, ore 19:30 · Capitol Theater Düsseldorf",
+          "title": "Il musical «Romeo & Julia – Liebe ist alles» va in scena sabato sera al Capitol Theater",
+          "url": "https://www.capitol-theater.de/index.php/veranstaltung/romeo-julia-liebe-ist-alles.html",
+          "eventDate": "2026-10-17"
+        },
+        {
+          "id": "2026-10-16-weekend-young-thug",
+          "category": "events",
+          "source": "PSD BANK DOME Düsseldorf · Organizzatore",
+          "sourceDate": "2026-10-16",
+          "status": "Sabato 17 ottobre, ingresso 18:00 e inizio 18:30 · PSD BANK DOME",
+          "title": "Young Thug porta a Düsseldorf la tappa del tour The New Generation",
+          "url": "https://www.psd-bank-dome.de/en/events-tickets/event-calendar",
+          "eventDate": "2026-10-17"
+        },
+        {
+          "id": "2026-10-16-weekend-die-moewe",
+          "category": "events",
+          "source": "Düsseldorfer Schauspielhaus · Organizzatore",
+          "sourceDate": "2026-10-16",
+          "status": "Sabato 17 ottobre, ore 19:30 · Schauspielhaus, Großes Haus · Prima del 16 ottobre",
+          "title": "«Die Möwe» prosegue al Schauspielhaus dopo la prima: spettacolo sabato alle 19:30",
+          "url": "https://www.duesseldorfer-schauspielhaus.de/",
+          "eventDate": "2026-10-17"
+        }
+      ]
+    }
+  ]
+}
